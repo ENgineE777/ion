@@ -1,0 +1,390 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>ScrSaver</ProjectName>
+    <ProjectGuid>{05B63CB9-45BE-40E8-B18F-C611E49128F6}</ProjectGuid>
+    <RootNamespace>ScrSaver</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Debug\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Release\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>F:\Work\Ion ENgine\Libraries;F:\Work\Ion ENgine\ENgine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;PC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>winmm.lib;comdlg32.lib;comctl32.lib;tinyxml.lib;d3d9.lib;d3dx9.lib;dinput8.lib;dxguid.lib;fbxsdk-2012.1.lib;../../Libraries/bullet/lib/BulletDynamics.lib;../../Libraries/bullet/lib/BulletCollision.lib;../../Libraries/bullet/lib/LinearMath.lib;../../Libraries/AngelScript/angelscript/lib/angelscript.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>../../Build/Saver.scr</OutputFile>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>msvcrt;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)SVR Free.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\ENgine;F:\Work\Ion ENgine\ENgine;F:\Work\Ion ENgine\Libraries;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;PC;SCR_SAVER;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <ProgramDataBaseFileName>../../Build/Bin/Saver.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>winmm.lib;comdlg32.lib;comctl32.lib;tinyxml.lib;d3d9.lib;d3dx9.lib;dinput8.lib;dxguid.lib;fbxsdk-2012.1.lib;../../Libraries/bullet/lib/BulletDynamics.lib;../../Libraries/bullet/lib/BulletCollision.lib;../../Libraries/bullet/lib/LinearMath.lib;../../Libraries/AngelScript/angelscript/lib/angelscript.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>../../Build/Bin/Saver.scr</OutputFile>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\ENgine\Common\BMP.cpp" />
+    <ClCompile Include="..\..\ENgine\Common\CrossString.cpp" />
+    <ClCompile Include="..\..\ENgine\Common\ExceptionReport.cpp" />
+    <ClCompile Include="..\..\ENgine\Common\Font.cpp" />
+    <ClCompile Include="..\..\ENgine\Common\Memory.cpp" />
+    <ClCompile Include="..\..\ENgine\Common\ThreadWorker.cpp" />
+    <ClCompile Include="..\..\ENgine\Common\unrarlib.c" />
+    <ClCompile Include="..\..\ENgine\Common\Utils.cpp" />
+    <ClCompile Include="..\..\ENgine\Common\XMLHelper.cpp" />
+    <ClCompile Include="..\..\ENgine\Common\Containers\BaseContainer.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\CoreBase.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\CorePC.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Animation\IAnimationAffector.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Animation\Affectors\GraphBlenderAffector.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Animation\Affectors\RagDollAffector.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Animation\Affectors\RecoilAffector.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Animation\Affectors\RotateAffector.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Animation\Affectors\SkeletonCollisionModelAffector.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Animation\Affectors\WaveAffector.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Animation\Base\AnimationControllerIK.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Animation\Base\AnimationControllerLookAt.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Animation\Base\AnimationFbxLoader.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Animation\Base\AnimationInstance.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Animation\Base\AnimationProcessor.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Animation\Base\AnimationRes.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Animation\Base\AnimationService.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Animation\Imp\AnimationClipImp.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Animation\Imp\AnimationProcessorImp.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Animation\Imp\AnimationResImp.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Animation\Imp\AnimationServiceImp.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Control\ControlsService.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Files\File.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Files\FileBuffer.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Files\FileService.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Files\StreamLoader.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Files\StreamSaver.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Files\XMLFile.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Model\ModelFbxLoader.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Model\ModelInstance.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Model\ModelRes.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Model\ModelService.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Physics\PhysController.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Physics\PhysicsService.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Physics\PhysObject.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Render\PCMediaPlayer.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Render\RenderService.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Render\RenderServiceD3D.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Render\Debug\DebugFont.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Render\Debug\DebugLines.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Render\Debug\DebugLines2D.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Render\Debug\DebugSphere.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Render\Debug\DebugSprites.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Render\Debug\DebugWiredMesh.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Render\Geometry\IndexBufferD3D.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Render\Geometry\VertexBufferD3D.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Render\Geometry\VertexBufferDynamicD3D.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Render\Misc\Font.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Render\Queries\OcclusionQueryD3D.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Render\Shaders\PixelShaderD3D.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Render\Shaders\ShaderD3D.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Render\Shaders\VertexShaderD3D.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Render\Technique\RenderTechnique.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Render\Technique\Techniques\RT_DebugLine.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Render\Technique\Techniques\RT_DebugLine2D.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Render\Technique\Techniques\RT_DebugLineNoZ.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Render\Technique\Techniques\RT_DebugSolid.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Render\Technique\Techniques\RT_Font.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Render\Technique\Techniques\RT_UI.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Render\Textures\CubeTextureD3D.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Render\Textures\RenderTargetD3D.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Render\Textures\TextureBaseD3D.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Render\Textures\TextureD3D.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Render\Textures\TextureInstance.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Render\Textures\TextureRes.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Render\Textures\VideoTexturePC.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Render\Textures\VolumeTextureD3D.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Localize\LocalizeService.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Scene\Properties.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Scene\SceneEntity.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Scene\SceneEntityDesc.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Scene\SceneInstance.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Scene\SceneManager.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Script\ScriptMachine.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Script\ScriptModule.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Script\ScriptModuleCore.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Script\ScriptService.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Script\Libs\scriptmath.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Script\Libs\scriptmath3d.cpp" />
+    <ClCompile Include="..\..\ENgine\Core\Script\Libs\scriptstring.cpp" />
+    <ClCompile Include="..\..\ENgine\Entities\Animator\Animator.cpp" />
+    <ClCompile Include="..\..\ENgine\Entities\Animator\AnimatorWindow.cpp" />
+    <ClCompile Include="..\..\ENgine\Entities\Animator\DataTrack\FloatDataTrack.cpp" />
+    <ClCompile Include="..\..\ENgine\Entities\Animator\DataTrack\FloatDataTrackWidgets.cpp" />
+    <ClCompile Include="..\..\ENgine\Entities\Animator\DataTrack\TransformDataTrack.cpp" />
+    <ClCompile Include="..\..\ENgine\Entities\Animator\DataTrack\TransformDataTrackWidgets.cpp" />
+    <ClCompile Include="..\..\ENgine\Entities\Animator\TrackPlayers\CameraPlayer.cpp" />
+    <ClCompile Include="..\..\ENgine\Entities\Animator\TrackPlayers\EntityTrackPlayer.cpp" />
+    <ClCompile Include="..\..\ENgine\Entities\Animator\TrackPlayers\TrackPlayer.cpp" />
+    <ClCompile Include="..\..\ENgine\Entities\Render\DirLight.cpp" />
+    <ClCompile Include="..\..\ENgine\Entities\Render\Model.cpp" />
+    <ClCompile Include="..\..\ENgine\Entities\Render\PointLight.cpp" />
+    <ClCompile Include="..\..\ENgine\Entities\Render\SkyBox.cpp" />
+    <ClCompile Include="..\..\ENgine\Entities\Render\Technique\RTM_Diffuse.cpp" />
+    <ClCompile Include="..\..\ENgine\Entities\Render\Technique\RTM_DiffuseBlend.cpp" />
+    <ClCompile Include="..\..\ENgine\Entities\Render\Technique\RTM_DiffuseBlendAlpha.cpp" />
+    <ClCompile Include="..\..\ENgine\Entities\Render\Technique\RTM_DiffusePxL.cpp" />
+    <ClCompile Include="..\..\ENgine\Entities\Camera.cpp" />
+    <ClCompile Include="..\..\ENgine\Entities\PhysicBox.cpp" />
+    <ClCompile Include="..\..\ENgine\Entities\ScriptExecutor.cpp" />
+    <ClCompile Include="..\..\ENgine\Entities\TimeBomb.cpp" />
+    <ClCompile Include="..\..\ENgine\Entities\GUI\GUIButton.cpp" />
+    <ClCompile Include="..\..\ENgine\Entities\GUI\GUILabel.cpp" />
+    <ClCompile Include="..\..\ENgine\Entities\GUI\GUIWidget.cpp" />
+    <ClCompile Include="SSaver.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\ENgine\Common\BMP.h" />
+    <ClInclude Include="..\..\ENgine\Common\ClassDeclarant.h" />
+    <ClInclude Include="..\..\ENgine\Common\Color.h" />
+    <ClInclude Include="..\..\ENgine\Common\Common.h" />
+    <ClInclude Include="..\..\ENgine\Common\CrossString.h" />
+    <ClInclude Include="..\..\ENgine\Common\ExceptionReport.h" />
+    <ClInclude Include="..\..\ENgine\Common\Font.h" />
+    <ClInclude Include="..\..\ENgine\Common\Frustum.h" />
+    <ClInclude Include="..\..\ENgine\Common\HashFunc.h" />
+    <ClInclude Include="..\..\ENgine\Common\Math.h" />
+    <ClInclude Include="..\..\ENgine\Common\Memory.h" />
+    <ClInclude Include="..\..\ENgine\Common\TaskHolder.h" />
+    <ClInclude Include="..\..\ENgine\Common\ThreadWorker.h" />
+    <ClInclude Include="..\..\ENgine\Common\Types.h" />
+    <ClInclude Include="..\..\ENgine\Common\unrarlib.h" />
+    <ClInclude Include="..\..\ENgine\Common\Utils.h" />
+    <ClInclude Include="..\..\ENgine\Common\XMLHelper.h" />
+    <ClInclude Include="..\..\ENgine\Common\Containers\BaseContainer.h" />
+    <ClInclude Include="..\..\ENgine\Common\Containers\HashMap.h" />
+    <ClInclude Include="..\..\ENgine\Common\Containers\IList.h" />
+    <ClInclude Include="..\..\ENgine\Common\Math\Matrix.h" />
+    <ClInclude Include="..\..\ENgine\Common\Math\Quaternion.h" />
+    <ClInclude Include="..\..\ENgine\Common\Math\Vector.h" />
+    <ClInclude Include="..\..\ENgine\Common\Math\Vector2.h" />
+    <ClInclude Include="..\..\ENgine\Common\Math\Vector4.h" />
+    <ClInclude Include="..\..\ENgine\Core\Core.h" />
+    <ClInclude Include="..\..\ENgine\Core\CoreBase.h" />
+    <ClInclude Include="..\..\ENgine\Core\CorePC.h" />
+    <ClInclude Include="..\..\ENgine\Core\Animation\IAnimationAffector.h" />
+    <ClInclude Include="..\..\ENgine\Core\Animation\IAnimationClip.h" />
+    <ClInclude Include="..\..\ENgine\Core\Animation\IAnimationController.h" />
+    <ClInclude Include="..\..\ENgine\Core\Animation\IAnimationEvents.h" />
+    <ClInclude Include="..\..\ENgine\Core\Animation\IAnimationInstance.h" />
+    <ClInclude Include="..\..\ENgine\Core\Animation\IAnimationProcessor.h" />
+    <ClInclude Include="..\..\ENgine\Core\Animation\IAnimationService.h" />
+    <ClInclude Include="..\..\ENgine\Core\Animation\Affectors\AffectorProperties.h" />
+    <ClInclude Include="..\..\ENgine\Core\Animation\Affectors\GraphBlenderAffector.h" />
+    <ClInclude Include="..\..\ENgine\Core\Animation\Affectors\RagDollAffector.h" />
+    <ClInclude Include="..\..\ENgine\Core\Animation\Affectors\RecoilAffector.h" />
+    <ClInclude Include="..\..\ENgine\Core\Animation\Affectors\RotateAffector.h" />
+    <ClInclude Include="..\..\ENgine\Core\Animation\Affectors\SkeletonCollisionModelAffector.h" />
+    <ClInclude Include="..\..\ENgine\Core\Animation\Affectors\WaveAffector.h" />
+    <ClInclude Include="..\..\ENgine\Core\Animation\Base\AnimationClip.h" />
+    <ClInclude Include="..\..\ENgine\Core\Animation\Base\AnimationControllerIK.h" />
+    <ClInclude Include="..\..\ENgine\Core\Animation\Base\AnimationControllerLookAt.h" />
+    <ClInclude Include="..\..\ENgine\Core\Animation\Base\AnimationFbxLoader.h" />
+    <ClInclude Include="..\..\ENgine\Core\Animation\Base\AnimationInstance.h" />
+    <ClInclude Include="..\..\ENgine\Core\Animation\Base\AnimationProcessor.h" />
+    <ClInclude Include="..\..\ENgine\Core\Animation\Base\AnimationRes.h" />
+    <ClInclude Include="..\..\ENgine\Core\Animation\Base\AnimationService.h" />
+    <ClInclude Include="..\..\ENgine\Core\Animation\Imp\AnimationClipImp.h" />
+    <ClInclude Include="..\..\ENgine\Core\Animation\Imp\AnimationProcessorImp.h" />
+    <ClInclude Include="..\..\ENgine\Core\Animation\Imp\AnimationResImp.h" />
+    <ClInclude Include="..\..\ENgine\Core\Animation\Imp\AnimationServiceImp.h" />
+    <ClInclude Include="..\..\ENgine\Core\Control\ControlsService.h" />
+    <ClInclude Include="..\..\ENgine\Core\Files\File.h" />
+    <ClInclude Include="..\..\ENgine\Core\Files\FileBuffer.h" />
+    <ClInclude Include="..\..\ENgine\Core\Files\FileService.h" />
+    <ClInclude Include="..\..\ENgine\Core\Files\StreamLoader.h" />
+    <ClInclude Include="..\..\ENgine\Core\Files\StreamSaver.h" />
+    <ClInclude Include="..\..\ENgine\Core\Files\XMLFile.h" />
+    <ClInclude Include="..\..\ENgine\Core\Model\Mesh.h" />
+    <ClInclude Include="..\..\ENgine\Core\Model\ModelFbxLoader.h" />
+    <ClInclude Include="..\..\ENgine\Core\Model\ModelInstance.h" />
+    <ClInclude Include="..\..\ENgine\Core\Model\ModelRes.h" />
+    <ClInclude Include="..\..\ENgine\Core\Model\ModelService.h" />
+    <ClInclude Include="..\..\ENgine\Core\Physics\IPhysController.h" />
+    <ClInclude Include="..\..\ENgine\Core\Physics\IPhysicsService.h" />
+    <ClInclude Include="..\..\ENgine\Core\Physics\IPhysObject.h" />
+    <ClInclude Include="..\..\ENgine\Core\Physics\PhysController.h" />
+    <ClInclude Include="..\..\ENgine\Core\Physics\PhysicsService.h" />
+    <ClInclude Include="..\..\ENgine\Core\Physics\PhysObject.h" />
+    <ClInclude Include="..\..\ENgine\Core\Render\PCMediaPlayer.h" />
+    <ClInclude Include="..\..\ENgine\Core\Render\RenderService.h" />
+    <ClInclude Include="..\..\ENgine\Core\Render\RenderServiceD3D.h" />
+    <ClInclude Include="..\..\ENgine\Core\Render\Debug\DebugFont.h" />
+    <ClInclude Include="..\..\ENgine\Core\Render\Debug\DebugLines.h" />
+    <ClInclude Include="..\..\ENgine\Core\Render\Debug\DebugLines2D.h" />
+    <ClInclude Include="..\..\ENgine\Core\Render\Debug\DebugSphere.h" />
+    <ClInclude Include="..\..\ENgine\Core\Render\Debug\DebugSprites.h" />
+    <ClInclude Include="..\..\ENgine\Core\Render\Debug\DebugWiredMesh.h" />
+    <ClInclude Include="..\..\ENgine\Core\Render\Geometry\GeometryBuffer.h" />
+    <ClInclude Include="..\..\ENgine\Core\Render\Geometry\IndexBuffer.h" />
+    <ClInclude Include="..\..\ENgine\Core\Render\Geometry\IndexBufferD3D.h" />
+    <ClInclude Include="..\..\ENgine\Core\Render\Geometry\VertexBuffer.h" />
+    <ClInclude Include="..\..\ENgine\Core\Render\Geometry\VertexBufferD3D.h" />
+    <ClInclude Include="..\..\ENgine\Core\Render\Geometry\VertexBufferDynamicD3D.h" />
+    <ClInclude Include="..\..\ENgine\Core\Render\Misc\Font.h" />
+    <ClInclude Include="..\..\ENgine\Core\Render\Queries\OcclusionQuery.h" />
+    <ClInclude Include="..\..\ENgine\Core\Render\Queries\OcclusionQueryD3D.h" />
+    <ClInclude Include="..\..\ENgine\Core\Render\Shaders\PixelShader.h" />
+    <ClInclude Include="..\..\ENgine\Core\Render\Shaders\PixelShaderD3D.h" />
+    <ClInclude Include="..\..\ENgine\Core\Render\Shaders\Shader.h" />
+    <ClInclude Include="..\..\ENgine\Core\Render\Shaders\ShaderD3D.h" />
+    <ClInclude Include="..\..\ENgine\Core\Render\Shaders\VertexShader.h" />
+    <ClInclude Include="..\..\ENgine\Core\Render\Shaders\VertexShaderD3D.h" />
+    <ClInclude Include="..\..\ENgine\Core\Render\Technique\RenderTechnique.h" />
+    <ClInclude Include="..\..\ENgine\Core\Render\Technique\Techniques\RT_DebugLine.h" />
+    <ClInclude Include="..\..\ENgine\Core\Render\Technique\Techniques\RT_DebugLine2D.h" />
+    <ClInclude Include="..\..\ENgine\Core\Render\Technique\Techniques\RT_DebugLineNoZ.h" />
+    <ClInclude Include="..\..\ENgine\Core\Render\Technique\Techniques\RT_DebugSolid.h" />
+    <ClInclude Include="..\..\ENgine\Core\Render\Technique\Techniques\RT_Font.h" />
+    <ClInclude Include="..\..\ENgine\Core\Render\Technique\Techniques\RT_UI.h" />
+    <ClInclude Include="..\..\ENgine\Core\Render\Textures\CubeTextureD3D.h" />
+    <ClInclude Include="..\..\ENgine\Core\Render\Textures\RenderTarget.h" />
+    <ClInclude Include="..\..\ENgine\Core\Render\Textures\RenderTargetD3D.h" />
+    <ClInclude Include="..\..\ENgine\Core\Render\Textures\Texture.h" />
+    <ClInclude Include="..\..\ENgine\Core\Render\Textures\TextureBase.h" />
+    <ClInclude Include="..\..\ENgine\Core\Render\Textures\TextureBaseD3D.h" />
+    <ClInclude Include="..\..\ENgine\Core\Render\Textures\TextureD3D.h" />
+    <ClInclude Include="..\..\ENgine\Core\Render\Textures\TextureInstance.h" />
+    <ClInclude Include="..\..\ENgine\Core\Render\Textures\TextureRes.h" />
+    <ClInclude Include="..\..\ENgine\Core\Render\Textures\VideoTexture.h" />
+    <ClInclude Include="..\..\ENgine\Core\Render\Textures\VideoTexturePC.h" />
+    <ClInclude Include="..\..\ENgine\Core\Render\Textures\VolumeTextureD3D.h" />
+    <ClInclude Include="..\..\ENgine\Core\Localize\LocalizeService.h" />
+    <ClInclude Include="..\..\ENgine\Core\Scene\Properties.h" />
+    <ClInclude Include="..\..\ENgine\Core\Scene\SceneEntity.h" />
+    <ClInclude Include="..\..\ENgine\Core\Scene\SceneEntityDesc.h" />
+    <ClInclude Include="..\..\ENgine\Core\Scene\SceneInstance.h" />
+    <ClInclude Include="..\..\ENgine\Core\Scene\SceneManager.h" />
+    <ClInclude Include="..\..\ENgine\Core\Scene\SceneTaskLevels.h" />
+    <ClInclude Include="..\..\ENgine\Core\Script\IScriptModule.h" />
+    <ClInclude Include="..\..\ENgine\Core\Script\IScriptService.h" />
+    <ClInclude Include="..\..\ENgine\Core\Script\ScriptMachine.h" />
+    <ClInclude Include="..\..\ENgine\Core\Script\ScriptModule.h" />
+    <ClInclude Include="..\..\ENgine\Core\Script\ScriptModuleCore.h" />
+    <ClInclude Include="..\..\ENgine\Core\Script\ScriptService.h" />
+    <ClInclude Include="..\..\ENgine\Core\Script\Libs\scriptmath.h" />
+    <ClInclude Include="..\..\ENgine\Core\Script\Libs\scriptmath3d.h" />
+    <ClInclude Include="..\..\ENgine\Core\Script\Libs\scriptstring.h" />
+    <ClInclude Include="..\..\ENgine\Entities\Animator\Animator.h" />
+    <ClInclude Include="..\..\ENgine\Entities\Animator\AnimatorWindow.h" />
+    <ClInclude Include="..\..\ENgine\Entities\Animator\DataTrack\DataTrack.h" />
+    <ClInclude Include="..\..\ENgine\Entities\Animator\DataTrack\FloatDataTrack.h" />
+    <ClInclude Include="..\..\ENgine\Entities\Animator\DataTrack\FloatDataTrackWidgets.h" />
+    <ClInclude Include="..\..\ENgine\Entities\Animator\DataTrack\TransformDataTrack.h" />
+    <ClInclude Include="..\..\ENgine\Entities\Animator\DataTrack\TransformDataTrackWidgets.h" />
+    <ClInclude Include="..\..\ENgine\Entities\Animator\TrackPlayers\CameraPlayer.h" />
+    <ClInclude Include="..\..\ENgine\Entities\Animator\TrackPlayers\EntityTrackPlayer.h" />
+    <ClInclude Include="..\..\ENgine\Entities\Animator\TrackPlayers\TrackPlayer.h" />
+    <ClInclude Include="..\..\ENgine\Entities\Render\DirLight.h" />
+    <ClInclude Include="..\..\ENgine\Entities\Render\Model.h" />
+    <ClInclude Include="..\..\ENgine\Entities\Render\PointLight.h" />
+    <ClInclude Include="..\..\ENgine\Entities\Render\SkyBox.h" />
+    <ClInclude Include="..\..\ENgine\Entities\Render\Technique\RTM_Diffuse.h" />
+    <ClInclude Include="..\..\ENgine\Entities\Render\Technique\RTM_DiffuseBlend.h" />
+    <ClInclude Include="..\..\ENgine\Entities\Render\Technique\RTM_DiffuseBlendAlpha.h" />
+    <ClInclude Include="..\..\ENgine\Entities\Render\Technique\RTM_DiffusePxL.h" />
+    <ClInclude Include="..\..\ENgine\Entities\Camera.h" />
+    <ClInclude Include="..\..\ENgine\Entities\PhysicBox.h" />
+    <ClInclude Include="..\..\ENgine\Entities\ScriptExecutor.h" />
+    <ClInclude Include="..\..\ENgine\Entities\TimeBomb.h" />
+    <ClInclude Include="..\..\ENgine\Entities\GUI\GUIButton.h" />
+    <ClInclude Include="..\..\ENgine\Entities\GUI\GUILabel.h" />
+    <ClInclude Include="..\..\ENgine\Entities\GUI\GUIWidget.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="SSaver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Bin\bass.dll" />
+    <None Include="Data.rar" />
+    <None Include="Bitmap\Logo.bmp" />
+    <None Include="manifest.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

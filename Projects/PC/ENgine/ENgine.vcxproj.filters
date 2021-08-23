@@ -1,0 +1,1530 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{cf77be63-2ceb-470b-bc64-6c22aedfe925}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Containers">
+      <UniqueIdentifier>{a438ad70-b84b-40a5-a0ee-40f9a9cbb278}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Math">
+      <UniqueIdentifier>{840ae352-b786-4e20-98a1-de527fcab369}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{b0289c1c-6d8a-4de9-9116-82ac53a61991}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Control">
+      <UniqueIdentifier>{e710c0f6-4001-4e44-87f0-7ebb3e30ebc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Files">
+      <UniqueIdentifier>{5b3c7fc1-b41b-40fb-9b5c-1c1a38c32a8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Model">
+      <UniqueIdentifier>{7c3a62d5-7462-45c6-b6a4-3c9e9c8f6217}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Render">
+      <UniqueIdentifier>{07caa520-3691-49a0-b4b7-65597438daa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Render\Geometry">
+      <UniqueIdentifier>{90a5cd86-f1fd-41b7-a6b1-b122cb951736}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Render\Shaders">
+      <UniqueIdentifier>{f11212bd-da95-4b08-b4ff-e082e7b23583}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Render\Technique">
+      <UniqueIdentifier>{79b0b25e-f2cc-4802-b4d9-f82f72a27bed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Render\Technique\Techniques">
+      <UniqueIdentifier>{b77a5e88-9ade-4fd4-84a2-a08269f002d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Render\Textures">
+      <UniqueIdentifier>{90adefc1-a65e-449d-87ec-ea23530d567a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Scene">
+      <UniqueIdentifier>{f3c1c4cd-e573-4aaf-8a98-0694dfe70b05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities">
+      <UniqueIdentifier>{aa249463-ef7b-4aad-885a-d78849fe65d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Render">
+      <UniqueIdentifier>{e3f2e41a-c28c-4ce4-a9a9-354f46e20cfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Render\Techniques">
+      <UniqueIdentifier>{deb60cfb-edab-45c0-8e4a-7f5eb9036cc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Common">
+      <UniqueIdentifier>{e560b623-1295-4c0d-9a9e-b86e2c54f6b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms">
+      <UniqueIdentifier>{44be877b-95da-4325-9f8a-65e24df5c378}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms\PC">
+      <UniqueIdentifier>{5494c83e-7f66-40c1-a934-f0fe0790e602}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms\PC\GUI">
+      <UniqueIdentifier>{07b4832d-fa1a-4d25-ad46-653a7ed246ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Render\Debug">
+      <UniqueIdentifier>{65daf247-d7fb-4cf5-8fbf-ebc4d564cae8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\UserStats">
+      <UniqueIdentifier>{f62cb711-5203-4549-9ee8-0a70b38ef3a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\OnlineUserStats">
+      <UniqueIdentifier>{0b7e830b-f052-4f36-99b4-2ea75a404308}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Network">
+      <UniqueIdentifier>{c1aeb80b-c64c-4038-a556-32be7bbee5dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Font">
+      <UniqueIdentifier>{b12fb055-4161-4dd0-8a02-619608ea2f87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\libjson">
+      <UniqueIdentifier>{c7437592-352b-4168-b2a9-6d85da515c39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Resources">
+      <UniqueIdentifier>{c8c62f31-3561-430c-bddb-b990f80e5e4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\libxml">
+      <UniqueIdentifier>{4c997913-dbe9-4994-a3f8-0c0978fa99b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\MediaLibrary">
+      <UniqueIdentifier>{3d24dac6-bfc4-4575-8d9d-6aaea9084334}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\libgif">
+      <UniqueIdentifier>{f86e7f17-7784-4baf-be49-c994b6ca1453}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Mobile">
+      <UniqueIdentifier>{746e4b1e-3a27-4197-88e6-ff7f02473360}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\MediaPlayer">
+      <UniqueIdentifier>{b838d104-d328-40d8-a7e2-3f3717f6b05e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Script">
+      <UniqueIdentifier>{093b8db2-9413-42c5-8bc8-b9df3cad3d35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Script\Libs">
+      <UniqueIdentifier>{a48e5da7-be7e-4940-b63d-bb688815eded}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\NGUI">
+      <UniqueIdentifier>{842ecb84-a4be-4438-975e-dc9a12b58a01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms\PC\GUI\CSTB">
+      <UniqueIdentifier>{14263df0-97b1-4582-8998-d1fc9cd1e067}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms\PC\GUI\DockHost">
+      <UniqueIdentifier>{c0eb2d81-b158-408f-bfcd-93e927ee6973}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\libpng">
+      <UniqueIdentifier>{70071d72-1bf4-4927-9203-ffde88386faf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor">
+      <UniqueIdentifier>{e515aef0-3715-4c51-b872-410b1ba173cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Helpers">
+      <UniqueIdentifier>{e5800111-e6af-41fd-a77e-42dc5e53f821}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\properties">
+      <UniqueIdentifier>{9399e514-85c4-4c18-a246-901451e652c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Localize">
+      <UniqueIdentifier>{ed0b53c1-4a9b-478b-92a0-54d8b0d30748}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Helpers\View">
+      <UniqueIdentifier>{1eed12bf-48e3-4727-91cf-9b843052bcca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor\Helpers\EditorTrees">
+      <UniqueIdentifier>{01264bb2-9377-4fdd-bb3c-aeaf159ae946}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Render\Geometry\DX11">
+      <UniqueIdentifier>{da61d444-76db-4a6e-8199-09b83d2cbd06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Render\Shaders\DX11">
+      <UniqueIdentifier>{21389bf2-579d-4d9a-bc34-3af29d6b57df}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\ENgine\Common\ClassDeclarant.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\Color.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\Common.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\CrossString.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\ExceptionReport.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\Frustum.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\TaskHolder.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\ThreadWorker.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\Utils.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\Containers\BaseContainer.h">
+      <Filter>Common\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\Containers\HashMap.h">
+      <Filter>Common\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\Containers\IList.h">
+      <Filter>Common\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\Math\Matrix.h">
+      <Filter>Common\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\Math\Quaternion.h">
+      <Filter>Common\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\Math\Vector.h">
+      <Filter>Common\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\Math\Vector2.h">
+      <Filter>Common\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\Math\Vector4.h">
+      <Filter>Common\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Core.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\CoreBase.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\CorePC.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Control\ControlsService.h">
+      <Filter>Core\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Files\File.h">
+      <Filter>Core\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Files\FileBuffer.h">
+      <Filter>Core\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Files\FileService.h">
+      <Filter>Core\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Files\StreamLoader.h">
+      <Filter>Core\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Files\StreamSaver.h">
+      <Filter>Core\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Files\XMLFile.h">
+      <Filter>Core\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Model\Mesh.h">
+      <Filter>Core\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Model\ModelFbxLoader.h">
+      <Filter>Core\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Model\ModelInstance.h">
+      <Filter>Core\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Model\ModelRes.h">
+      <Filter>Core\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Model\ModelService.h">
+      <Filter>Core\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Render\RenderService.h">
+      <Filter>Core\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Debug\DebugLines.h">
+      <Filter>Core\Render\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Debug\DebugLines2D.h">
+      <Filter>Core\Render\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Debug\DebugSphere.h">
+      <Filter>Core\Render\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Debug\DebugSprites.h">
+      <Filter>Core\Render\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Geometry\GeometryBuffer.h">
+      <Filter>Core\Render\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Geometry\IndexBuffer.h">
+      <Filter>Core\Render\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Geometry\VertexBuffer.h">
+      <Filter>Core\Render\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Shaders\PixelShader.h">
+      <Filter>Core\Render\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Shaders\Shader.h">
+      <Filter>Core\Render\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Shaders\VertexShader.h">
+      <Filter>Core\Render\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Technique\RenderTechnique.h">
+      <Filter>Core\Render\Technique</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Technique\Techniques\RT_DebugLine.h">
+      <Filter>Core\Render\Technique\Techniques</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Technique\Techniques\RT_DebugLine2D.h">
+      <Filter>Core\Render\Technique\Techniques</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Technique\Techniques\RT_DebugLineNoZ.h">
+      <Filter>Core\Render\Technique\Techniques</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Technique\Techniques\RT_DebugSolid.h">
+      <Filter>Core\Render\Technique\Techniques</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Technique\Techniques\RT_Font.h">
+      <Filter>Core\Render\Technique\Techniques</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Technique\Techniques\RT_UI.h">
+      <Filter>Core\Render\Technique\Techniques</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Textures\Texture.h">
+      <Filter>Core\Render\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Textures\TextureInstance.h">
+      <Filter>Core\Render\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Textures\TextureRes.h">
+      <Filter>Core\Render\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Localize\LocalizeService.h">
+      <Filter>Core\Localize</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Scene\SceneEntity.h">
+      <Filter>Core\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Scene\SceneEntityDesc.h">
+      <Filter>Core\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Scene\SceneInstance.h">
+      <Filter>Core\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Scene\SceneManager.h">
+      <Filter>Core\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Script\IScriptModule.h">
+      <Filter>Core\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Script\IScriptService.h">
+      <Filter>Core\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Script\ScriptMachine.h">
+      <Filter>Core\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Script\ScriptModule.h">
+      <Filter>Core\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Script\ScriptModuleCore.h">
+      <Filter>Core\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Script\ScriptService.h">
+      <Filter>Core\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\Render\DirLight.h">
+      <Filter>Entities\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\Render\Model.h">
+      <Filter>Entities\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\Render\PointLight.h">
+      <Filter>Entities\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\Render\SkyBox.h">
+      <Filter>Entities\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\Render\Technique\RTM_Diffuse.h">
+      <Filter>Entities\Render\Techniques</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\Render\Technique\RTM_DiffuseBlend.h">
+      <Filter>Entities\Render\Techniques</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\Render\Technique\RTM_DiffuseBlendAlpha.h">
+      <Filter>Entities\Render\Techniques</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\Render\Technique\RTM_DiffusePxL.h">
+      <Filter>Entities\Render\Techniques</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\ScriptExecutor.h">
+      <Filter>Entities\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\ENgine.h">
+      <Filter>Platforms\PC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\GUI\BaseWidget.h">
+      <Filter>Platforms\PC\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\GUI\ButtonWidget.h">
+      <Filter>Platforms\PC\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\GUI\ComboBoxWidget.h">
+      <Filter>Platforms\PC\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\GUI\EventsWidget.h">
+      <Filter>Platforms\PC\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\GUI\LabelWidget.h">
+      <Filter>Platforms\PC\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\GUI\ScrollBarWidget.h">
+      <Filter>Platforms\PC\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\GUI\TextBoxWidget.h">
+      <Filter>Platforms\PC\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\GUI\TimeLineWidget.h">
+      <Filter>Platforms\PC\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\GUI\Widgets.h">
+      <Filter>Platforms\PC\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\GUI\WindowWidget.h">
+      <Filter>Platforms\PC\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\Render\AmbientLight.h">
+      <Filter>Entities\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Scene\SceneTaskLevels.h">
+      <Filter>Core\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\Camera.h">
+      <Filter>Entities\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\Render\SunFlare.h">
+      <Filter>Entities\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\Render\SkyBox2D.h">
+      <Filter>Entities\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\Render\Technique\RTM_Atmo.h">
+      <Filter>Entities\Render\Techniques</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\Render\Technique\RTM_DiffusePxCam.h">
+      <Filter>Entities\Render\Techniques</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\Dummy.h">
+      <Filter>Entities\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\GUI\CheckBoxWidget.h">
+      <Filter>Platforms\PC\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\GUI\SizerWidget.h">
+      <Filter>Platforms\PC\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\GUI\TabSheetWidget.h">
+      <Filter>Platforms\PC\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\GUI\TreeViewWidget.h">
+      <Filter>Platforms\PC\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\EditorViewPort.h">
+      <Filter>Platforms\PC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\EditorWindow.h">
+      <Filter>Platforms\PC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\GUI\ListBoxWidget.h">
+      <Filter>Platforms\PC\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\GUI\WindowMenuWidget.h">
+      <Filter>Platforms\PC\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\GUI\TextEditorWidget.h">
+      <Filter>Platforms\PC\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\UserStats\UserStatsService.h">
+      <Filter>Core\UserStats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\UserStats\UserStats.h">
+      <Filter>Core\UserStats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Resources\Resources.h">
+      <Filter>Core\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\cacheFile.h">
+      <Filter>Entities\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\cacheTex.h">
+      <Filter>Entities\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\OnlineUserStats\OnlineUserStats.h">
+      <Filter>Core\OnlineUserStats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\ItemBuyer.h">
+      <Filter>Entities\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Script\Libs\scriptarray.h">
+      <Filter>Core\Script\Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Script\Libs\scriptmath.h">
+      <Filter>Core\Script\Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Script\Libs\scriptmath3d.h">
+      <Filter>Core\Script\Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Script\Libs\scriptstdstring.h">
+      <Filter>Core\Script\Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\ItemRestore.h">
+      <Filter>Entities\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Network\NetworkService.h">
+      <Filter>Core\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Font\FontService.h">
+      <Filter>Core\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Font\FontInstance.h">
+      <Filter>Core\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Font\FontRes.h">
+      <Filter>Core\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Script\Libs\scriptmath2d.h">
+      <Filter>Core\Script\Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\OnlineUserStats\Facebook.h">
+      <Filter>Core\OnlineUserStats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\lib_json\block_allocator.h">
+      <Filter>Common\libjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\lib_json\json.h">
+      <Filter>Common\libjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Files\JSONFile.h">
+      <Filter>Core\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\Declarations.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\Math.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Files\XMLHelper.h">
+      <Filter>Core\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\libxml\tinyxml2.h">
+      <Filter>Common\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Memory.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Control\IControlsService.h">
+      <Filter>Core\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\ICore.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Localize\ILocalizeService.h">
+      <Filter>Core\Localize</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\UserStats\IUserStatsService.h">
+      <Filter>Core\UserStats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Network\INetworkService.h">
+      <Filter>Core\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Files\IDataFile.h">
+      <Filter>Core\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Files\IFileService.h">
+      <Filter>Core\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Files\IFile.h">
+      <Filter>Core\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Files\IFileBuffer.h">
+      <Filter>Core\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Files\IStreamLoader.h">
+      <Filter>Core\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Files\IStreamSaver.h">
+      <Filter>Core\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Script\IScriptMachine.h">
+      <Filter>Core\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Scene\ISceneManager.h">
+      <Filter>Core\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Scene\ISceneService.h">
+      <Filter>Core\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Scene\ISceneInstance.h">
+      <Filter>Core\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\OnlineUserStats\VK.h">
+      <Filter>Core\OnlineUserStats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\MediaLibrary\Date.h">
+      <Filter>Core\MediaLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\MediaLibrary\MediaLibraryService.h">
+      <Filter>Core\MediaLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\libgif\getarg.h">
+      <Filter>Common\libgif</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\libgif\gif_hash.h">
+      <Filter>Common\libgif</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\libgif\gif_lib.h">
+      <Filter>Common\libgif</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\libgif\gif_lib_private.h">
+      <Filter>Common\libgif</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Mobile\MobileService.h">
+      <Filter>Core\Mobile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Textures\VideoTextureInstance.h">
+      <Filter>Core\Render\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Debug\DebugFont.h">
+      <Filter>Core\Render\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\MediaPlayer\MediaPlayer.h">
+      <Filter>Core\MediaPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\NGUIButton.h">
+      <Filter>Entities\NGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\NGUICalendar.h">
+      <Filter>Entities\NGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\NGUIEditBox.h">
+      <Filter>Entities\NGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\NGUIISODrawer.h">
+      <Filter>Entities\NGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\NGUILabel.h">
+      <Filter>Entities\NGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\NGUIPager.h">
+      <Filter>Entities\NGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\NGUIScroller.h">
+      <Filter>Entities\NGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\NGUIService.h">
+      <Filter>Entities\NGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\NGUITrackBar.h">
+      <Filter>Entities\NGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\NGUIWidget.h">
+      <Filter>Entities\NGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\RT_NGUI.h">
+      <Filter>Entities\NGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\NGUISymbol.h">
+      <Filter>Entities\NGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\NGUISymbolInstance.h">
+      <Filter>Entities\NGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\GUI\RolloutWidget.h">
+      <Filter>Platforms\PC\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Technique\Techniques\RT_NFont.h">
+      <Filter>Core\Render\Technique\Techniques</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\NGUIFont.h">
+      <Filter>Entities\NGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\SkinWindow.h">
+      <Filter>Entities\NGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\ImageWidget.h">
+      <Filter>Entities\NGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\NGUITexture.h">
+      <Filter>Entities\NGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\TextureEntry.h">
+      <Filter>Entities\NGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Script\Libs\scriptdictionary.h">
+      <Filter>Core\Script\Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\RT_NGUI_A.h">
+      <Filter>Entities\NGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\NGUITextDrawer.h">
+      <Filter>Entities\NGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\NGUIImageDrawer.h">
+      <Filter>Entities\NGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\NGUIImageListDrawer.h">
+      <Filter>Entities\NGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\NGUIButtonInstances.h">
+      <Filter>Entities\NGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Script\Libs\scripthandle.h">
+      <Filter>Core\Script\Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\GUI\UIBlue.h">
+      <Filter>Platforms\PC\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\RT_NGUI_Mask.h">
+      <Filter>Entities\NGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\GUI\DockHost\DockDiamond.h">
+      <Filter>Platforms\PC\GUI\DockHost</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\GUI\DockHost\DockHost.h">
+      <Filter>Platforms\PC\GUI\DockHost</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\GUI\DockHost\DockHostImpl.h">
+      <Filter>Platforms\PC\GUI\DockHost</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\GUI\CSTB\IntrusiveList.h">
+      <Filter>Platforms\PC\GUI\CSTB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\GUI\CSTB\IntrusiveTree.h">
+      <Filter>Platforms\PC\GUI\CSTB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\GUI\CSTB\IntrusiveWeakList.h">
+      <Filter>Platforms\PC\GUI\CSTB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\GUI\CSTB\IntrusiveWeakTree.h">
+      <Filter>Platforms\PC\GUI\CSTB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\GUI\CSTB\Win32Util.h">
+      <Filter>Platforms\PC\GUI\CSTB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\GUI\CustomWindow.h">
+      <Filter>Platforms\PC\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\GUI\DockedPanelWidget.h">
+      <Filter>Platforms\PC\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\GUI\DockedWidget.h">
+      <Filter>Platforms\PC\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\NGUITimeSelector.h">
+      <Filter>Entities\NGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\TextProcessing.h">
+      <Filter>Entities\NGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\NGUILabelRich.h">
+      <Filter>Entities\NGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Font\FontCharmap.h">
+      <Filter>Core\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Font\FontCharToGlyphIndexMap.h">
+      <Filter>Core\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\libpng\lodepng.h">
+      <Filter>Common\libpng</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Editor\Helpers\AndroidXML.h">
+      <Filter>Editor\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Editor\Helpers\Packer.h">
+      <Filter>Editor\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Editor\Helpers\EditorProject.h">
+      <Filter>Editor\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Editor\Helpers\Gizmo.h">
+      <Filter>Editor\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Editor\Editor.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\Runner.h">
+      <Filter>Platforms\PC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\GUI\ScriptDocumentWidget.h">
+      <Filter>Platforms\PC\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\GUI\DialogWidget.h">
+      <Filter>Platforms\PC\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\OnlineUserStats\Instagram.h">
+      <Filter>Core\OnlineUserStats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Network\NetworkDataBuffer.h">
+      <Filter>Core\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Network\Sockets.h">
+      <Filter>Core\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Network\NetLogger.h">
+      <Filter>Core\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\properties\PropertyBase.h">
+      <Filter>Common\properties</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\properties\PropertyBool.h">
+      <Filter>Common\properties</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\properties\PropertyBaseWidget.h">
+      <Filter>Common\properties</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\properties\PropertyBoolWidget.h">
+      <Filter>Common\properties</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\properties\PropertiesOwner.h">
+      <Filter>Common\properties</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\properties\PropertyInt.h">
+      <Filter>Common\properties</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\properties\PropertyIntWidget.h">
+      <Filter>Common\properties</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\properties\PropertyEnum.h">
+      <Filter>Common\properties</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\properties\PropertyEnumWidget.h">
+      <Filter>Common\properties</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\properties\PropertyFloat.h">
+      <Filter>Common\properties</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\properties\PropertyFloatWidget.h">
+      <Filter>Common\properties</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\properties\PropertyString.h">
+      <Filter>Common\properties</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\properties\PropertyStringWidget.h">
+      <Filter>Common\properties</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\properties\PropertyFilename.h">
+      <Filter>Common\properties</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\properties\PropertyFilenameWidget.h">
+      <Filter>Common\properties</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\properties\PropertyStringEnumWidget.h">
+      <Filter>Common\properties</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\properties\PropertyStringEnum.h">
+      <Filter>Common\properties</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\properties\PropertyColor.h">
+      <Filter>Common\properties</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\properties\PropertyColorWidget.h">
+      <Filter>Common\properties</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\properties\PropertyCallback.h">
+      <Filter>Common\properties</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\properties\PropertyCallbackWidget.h">
+      <Filter>Common\properties</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\properties\PropertyFont.h">
+      <Filter>Common\properties</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\properties\PropertyFontWidget.h">
+      <Filter>Common\properties</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\properties\Properties.h">
+      <Filter>Common\properties</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Editor\Helpers\HistoryObject.h">
+      <Filter>Editor\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Editor\Helpers\SceneInfo.h">
+      <Filter>Editor\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Editor\Helpers\View\ISceneTreeView.h">
+      <Filter>Editor\Helpers\View</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Editor\Helpers\SceneTree.h">
+      <Filter>Editor\Helpers\EditorTrees</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Editor\Helpers\SymbolsTree.h">
+      <Filter>Editor\Helpers\EditorTrees</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Editor\Helpers\ProjectTree.h">
+      <Filter>Editor\Helpers\EditorTrees</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Editor\Helpers\GuiTree.h">
+      <Filter>Editor\Helpers\EditorTrees</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Editor\Helpers\SimulationOtions.h">
+      <Filter>Editor\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Render\RenderServiceD3D11.h">
+      <Filter>Core\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Geometry\IndexBufferD3D11.h">
+      <Filter>Core\Render\Geometry\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Geometry\VertexBufferD3D11.h">
+      <Filter>Core\Render\Geometry\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Shaders\VertexShaderD3D11.h">
+      <Filter>Core\Render\Shaders\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Shaders\PixelShaderD3D11.h">
+      <Filter>Core\Render\Shaders\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Textures\TextureD3D11.h">
+      <Filter>Core\Render\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Shaders\ShaderInfoD3D11.h">
+      <Filter>Core\Render\Shaders\DX11</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\ENgine\Common\CrossString.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\ExceptionReport.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\ThreadWorker.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\Utils.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\Containers\BaseContainer.cpp">
+      <Filter>Common\Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\CoreBase.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\CorePC.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Files\File.cpp">
+      <Filter>Core\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Files\FileBuffer.cpp">
+      <Filter>Core\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Files\FileService.cpp">
+      <Filter>Core\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Files\StreamLoader.cpp">
+      <Filter>Core\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Files\StreamSaver.cpp">
+      <Filter>Core\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Files\XMLFile.cpp">
+      <Filter>Core\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Model\ModelFbxLoader.cpp">
+      <Filter>Core\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Model\ModelInstance.cpp">
+      <Filter>Core\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Model\ModelRes.cpp">
+      <Filter>Core\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Model\ModelService.cpp">
+      <Filter>Core\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Render\RenderService.cpp">
+      <Filter>Core\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Render\Debug\DebugLines.cpp">
+      <Filter>Core\Render\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Render\Debug\DebugLines2D.cpp">
+      <Filter>Core\Render\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Render\Debug\DebugSphere.cpp">
+      <Filter>Core\Render\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Render\Debug\DebugSprites.cpp">
+      <Filter>Core\Render\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Render\Technique\RenderTechnique.cpp">
+      <Filter>Core\Render\Technique</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Render\Technique\Techniques\RT_DebugLine.cpp">
+      <Filter>Core\Render\Technique\Techniques</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Render\Technique\Techniques\RT_DebugLine2D.cpp">
+      <Filter>Core\Render\Technique\Techniques</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Render\Technique\Techniques\RT_DebugLineNoZ.cpp">
+      <Filter>Core\Render\Technique\Techniques</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Render\Technique\Techniques\RT_DebugSolid.cpp">
+      <Filter>Core\Render\Technique\Techniques</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Render\Technique\Techniques\RT_Font.cpp">
+      <Filter>Core\Render\Technique\Techniques</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Render\Technique\Techniques\RT_UI.cpp">
+      <Filter>Core\Render\Technique\Techniques</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Render\Textures\TextureInstance.cpp">
+      <Filter>Core\Render\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Render\Textures\TextureRes.cpp">
+      <Filter>Core\Render\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Localize\LocalizeService.cpp">
+      <Filter>Core\Localize</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Scene\SceneEntity.cpp">
+      <Filter>Core\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Scene\SceneEntityDesc.cpp">
+      <Filter>Core\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Scene\SceneInstance.cpp">
+      <Filter>Core\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Scene\SceneManager.cpp">
+      <Filter>Core\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Script\ScriptMachine.cpp">
+      <Filter>Core\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Script\ScriptModule.cpp">
+      <Filter>Core\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Script\ScriptModuleCore.cpp">
+      <Filter>Core\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Script\ScriptService.cpp">
+      <Filter>Core\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\Render\DirLight.cpp">
+      <Filter>Entities\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\Render\Model.cpp">
+      <Filter>Entities\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\Render\PointLight.cpp">
+      <Filter>Entities\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\Render\SkyBox.cpp">
+      <Filter>Entities\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\Render\Technique\RTM_Diffuse.cpp">
+      <Filter>Entities\Render\Techniques</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\Render\Technique\RTM_DiffuseBlend.cpp">
+      <Filter>Entities\Render\Techniques</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\Render\Technique\RTM_DiffuseBlendAlpha.cpp">
+      <Filter>Entities\Render\Techniques</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\Render\Technique\RTM_DiffusePxL.cpp">
+      <Filter>Entities\Render\Techniques</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\ScriptExecutor.cpp">
+      <Filter>Entities\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Platforms\PC\GUI\BaseWidget.cpp">
+      <Filter>Platforms\PC\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Platforms\PC\GUI\ButtonWidget.cpp">
+      <Filter>Platforms\PC\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Platforms\PC\GUI\ComboBoxWidget.cpp">
+      <Filter>Platforms\PC\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Platforms\PC\GUI\EventsWidget.cpp">
+      <Filter>Platforms\PC\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Platforms\PC\GUI\LabelWidget.cpp">
+      <Filter>Platforms\PC\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Platforms\PC\GUI\ScrollBarWidget.cpp">
+      <Filter>Platforms\PC\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Platforms\PC\GUI\TextBoxWidget.cpp">
+      <Filter>Platforms\PC\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Platforms\PC\GUI\TimeLineWidget.cpp">
+      <Filter>Platforms\PC\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Platforms\PC\GUI\WindowWidget.cpp">
+      <Filter>Platforms\PC\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\Render\AmbientLight.cpp">
+      <Filter>Entities\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\Camera.cpp">
+      <Filter>Entities\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\Render\SunFlare.cpp">
+      <Filter>Entities\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\Render\SkyBox2D.cpp">
+      <Filter>Entities\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\Render\Technique\RTM_Atmo.cpp">
+      <Filter>Entities\Render\Techniques</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\Render\Technique\RTM_DiffusePxCam.cpp">
+      <Filter>Entities\Render\Techniques</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\Dummy.cpp">
+      <Filter>Entities\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Platforms\PC\GUI\CheckBoxWidget.cpp">
+      <Filter>Platforms\PC\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Platforms\PC\GUI\SizerWidget.cpp">
+      <Filter>Platforms\PC\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Platforms\PC\GUI\TabSheetWidget.cpp">
+      <Filter>Platforms\PC\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Platforms\PC\GUI\TreeViewWidget.cpp">
+      <Filter>Platforms\PC\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Platforms\PC\EditorViewPort.cpp">
+      <Filter>Platforms\PC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Platforms\PC\EditorWindow.cpp">
+      <Filter>Platforms\PC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Platforms\PC\GUI\ListBoxWidget.cpp">
+      <Filter>Platforms\PC\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Platforms\PC\GUI\WindowMenuWidget.cpp">
+      <Filter>Platforms\PC\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Platforms\PC\GUI\TextEditorWidget.cpp">
+      <Filter>Platforms\PC\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Control\ControlsService.cpp">
+      <Filter>Core\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\UserStats\UserStatsService.cpp">
+      <Filter>Core\UserStats</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\UserStats\UserStats.cpp">
+      <Filter>Core\UserStats</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Resources\Resources.cpp">
+      <Filter>Core\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\cacheFile.cpp">
+      <Filter>Entities\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\cacheTex.cpp">
+      <Filter>Entities\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\OnlineUserStats\OnlineUserStats.cpp">
+      <Filter>Core\OnlineUserStats</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\ItemBuyer.cpp">
+      <Filter>Entities\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Script\Libs\scriptarray.cpp">
+      <Filter>Core\Script\Libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Script\Libs\scriptmath.cpp">
+      <Filter>Core\Script\Libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Script\Libs\scriptmath3d.cpp">
+      <Filter>Core\Script\Libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Script\Libs\scriptstdstring.cpp">
+      <Filter>Core\Script\Libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\ItemRestore.cpp">
+      <Filter>Entities\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Network\NetworkService.cpp">
+      <Filter>Core\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Font\FontService.cpp">
+      <Filter>Core\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Font\FontInstance.cpp">
+      <Filter>Core\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Font\FontRes.cpp">
+      <Filter>Core\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Script\Libs\scriptmath2d.cpp">
+      <Filter>Core\Script\Libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\OnlineUserStats\Facebook.cpp">
+      <Filter>Core\OnlineUserStats</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\lib_json\block_allocator.cpp">
+      <Filter>Common\libjson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\lib_json\json.cpp">
+      <Filter>Common\libjson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Files\JSONFile.cpp">
+      <Filter>Core\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Files\XMLHelper.cpp">
+      <Filter>Core\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libxml\tinyxml2.cpp">
+      <Filter>Common\libxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Memory.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Scene\ISceneService.cpp">
+      <Filter>Core\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\OnlineUserStats\VK.cpp">
+      <Filter>Core\OnlineUserStats</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\MediaLibrary\Date.cpp">
+      <Filter>Core\MediaLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\MediaLibrary\MediaLibraryService.cpp">
+      <Filter>Core\MediaLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libgif\dev2gif.c">
+      <Filter>Common\libgif</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libgif\getarg.c">
+      <Filter>Common\libgif</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libgif\gif_err.c">
+      <Filter>Common\libgif</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libgif\gif_font.c">
+      <Filter>Common\libgif</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libgif\gif_hash.c">
+      <Filter>Common\libgif</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libgif\gifalloc.c">
+      <Filter>Common\libgif</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libgif\qprintf.c">
+      <Filter>Common\libgif</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libgif\quantize.c">
+      <Filter>Common\libgif</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libgif\dgif_lib.c">
+      <Filter>Common\libgif</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libgif\egif_lib.c">
+      <Filter>Common\libgif</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Mobile\MobileService.cpp">
+      <Filter>Core\Mobile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Render\Textures\VideoTextureInstance.cpp">
+      <Filter>Core\Render\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Render\Debug\DebugFont.cpp">
+      <Filter>Core\Render\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\MediaPlayer\MediaPlayer.cpp">
+      <Filter>Core\MediaPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\NGUIButton.cpp">
+      <Filter>Entities\NGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\NGUICalendar.cpp">
+      <Filter>Entities\NGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\NGUIEditBox.cpp">
+      <Filter>Entities\NGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\NGUIISODrawer.cpp">
+      <Filter>Entities\NGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\NGUILabel.cpp">
+      <Filter>Entities\NGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\NGUIPager.cpp">
+      <Filter>Entities\NGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\NGUIScroller.cpp">
+      <Filter>Entities\NGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\NGUIService.cpp">
+      <Filter>Entities\NGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\NGUITrackBar.cpp">
+      <Filter>Entities\NGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\NGUIWidget.cpp">
+      <Filter>Entities\NGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\RT_NGUI.cpp">
+      <Filter>Entities\NGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\NGUISymbol.cpp">
+      <Filter>Entities\NGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\NGUISymbolInstance.cpp">
+      <Filter>Entities\NGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Platforms\PC\GUI\RolloutWidget.cpp">
+      <Filter>Platforms\PC\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Render\Technique\Techniques\RT_NFont.cpp">
+      <Filter>Core\Render\Technique\Techniques</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\NGUIFont.cpp">
+      <Filter>Entities\NGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\SkinWindow.cpp">
+      <Filter>Entities\NGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\ImageWidget.cpp">
+      <Filter>Entities\NGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\NGUITexture.cpp">
+      <Filter>Entities\NGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\TextureEntry.cpp">
+      <Filter>Entities\NGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Script\Libs\scriptstdstring_utils.cpp">
+      <Filter>Core\Script\Libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Script\Libs\scriptdictionary.cpp">
+      <Filter>Core\Script\Libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\RT_NGUI_A.cpp">
+      <Filter>Entities\NGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\NGUITextDrawer.cpp">
+      <Filter>Entities\NGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\NGUIImageDrawer.cpp">
+      <Filter>Entities\NGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\NGUIImageListDrawer.cpp">
+      <Filter>Entities\NGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\NGUIButtonInstances.cpp">
+      <Filter>Entities\NGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Script\Libs\scripthandle.cpp">
+      <Filter>Core\Script\Libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Platforms\PC\GUI\UIBlue.cpp">
+      <Filter>Platforms\PC\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\RT_NGUI_Mask.cpp">
+      <Filter>Entities\NGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Platforms\PC\GUI\DockHost\DockableSubclass.cpp">
+      <Filter>Platforms\PC\GUI\DockHost</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Platforms\PC\GUI\DockHost\DockDiamond.cpp">
+      <Filter>Platforms\PC\GUI\DockHost</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Platforms\PC\GUI\DockHost\DockHost.cpp">
+      <Filter>Platforms\PC\GUI\DockHost</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Platforms\PC\GUI\DockHost\DockHostCaptionBar.cpp">
+      <Filter>Platforms\PC\GUI\DockHost</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Platforms\PC\GUI\DockHost\DockHostHitTesting.cpp">
+      <Filter>Platforms\PC\GUI\DockHost</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Platforms\PC\GUI\DockHost\DockHostMousing.cpp">
+      <Filter>Platforms\PC\GUI\DockHost</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Platforms\PC\GUI\CSTB\Win32Util.cpp">
+      <Filter>Platforms\PC\GUI\CSTB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Platforms\PC\GUI\CustomWindow.cpp">
+      <Filter>Platforms\PC\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Platforms\PC\GUI\DockedPanelWidget.cpp">
+      <Filter>Platforms\PC\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Platforms\PC\GUI\DockedWidget.cpp">
+      <Filter>Platforms\PC\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\NGUITimeSelector.cpp">
+      <Filter>Entities\NGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\TextProcessing.cpp">
+      <Filter>Entities\NGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\NGUILabelRich.cpp">
+      <Filter>Entities\NGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Font\FontCharmap.cpp">
+      <Filter>Core\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libpng\lodepng.cpp">
+      <Filter>Common\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Editor\Helpers\AndroidXML.cpp">
+      <Filter>Editor\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Editor\Helpers\Packer.cpp">
+      <Filter>Editor\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Editor\Helpers\EditorProject.cpp">
+      <Filter>Editor\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Editor\Helpers\Gizmo.cpp">
+      <Filter>Editor\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Editor\Editor.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Platforms\PC\Runner.cpp">
+      <Filter>Platforms\PC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Platforms\PC\GUI\ScriptDocumentWidget.cpp">
+      <Filter>Platforms\PC\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Platforms\PC\GUI\DialogWidget.cpp">
+      <Filter>Platforms\PC\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\OnlineUserStats\Instagram.cpp">
+      <Filter>Core\OnlineUserStats</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Network\NetworkDataBuffer.cpp">
+      <Filter>Core\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Network\Sockets.cpp">
+      <Filter>Core\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Network\NetLogger.cpp">
+      <Filter>Core\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\properties\PropertyBool.cpp">
+      <Filter>Common\properties</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\properties\PropertyBaseWidget.cpp">
+      <Filter>Common\properties</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\properties\PropertyBoolWidget.cpp">
+      <Filter>Common\properties</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\properties\PropertiesOwner.cpp">
+      <Filter>Common\properties</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\properties\PropertyInt.cpp">
+      <Filter>Common\properties</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\properties\PropertyIntWidget.cpp">
+      <Filter>Common\properties</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\properties\PropertyEnum.cpp">
+      <Filter>Common\properties</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\properties\PropertyEnumWidget.cpp">
+      <Filter>Common\properties</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\properties\PropertyFloat.cpp">
+      <Filter>Common\properties</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\properties\PropertyFloatWidget.cpp">
+      <Filter>Common\properties</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\properties\PropertyString.cpp">
+      <Filter>Common\properties</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\properties\PropertyStringWidget.cpp">
+      <Filter>Common\properties</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\properties\PropertyFilename.cpp">
+      <Filter>Common\properties</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\properties\PropertyFilenameWidget.cpp">
+      <Filter>Common\properties</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\properties\PropertyStringEnumWidget.cpp">
+      <Filter>Common\properties</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\properties\PropertyStringEnum.cpp">
+      <Filter>Common\properties</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\properties\PropertyColor.cpp">
+      <Filter>Common\properties</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\properties\PropertyColorWidget.cpp">
+      <Filter>Common\properties</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\properties\PropertyCallback.cpp">
+      <Filter>Common\properties</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\properties\PropertyCallbackWidget.cpp">
+      <Filter>Common\properties</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\properties\PropertyFont.cpp">
+      <Filter>Common\properties</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\properties\PropertyFontWidget.cpp">
+      <Filter>Common\properties</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Editor\Helpers\HistoryObject.cpp">
+      <Filter>Editor\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Editor\Helpers\SceneInfo.cpp">
+      <Filter>Editor\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Editor\Helpers\SceneTree.cpp">
+      <Filter>Editor\Helpers\EditorTrees</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Editor\Helpers\SymbolsTree.cpp">
+      <Filter>Editor\Helpers\EditorTrees</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Editor\Helpers\ProjectTree.cpp">
+      <Filter>Editor\Helpers\EditorTrees</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Editor\Helpers\GuiTree.cpp">
+      <Filter>Editor\Helpers\EditorTrees</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Editor\Helpers\SimulationOtions.cpp">
+      <Filter>Editor\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Render\RenderServiceD3D11.cpp">
+      <Filter>Core\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Render\Geometry\IndexBufferD3D11.cpp">
+      <Filter>Core\Render\Geometry\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Render\Geometry\VertexBufferD3D11.cpp">
+      <Filter>Core\Render\Geometry\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Render\Shaders\VertexShaderD3D11.cpp">
+      <Filter>Core\Render\Shaders\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Render\Shaders\PixelShaderD3D11.cpp">
+      <Filter>Core\Render\Shaders\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Render\Textures\TextureD3D11.cpp">
+      <Filter>Core\Render\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Render\Shaders\ShaderInfoD3D11.cpp">
+      <Filter>Core\Render\Shaders\DX11</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

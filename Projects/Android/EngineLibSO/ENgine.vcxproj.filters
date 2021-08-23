@@ -1,0 +1,2491 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\ENgine\Common\CrossString.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\ThreadWorker.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\Utils.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\Containers\BaseContainer.cpp">
+      <Filter>Common\Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\CoreBase.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Control\ControlsService.cpp">
+      <Filter>Core\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Files\File.cpp">
+      <Filter>Core\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Files\FileBuffer.cpp">
+      <Filter>Core\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Files\FileService.cpp">
+      <Filter>Core\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Files\StreamLoader.cpp">
+      <Filter>Core\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Files\StreamSaver.cpp">
+      <Filter>Core\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Files\XMLFile.cpp">
+      <Filter>Core\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Model\ModelFbxLoader.cpp">
+      <Filter>Core\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Model\ModelInstance.cpp">
+      <Filter>Core\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Model\ModelRes.cpp">
+      <Filter>Core\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Model\ModelService.cpp">
+      <Filter>Core\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Render\RenderService.cpp">
+      <Filter>Core\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Render\Debug\DebugFont.cpp">
+      <Filter>Core\Render\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Render\Debug\DebugLines.cpp">
+      <Filter>Core\Render\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Render\Debug\DebugLines2D.cpp">
+      <Filter>Core\Render\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Render\Debug\DebugSphere.cpp">
+      <Filter>Core\Render\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Render\Debug\DebugSprites.cpp">
+      <Filter>Core\Render\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Render\Technique\RenderTechnique.cpp">
+      <Filter>Core\Render\Technique</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Render\Technique\Techniques\RT_DebugLine.cpp">
+      <Filter>Core\Render\Technique\Techniques</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Render\Technique\Techniques\RT_DebugLine2D.cpp">
+      <Filter>Core\Render\Technique\Techniques</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Render\Technique\Techniques\RT_DebugLineNoZ.cpp">
+      <Filter>Core\Render\Technique\Techniques</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Render\Technique\Techniques\RT_DebugSolid.cpp">
+      <Filter>Core\Render\Technique\Techniques</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Render\Technique\Techniques\RT_Font.cpp">
+      <Filter>Core\Render\Technique\Techniques</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Render\Technique\Techniques\RT_UI.cpp">
+      <Filter>Core\Render\Technique\Techniques</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Render\Textures\TextureInstance.cpp">
+      <Filter>Core\Render\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Render\Textures\TextureRes.cpp">
+      <Filter>Core\Render\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Localize\LocalizeService.cpp">
+      <Filter>Core\Localize</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Scene\SceneEntity.cpp">
+      <Filter>Core\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Scene\SceneEntityDesc.cpp">
+      <Filter>Core\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Scene\SceneInstance.cpp">
+      <Filter>Core\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Scene\SceneManager.cpp">
+      <Filter>Core\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Script\ScriptMachine.cpp">
+      <Filter>Core\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Script\ScriptModule.cpp">
+      <Filter>Core\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Script\ScriptModuleCore.cpp">
+      <Filter>Core\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Script\ScriptService.cpp">
+      <Filter>Core\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Script\Libs\scriptarray.cpp">
+      <Filter>Core\Script\Libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Script\Libs\scriptstdstring.cpp">
+      <Filter>Core\Script\Libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Script\Libs\scriptmath.cpp">
+      <Filter>Core\Script\Libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Script\Libs\scriptmath3d.cpp">
+      <Filter>Core\Script\Libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\Render\AmbientLight.cpp">
+      <Filter>Entities\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\Render\DirLight.cpp">
+      <Filter>Entities\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\Render\Model.cpp">
+      <Filter>Entities\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\Render\PointLight.cpp">
+      <Filter>Entities\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\Render\SkyBox.cpp">
+      <Filter>Entities\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\Render\SkyBox2D.cpp">
+      <Filter>Entities\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\Render\SunFlare.cpp">
+      <Filter>Entities\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\Camera.cpp">
+      <Filter>Entities\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\Render\Technique\RTM_Atmo.cpp">
+      <Filter>Entities\Render\Techniques</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\Render\Technique\RTM_Diffuse.cpp">
+      <Filter>Entities\Render\Techniques</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\Render\Technique\RTM_DiffuseBlend.cpp">
+      <Filter>Entities\Render\Techniques</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\Render\Technique\RTM_DiffuseBlendAlpha.cpp">
+      <Filter>Entities\Render\Techniques</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\Render\Technique\RTM_DiffusePxCam.cpp">
+      <Filter>Entities\Render\Techniques</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\Render\Technique\RTM_DiffusePxL.cpp">
+      <Filter>Entities\Render\Techniques</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\Dummy.cpp">
+      <Filter>Entities\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\ScriptExecutor.cpp">
+      <Filter>Entities\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="GlueCode\glue_code.cpp">
+      <Filter>Platforms\Android</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\CoreAndroid.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\UserStats\UserStats.cpp">
+      <Filter>Core\UserStats</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\UserStats\UserStatsService.cpp">
+      <Filter>Core\UserStats</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\OnlineUserStats\OnlineUserStats.cpp">
+      <Filter>Core\OnlineUserStats</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\ItemBuyer.cpp">
+      <Filter>Entities\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\Music.cpp">
+      <Filter>Entities\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\SoundEntity.cpp">
+      <Filter>Entities\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\cacheFile.cpp">
+      <Filter>Entities\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\cacheTex.cpp">
+      <Filter>Entities\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libzip\mkstemp.c">
+      <Filter>Common\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libzip\zip_add.c">
+      <Filter>Common\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libzip\zip_add_dir.c">
+      <Filter>Common\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libzip\zip_close.c">
+      <Filter>Common\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libzip\zip_delete.c">
+      <Filter>Common\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libzip\zip_dirent.c">
+      <Filter>Common\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libzip\zip_entry_free.c">
+      <Filter>Common\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libzip\zip_entry_new.c">
+      <Filter>Common\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libzip\zip_err_str.c">
+      <Filter>Common\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libzip\zip_error.c">
+      <Filter>Common\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libzip\zip_error_clear.c">
+      <Filter>Common\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libzip\zip_error_get.c">
+      <Filter>Common\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libzip\zip_error_get_sys_type.c">
+      <Filter>Common\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libzip\zip_error_strerror.c">
+      <Filter>Common\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libzip\zip_error_to_str.c">
+      <Filter>Common\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libzip\zip_fclose.c">
+      <Filter>Common\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libzip\zip_file_error_clear.c">
+      <Filter>Common\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libzip\zip_file_error_get.c">
+      <Filter>Common\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libzip\zip_file_get_offset.c">
+      <Filter>Common\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libzip\zip_file_strerror.c">
+      <Filter>Common\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libzip\zip_filerange_crc.c">
+      <Filter>Common\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libzip\zip_fopen.c">
+      <Filter>Common\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libzip\zip_fopen_index.c">
+      <Filter>Common\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libzip\zip_fread.c">
+      <Filter>Common\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libzip\zip_free.c">
+      <Filter>Common\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libzip\zip_get_archive_comment.c">
+      <Filter>Common\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libzip\zip_get_archive_flag.c">
+      <Filter>Common\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libzip\zip_get_file_comment.c">
+      <Filter>Common\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libzip\zip_get_name.c">
+      <Filter>Common\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libzip\zip_get_num_files.c">
+      <Filter>Common\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libzip\zip_memdup.c">
+      <Filter>Common\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libzip\zip_name_locate.c">
+      <Filter>Common\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libzip\zip_new.c">
+      <Filter>Common\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libzip\zip_open.c">
+      <Filter>Common\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libzip\zip_rename.c">
+      <Filter>Common\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libzip\zip_replace.c">
+      <Filter>Common\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libzip\zip_set_archive_comment.c">
+      <Filter>Common\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libzip\zip_set_archive_flag.c">
+      <Filter>Common\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libzip\zip_set_file_comment.c">
+      <Filter>Common\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libzip\zip_set_name.c">
+      <Filter>Common\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libzip\zip_source_buffer.c">
+      <Filter>Common\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libzip\zip_source_file.c">
+      <Filter>Common\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libzip\zip_source_filep.c">
+      <Filter>Common\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libzip\zip_source_free.c">
+      <Filter>Common\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libzip\zip_source_function.c">
+      <Filter>Common\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libzip\zip_source_zip.c">
+      <Filter>Common\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libzip\zip_stat.c">
+      <Filter>Common\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libzip\zip_stat_index.c">
+      <Filter>Common\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libzip\zip_stat_init.c">
+      <Filter>Common\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libzip\zip_strerror.c">
+      <Filter>Common\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libzip\zip_unchange.c">
+      <Filter>Common\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libzip\zip_unchange_all.c">
+      <Filter>Common\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libzip\zip_unchange_archive.c">
+      <Filter>Common\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libzip\zip_unchange_data.c">
+      <Filter>Common\libzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\zlib\adler32.c">
+      <Filter>Common\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\zlib\compress.c">
+      <Filter>Common\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\zlib\crc32.c">
+      <Filter>Common\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\zlib\deflate.c">
+      <Filter>Common\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\zlib\gzclose.c">
+      <Filter>Common\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\zlib\gzlib.c">
+      <Filter>Common\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\zlib\gzread.c">
+      <Filter>Common\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\zlib\gzwrite.c">
+      <Filter>Common\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\zlib\infback.c">
+      <Filter>Common\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\zlib\inffast.c">
+      <Filter>Common\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\zlib\inflate.c">
+      <Filter>Common\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\zlib\inftrees.c">
+      <Filter>Common\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\zlib\trees.c">
+      <Filter>Common\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\zlib\uncompr.c">
+      <Filter>Common\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\zlib\zutil.c">
+      <Filter>Common\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\ItemRestore.cpp">
+      <Filter>Entities\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Font\FontInstance.cpp">
+      <Filter>Core\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Font\FontRes.cpp">
+      <Filter>Core\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Font\FontService.cpp">
+      <Filter>Core\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\freetype-droid\src\autofit\autofit.c">
+      <Filter>Core\Font\FreeType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\freetype-droid\src\base\basepic.c">
+      <Filter>Core\Font\FreeType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\freetype-droid\src\base\ftstroke.c">
+      <Filter>Core\Font\FreeType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\freetype-droid\src\base\ftsynth.c">
+      <Filter>Core\Font\FreeType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\freetype-droid\src\base\ftsystem.c">
+      <Filter>Core\Font\FreeType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\freetype-droid\src\base\ftapi.c">
+      <Filter>Core\Font\FreeType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\freetype-droid\src\base\ftbase.c">
+      <Filter>Core\Font\FreeType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\freetype-droid\src\base\ftbbox.c">
+      <Filter>Core\Font\FreeType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\freetype-droid\src\base\ftbitmap.c">
+      <Filter>Core\Font\FreeType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\freetype-droid\src\base\ftdbgmem.c">
+      <Filter>Core\Font\FreeType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\freetype-droid\src\base\ftdebug.c">
+      <Filter>Core\Font\FreeType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\freetype-droid\src\base\ftglyph.c">
+      <Filter>Core\Font\FreeType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\freetype-droid\src\base\ftinit.c">
+      <Filter>Core\Font\FreeType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\freetype-droid\src\base\ftpic.c">
+      <Filter>Core\Font\FreeType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\freetype-droid\src\cff\cff.c">
+      <Filter>Core\Font\FreeType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\freetype-droid\src\pshinter\pshinter.c">
+      <Filter>Core\Font\FreeType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\freetype-droid\src\psnames\psnames.c">
+      <Filter>Core\Font\FreeType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\freetype-droid\src\raster\raster.c">
+      <Filter>Core\Font\FreeType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\freetype-droid\src\sfnt\sfnt.c">
+      <Filter>Core\Font\FreeType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\freetype-droid\src\smooth\smooth.c">
+      <Filter>Core\Font\FreeType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\freetype-droid\src\truetype\truetype.c">
+      <Filter>Core\Font\FreeType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Network\NetworkService.cpp">
+      <Filter>Core\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\strdup.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\strequal.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\strerror.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\strtok.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\strtoofft.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\telnet.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\tftp.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\timeval.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\transfer.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\url.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\version.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\warnless.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\wildcard.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\amigaos.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\asyn-ares.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\asyn-thread.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\axtls.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\connect.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\content_encoding.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\cookie.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\curl_addrinfo.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\curl_darwinssl.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\curl_fnmatch.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\curl_gethostname.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\curl_gssapi.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\curl_memrchr.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\curl_multibyte.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\curl_ntlm.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\curl_ntlm_core.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\curl_ntlm_msgs.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\curl_ntlm_wb.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\curl_rand.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\curl_rtmp.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\curl_sasl.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\curl_schannel.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\curl_sspi.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\curl_threads.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\cyassl.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\dict.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\easy.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\escape.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\fileinfo.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\formdata.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\ftp.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\ftplistparser.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\getenv.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\getinfo.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\gopher.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\gtls.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\hash.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\hmac.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\hostasyn.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\hostip.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\hostip4.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\hostip6.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\hostsyn.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\http.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\http_chunks.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\http_digest.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\http_negotiate.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\http_negotiate_sspi.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\http_proxy.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\idn_win32.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\if2ip.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\imap.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\inet_ntop.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\inet_pton.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\krb4.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\krb5.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\ldap.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\llist.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\md4.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\md5.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\memdebug.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\mprintf.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\multi.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\netrc.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\non-ascii.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\nonblock.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\nss.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\nwlib.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\nwos.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\openldap.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\parsedate.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\pingpong.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\polarssl.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\pop3.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\progress.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\qssl.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\rawstr.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\rtsp.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\security.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\select.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\sendf.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\share.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\slist.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\smtp.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\socks.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\socks_gssapi.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\socks_sspi.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\speedcheck.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\splay.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\ssh.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\sslgen.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\ssluse.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\file_curl.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Script\Libs\scriptmath2d.cpp">
+      <Filter>Core\Script\Libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\OnlineUserStats\Facebook.cpp">
+      <Filter>Core\OnlineUserStats</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\curl\lib\curl_base64.c">
+      <Filter>Core\Network\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\lib_json\block_allocator.cpp">
+      <Filter>Common\libjson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\lib_json\json.cpp">
+      <Filter>Common\libjson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Files\JSONFile.cpp">
+      <Filter>Core\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Sound\WavLoader.cpp">
+      <Filter>Core\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Sound\SoundWav.cpp">
+      <Filter>Core\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Sound\SoundStream.cpp">
+      <Filter>Core\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Sound\SoundService.cpp">
+      <Filter>Core\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Sound\SoundResourceWav.cpp">
+      <Filter>Core\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Sound\SoundResourceOgg.cpp">
+      <Filter>Core\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Sound\SoundResource.cpp">
+      <Filter>Core\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Sound\SoundOgg.cpp">
+      <Filter>Core\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Scene\ISceneService.cpp">
+      <Filter>Core\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Memory.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libxml\tinyxml2.cpp">
+      <Filter>Common\libxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Files\XMLHelper.cpp">
+      <Filter>Core\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\MediaLibrary\Date.cpp">
+      <Filter>Core\MediaLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\MediaLibrary\MediaLibraryService.cpp">
+      <Filter>Core\MediaLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\OnlineUserStats\VK.cpp">
+      <Filter>Core\OnlineUserStats</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\AngelScript\source\as_atomic.cpp">
+      <Filter>Core\Script\AngelScript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\AngelScript\source\as_builder.cpp">
+      <Filter>Core\Script\AngelScript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\AngelScript\source\as_bytecode.cpp">
+      <Filter>Core\Script\AngelScript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\AngelScript\source\as_callfunc.cpp">
+      <Filter>Core\Script\AngelScript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\AngelScript\source\as_callfunc_arm.cpp">
+      <Filter>Core\Script\AngelScript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\AngelScript\source\as_compiler.cpp">
+      <Filter>Core\Script\AngelScript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\AngelScript\source\as_configgroup.cpp">
+      <Filter>Core\Script\AngelScript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\AngelScript\source\as_context.cpp">
+      <Filter>Core\Script\AngelScript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\AngelScript\source\as_datatype.cpp">
+      <Filter>Core\Script\AngelScript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\AngelScript\source\as_gc.cpp">
+      <Filter>Core\Script\AngelScript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\AngelScript\source\as_generic.cpp">
+      <Filter>Core\Script\AngelScript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\AngelScript\source\as_globalproperty.cpp">
+      <Filter>Core\Script\AngelScript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\AngelScript\source\as_memory.cpp">
+      <Filter>Core\Script\AngelScript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\AngelScript\source\as_module.cpp">
+      <Filter>Core\Script\AngelScript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\AngelScript\source\as_objecttype.cpp">
+      <Filter>Core\Script\AngelScript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\AngelScript\source\as_outputbuffer.cpp">
+      <Filter>Core\Script\AngelScript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\AngelScript\source\as_parser.cpp">
+      <Filter>Core\Script\AngelScript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\AngelScript\source\as_restore.cpp">
+      <Filter>Core\Script\AngelScript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\AngelScript\source\as_scriptcode.cpp">
+      <Filter>Core\Script\AngelScript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\AngelScript\source\as_scriptengine.cpp">
+      <Filter>Core\Script\AngelScript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\AngelScript\source\as_scriptfunction.cpp">
+      <Filter>Core\Script\AngelScript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\AngelScript\source\as_scriptnode.cpp">
+      <Filter>Core\Script\AngelScript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\AngelScript\source\as_scriptobject.cpp">
+      <Filter>Core\Script\AngelScript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\AngelScript\source\as_string.cpp">
+      <Filter>Core\Script\AngelScript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\AngelScript\source\as_string_util.cpp">
+      <Filter>Core\Script\AngelScript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\AngelScript\source\as_thread.cpp">
+      <Filter>Core\Script\AngelScript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\AngelScript\source\as_tokenizer.cpp">
+      <Filter>Core\Script\AngelScript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\AngelScript\source\as_typeinfo.cpp">
+      <Filter>Core\Script\AngelScript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Libraries\AngelScript\source\as_variablescope.cpp">
+      <Filter>Core\Script\AngelScript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libgif\dev2gif.c">
+      <Filter>Common\libgif</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libgif\dgif_lib.c">
+      <Filter>Common\libgif</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libgif\egif_lib.c">
+      <Filter>Common\libgif</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libgif\getarg.c">
+      <Filter>Common\libgif</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libgif\gif_err.c">
+      <Filter>Common\libgif</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libgif\gif_font.c">
+      <Filter>Common\libgif</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libgif\gif_hash.c">
+      <Filter>Common\libgif</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libgif\gifalloc.c">
+      <Filter>Common\libgif</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libgif\qprintf.c">
+      <Filter>Common\libgif</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libgif\quantize.c">
+      <Filter>Common\libgif</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Mobile\MobileService.cpp">
+      <Filter>Core\Mobile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Render\Textures\VideoTextureInstance.cpp">
+      <Filter>Core\Render\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Render\RenderServiceGLES.cpp">
+      <Filter>Core\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Render\Textures\TextureGLES.cpp">
+      <Filter>Core\Render\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Render\Shaders\PixelShaderGLES.cpp">
+      <Filter>Core\Render\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Render\Shaders\VertexShaderGLES.cpp">
+      <Filter>Core\Render\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Render\Geometry\IndexBufferGLES.cpp">
+      <Filter>Core\Render\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Render\Geometry\VertexBufferGLES.cpp">
+      <Filter>Core\Render\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\MediaPlayer\MediaPlayer.cpp">
+      <Filter>Core\MediaPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Script\Libs\scriptdictionary.cpp">
+      <Filter>Core\Script\Libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Script\Libs\scriptstdstring_utils.cpp">
+      <Filter>Core\Script\Libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\NGUIButton.cpp">
+      <Filter>Entities\NGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\NGUICalendar.cpp">
+      <Filter>Entities\NGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\NGUIEditBox.cpp">
+      <Filter>Entities\NGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\NGUIFont.cpp">
+      <Filter>Entities\NGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\NGUIISODrawer.cpp">
+      <Filter>Entities\NGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\NGUILabel.cpp">
+      <Filter>Entities\NGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\NGUIPager.cpp">
+      <Filter>Entities\NGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\NGUIScroller.cpp">
+      <Filter>Entities\NGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\NGUIService.cpp">
+      <Filter>Entities\NGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\NGUISymbol.cpp">
+      <Filter>Entities\NGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\NGUISymbolInstance.cpp">
+      <Filter>Entities\NGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\NGUITexture.cpp">
+      <Filter>Entities\NGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\NGUITrackBar.cpp">
+      <Filter>Entities\NGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\NGUIWidget.cpp">
+      <Filter>Entities\NGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\RT_NGUI.cpp">
+      <Filter>Entities\NGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\TextureEntry.cpp">
+      <Filter>Entities\NGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Render\Technique\Techniques\RT_NFont.cpp">
+      <Filter>Core\Render\Technique\Techniques</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\RT_NGUI_A.cpp">
+      <Filter>Entities\NGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\NGUIImageDrawer.cpp">
+      <Filter>Entities\NGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\NGUITextDrawer.cpp">
+      <Filter>Entities\NGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\NGUIImageListDrawer.cpp">
+      <Filter>Entities\NGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\NGUIButtonInstances.cpp">
+      <Filter>Entities\NGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Script\Libs\scripthandle.cpp">
+      <Filter>Core\Script\Libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\RT_NGUI_Mask.cpp">
+      <Filter>Entities\NGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\AppNow\ChatClient.cpp">
+      <Filter>Entities\AppNow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\AppNow\ChatClientImpl.cpp">
+      <Filter>Entities\AppNow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\AppNow\OTRChatClient.cpp">
+      <Filter>Entities\AppNow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\AppNow\OTRChatClientImpl.cpp">
+      <Filter>Entities\AppNow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\AppNow\ChatCommon.cpp">
+      <Filter>Entities\AppNow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\NGUITimeSelector.cpp">
+      <Filter>Entities\NGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\TextProcessing.cpp">
+      <Filter>Entities\NGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\NGUILabelRich.cpp">
+      <Filter>Entities\NGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Font\FontCharmap.cpp">
+      <Filter>Core\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\libpng\lodepng.cpp">
+      <Filter>Common\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\OnlineUserStats\Instagram.cpp">
+      <Filter>Core\OnlineUserStats</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Network\NetworkDataBuffer.cpp">
+      <Filter>Core\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Network\Sockets.cpp">
+      <Filter>Core\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Network\NetLogger.cpp">
+      <Filter>Core\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\Properties\PropertiesOwner.cpp">
+      <Filter>Common\Properties</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\Properties\PropertyBaseWidget.cpp">
+      <Filter>Common\Properties</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\Properties\PropertyBool.cpp">
+      <Filter>Common\Properties</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\Properties\PropertyBoolWidget.cpp">
+      <Filter>Common\Properties</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\Properties\PropertyCallback.cpp">
+      <Filter>Common\Properties</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\Properties\PropertyCallbackWidget.cpp">
+      <Filter>Common\Properties</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\Properties\PropertyColor.cpp">
+      <Filter>Common\Properties</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\Properties\PropertyColorWidget.cpp">
+      <Filter>Common\Properties</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\Properties\PropertyEnum.cpp">
+      <Filter>Common\Properties</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\Properties\PropertyEnumWidget.cpp">
+      <Filter>Common\Properties</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\Properties\PropertyFilename.cpp">
+      <Filter>Common\Properties</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\Properties\PropertyFilenameWidget.cpp">
+      <Filter>Common\Properties</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\Properties\PropertyFloat.cpp">
+      <Filter>Common\Properties</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\Properties\PropertyFloatWidget.cpp">
+      <Filter>Common\Properties</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\Properties\PropertyFont.cpp">
+      <Filter>Common\Properties</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\Properties\PropertyFontWidget.cpp">
+      <Filter>Common\Properties</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\Properties\PropertyInt.cpp">
+      <Filter>Common\Properties</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\Properties\PropertyIntWidget.cpp">
+      <Filter>Common\Properties</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\Properties\PropertyString.cpp">
+      <Filter>Common\Properties</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\Properties\PropertyStringEnum.cpp">
+      <Filter>Common\Properties</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\Properties\PropertyStringEnumWidget.cpp">
+      <Filter>Common\Properties</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Common\Properties\PropertyStringWidget.cpp">
+      <Filter>Common\Properties</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Core\Resources\Resources.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\Render\Shaders\ShaderGLES.cpp">
+      <Filter>Core\Render\Shaders</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AndroidApk\res\values\strings.xml">
+      <Filter>Platforms\Android</Filter>
+    </None>
+    <None Include="AndroidApk\project.properties">
+      <Filter>Platforms\Android</Filter>
+    </None>
+    <None Include="AndroidApk\build.xml">
+      <Filter>Platforms\Android</Filter>
+    </None>
+    <None Include="AndroidApk\AndroidManifest.xml">
+      <Filter>Platforms\Android</Filter>
+    </None>
+    <None Include="AndroidApk\src\com\ion\engine\IonRenderer.java">
+      <Filter>Platforms\Android</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{27d92ded-1116-47f9-95a3-fa049f2e6dc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Containers">
+      <UniqueIdentifier>{3eb44e30-f59b-4bbd-852d-e0d0e05e526b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Math">
+      <UniqueIdentifier>{24920db7-e360-43ec-b2dd-90de3b539d25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{119c18d8-e826-40dc-b28e-1f89611e65bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Control">
+      <UniqueIdentifier>{178f00ab-8673-4e35-963b-0401397655a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Files">
+      <UniqueIdentifier>{62477a63-31fa-450e-ad6c-bfff3229b3ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Model">
+      <UniqueIdentifier>{743a77e0-bb2a-448a-8d70-efd50dced958}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Render">
+      <UniqueIdentifier>{da57fc1c-6b32-43d9-a09e-95155e5ef614}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Render\Debug">
+      <UniqueIdentifier>{9de29457-debd-42ec-b2e3-43172033fb80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Render\Geometry">
+      <UniqueIdentifier>{9e39cbef-338a-494c-bc2d-93edaa59ead2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Render\Shaders">
+      <UniqueIdentifier>{99f4f6da-874d-4807-ad25-47e270239d00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Render\Technique">
+      <UniqueIdentifier>{fffdd1e4-2689-49ab-8466-03a26e468eb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Render\Technique\Techniques">
+      <UniqueIdentifier>{54bad9f7-ade9-4d2e-9fc2-5d8c6bb17652}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Render\Textures">
+      <UniqueIdentifier>{241625dc-2dd7-425e-93ad-07a251dbc22c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Scene">
+      <UniqueIdentifier>{44c3dba5-013e-4546-a86c-1bd72f0f8e81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Script">
+      <UniqueIdentifier>{be1eab15-5a3b-40bb-9480-51d107cefd7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Script\Libs">
+      <UniqueIdentifier>{93906b5e-26a7-4289-aa58-88d6cfbf8071}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Sound">
+      <UniqueIdentifier>{3ed7afb2-b771-4d34-a31a-2b902b5260d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities">
+      <UniqueIdentifier>{bb30c315-a430-459f-8d0d-98795dbe3b82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Render">
+      <UniqueIdentifier>{c8c0c7be-eaa0-4805-8da8-ed4e348f6e16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Render\Techniques">
+      <UniqueIdentifier>{c743644e-643e-4adb-8c40-77c30ccd14f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Common">
+      <UniqueIdentifier>{ad3a385b-267c-42c2-97bf-c477e567238c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms">
+      <UniqueIdentifier>{fcfeaa92-b7d3-4322-a183-531fb8c3fd56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms\Android">
+      <UniqueIdentifier>{9fcf0383-3897-4959-831c-cfa047a52aad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Localize">
+      <UniqueIdentifier>{6b8b13cb-d1cb-42d2-ac3a-503987d5c0d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Script\AngelScript">
+      <UniqueIdentifier>{faef6352-68d8-4eea-b196-1776ebd8e5c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\UserStats">
+      <UniqueIdentifier>{115b48c6-d70b-4f9a-bb61-16adf872109b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\OnlineUserStats">
+      <UniqueIdentifier>{bf7101e4-f989-4c0f-bfa6-163ae1889de6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\libzip">
+      <UniqueIdentifier>{fc071362-c768-444e-a58a-4d4da2fee5ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\zlib">
+      <UniqueIdentifier>{08c7c921-0e46-481d-9054-d94df781af74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Font">
+      <UniqueIdentifier>{9ff76f8a-24dc-4dea-85b8-1cdf4adfeb4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Font\FreeType">
+      <UniqueIdentifier>{d5850bb7-83a0-4c07-b22b-255e1c1a06dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Network">
+      <UniqueIdentifier>{940cf361-d6ba-4bf2-87cd-fc80d4c0fa1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Network\curl">
+      <UniqueIdentifier>{facc29c8-3ea6-4ff1-a3f6-11222c085456}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\libjson">
+      <UniqueIdentifier>{2e9c3f73-e3a0-4d70-9799-ba3b037d0a40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\libxml">
+      <UniqueIdentifier>{2d1f41b6-228b-425d-827d-2b07e4834ee4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\AppNow">
+      <UniqueIdentifier>{c5582b71-3114-48f1-95d8-6e40f28e5c81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\MediaLibrary">
+      <UniqueIdentifier>{ba692280-7e59-4dee-8c22-2fe6bc279eaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\libgif">
+      <UniqueIdentifier>{b5c7556c-6d27-4fbe-91f3-4830547e6493}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Mobile">
+      <UniqueIdentifier>{69dd7d3f-1e0b-4e7e-9617-ff4383e7ac64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\MediaPlayer">
+      <UniqueIdentifier>{4ed77c65-19f3-4064-92a6-1274c144b468}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\NGUI">
+      <UniqueIdentifier>{941c7849-e7f6-459d-a39a-69b7ccbcdcaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\libpng">
+      <UniqueIdentifier>{dbdc1378-0f10-426a-be09-e2c5cb59d102}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Properties">
+      <UniqueIdentifier>{0d647d49-562f-4ea1-afa0-8d01f346d3ca}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\ENgine\Common\ClassDeclarant.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\Color.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\Common.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\CrossString.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\Frustum.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\TaskHolder.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\ThreadWorker.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\Utils.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\Containers\BaseContainer.h">
+      <Filter>Common\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\Containers\HashMap.h">
+      <Filter>Common\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\Containers\IList.h">
+      <Filter>Common\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\Math\Matrix.h">
+      <Filter>Common\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\Math\Quaternion.h">
+      <Filter>Common\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\Math\Vector.h">
+      <Filter>Common\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\Math\Vector2.h">
+      <Filter>Common\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\Math\Vector4.h">
+      <Filter>Common\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Core.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\CoreBase.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Control\ControlsService.h">
+      <Filter>Core\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Files\File.h">
+      <Filter>Core\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Files\FileBuffer.h">
+      <Filter>Core\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Files\FileService.h">
+      <Filter>Core\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Files\StreamLoader.h">
+      <Filter>Core\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Files\StreamSaver.h">
+      <Filter>Core\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Files\XMLFile.h">
+      <Filter>Core\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Model\Mesh.h">
+      <Filter>Core\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Model\ModelFbxLoader.h">
+      <Filter>Core\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Model\ModelInstance.h">
+      <Filter>Core\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Model\ModelRes.h">
+      <Filter>Core\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Model\ModelService.h">
+      <Filter>Core\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Render\RenderService.h">
+      <Filter>Core\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Debug\DebugFont.h">
+      <Filter>Core\Render\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Debug\DebugLines.h">
+      <Filter>Core\Render\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Debug\DebugLines2D.h">
+      <Filter>Core\Render\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Debug\DebugSphere.h">
+      <Filter>Core\Render\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Debug\DebugSprites.h">
+      <Filter>Core\Render\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Geometry\GeometryBuffer.h">
+      <Filter>Core\Render\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Geometry\IndexBuffer.h">
+      <Filter>Core\Render\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Geometry\VertexBuffer.h">
+      <Filter>Core\Render\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Shaders\PixelShader.h">
+      <Filter>Core\Render\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Shaders\Shader.h">
+      <Filter>Core\Render\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Shaders\VertexShader.h">
+      <Filter>Core\Render\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Technique\RenderTechnique.h">
+      <Filter>Core\Render\Technique</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Technique\Techniques\RT_DebugLine.h">
+      <Filter>Core\Render\Technique\Techniques</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Technique\Techniques\RT_DebugLine2D.h">
+      <Filter>Core\Render\Technique\Techniques</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Technique\Techniques\RT_DebugLineNoZ.h">
+      <Filter>Core\Render\Technique\Techniques</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Technique\Techniques\RT_DebugSolid.h">
+      <Filter>Core\Render\Technique\Techniques</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Technique\Techniques\RT_Font.h">
+      <Filter>Core\Render\Technique\Techniques</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Technique\Techniques\RT_UI.h">
+      <Filter>Core\Render\Technique\Techniques</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Textures\Texture.h">
+      <Filter>Core\Render\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Textures\TextureInstance.h">
+      <Filter>Core\Render\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Textures\TextureRes.h">
+      <Filter>Core\Render\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Localize\LocalizeService.h">
+      <Filter>Core\Localize</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Scene\SceneEntity.h">
+      <Filter>Core\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Scene\SceneEntityDesc.h">
+      <Filter>Core\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Scene\SceneInstance.h">
+      <Filter>Core\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Scene\SceneManager.h">
+      <Filter>Core\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Scene\SceneTaskLevels.h">
+      <Filter>Core\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Script\IScriptModule.h">
+      <Filter>Core\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Script\IScriptService.h">
+      <Filter>Core\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Script\ScriptMachine.h">
+      <Filter>Core\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Script\ScriptModule.h">
+      <Filter>Core\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Script\ScriptModuleCore.h">
+      <Filter>Core\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Script\ScriptService.h">
+      <Filter>Core\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Script\Libs\scriptarray.h">
+      <Filter>Core\Script\Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Script\Libs\scriptstdstring.h">
+      <Filter>Core\Script\Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Script\Libs\scriptmath.h">
+      <Filter>Core\Script\Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Script\Libs\scriptmath3d.h">
+      <Filter>Core\Script\Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\Render\AmbientLight.h">
+      <Filter>Entities\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\Render\DirLight.h">
+      <Filter>Entities\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\Render\Model.h">
+      <Filter>Entities\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\Render\PointLight.h">
+      <Filter>Entities\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\Render\SkyBox.h">
+      <Filter>Entities\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\Render\SkyBox2D.h">
+      <Filter>Entities\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\Render\SunFlare.h">
+      <Filter>Entities\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\Camera.h">
+      <Filter>Entities\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\Render\Technique\RTM_Atmo.h">
+      <Filter>Entities\Render\Techniques</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\Render\Technique\RTM_Diffuse.h">
+      <Filter>Entities\Render\Techniques</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\Render\Technique\RTM_DiffuseBlend.h">
+      <Filter>Entities\Render\Techniques</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\Render\Technique\RTM_DiffuseBlendAlpha.h">
+      <Filter>Entities\Render\Techniques</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\Render\Technique\RTM_DiffusePxCam.h">
+      <Filter>Entities\Render\Techniques</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\Render\Technique\RTM_DiffusePxL.h">
+      <Filter>Entities\Render\Techniques</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\Dummy.h">
+      <Filter>Entities\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\ScriptExecutor.h">
+      <Filter>Entities\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\CoreAndroid.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\UserStats\UserStats.h">
+      <Filter>Core\UserStats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\UserStats\UserStatsService.h">
+      <Filter>Core\UserStats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\OnlineUserStats\OnlineUserStats.h">
+      <Filter>Core\OnlineUserStats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\ItemBuyer.h">
+      <Filter>Entities\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\Music.h">
+      <Filter>Entities\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\SoundEntity.h">
+      <Filter>Entities\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\cacheFile.h">
+      <Filter>Entities\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\cacheTex.h">
+      <Filter>Entities\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\libzip\config.h">
+      <Filter>Common\libzip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\libzip\zip.h">
+      <Filter>Common\libzip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\libzip\zipint.h">
+      <Filter>Common\libzip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\zlib\crc32.h">
+      <Filter>Common\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\zlib\deflate.h">
+      <Filter>Common\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\zlib\gzguts.h">
+      <Filter>Common\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\zlib\inffast.h">
+      <Filter>Common\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\zlib\inffixed.h">
+      <Filter>Common\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\zlib\inflate.h">
+      <Filter>Common\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\zlib\inftrees.h">
+      <Filter>Common\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\zlib\trees.h">
+      <Filter>Common\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\zlib\zconf.h">
+      <Filter>Common\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\zlib\zlib.h">
+      <Filter>Common\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\zlib\zutil.h">
+      <Filter>Common\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\ItemRestore.h">
+      <Filter>Entities\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Font\FontInstance.h">
+      <Filter>Core\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Font\FontRes.h">
+      <Filter>Core\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Font\FontService.h">
+      <Filter>Core\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Network\NetworkService.h">
+      <Filter>Core\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\ssluse.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\strdup.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\strequal.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\strerror.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\strtok.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\strtoofft.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\telnet.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\tftp.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\timeval.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\transfer.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\url.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\urldata.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\warnless.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\wildcard.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\amigaos.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\arpa_telnet.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\asyn.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\axtls.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\config-amigaos.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\config-dos.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\config-mac.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\config-os400.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\config-riscos.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\config-symbian.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\config-tpf.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\config-vms.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\config-vxworks.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\config-win32.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\config-win32ce.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\connect.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\content_encoding.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\cookie.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\curl_addrinfo.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\curl_base64.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\curl_darwinssl.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\curl_fnmatch.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\curl_gethostname.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\curl_gssapi.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\curl_hmac.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\curl_ldap.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\curl_md4.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\curl_md5.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\curl_memory.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\curl_memrchr.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\curl_multibyte.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\curl_ntlm.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\curl_ntlm_core.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\curl_ntlm_msgs.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\curl_ntlm_wb.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\curl_rand.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\curl_rtmp.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\curl_sasl.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\curl_schannel.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\curl_sspi.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\curl_threads.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\curlx.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\cyassl.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\dict.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\easyif.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\escape.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\file.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\fileinfo.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\formdata.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\ftp.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\ftplistparser.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\getinfo.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\gopher.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\gtls.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\hash.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\hostip.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\http.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\http_chunks.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\http_digest.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\http_negotiate.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\http_proxy.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\if2ip.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\imap.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\inet_ntop.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\inet_pton.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\krb4.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\llist.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\memdebug.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\multiif.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\netrc.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\non-ascii.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\nonblock.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\nssg.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\parsedate.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\pingpong.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\polarssl.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\pop3.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\progress.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\qssl.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\rawstr.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\rtsp.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\select.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\sendf.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\setup.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\setup_once.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\setup-os400.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\share.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\slist.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\smtp.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\sockaddr.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\socks.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\speedcheck.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\splay.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\ssh.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\sslgen.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\curl\lib\config-android.h">
+      <Filter>Core\Network\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Script\Libs\scriptmath2d.h">
+      <Filter>Core\Script\Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\OnlineUserStats\Facebook.h">
+      <Filter>Core\OnlineUserStats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\lib_json\block_allocator.h">
+      <Filter>Common\libjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\lib_json\json.h">
+      <Filter>Common\libjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Files\JSONFile.h">
+      <Filter>Core\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Sound\ISound.h">
+      <Filter>Core\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Sound\ISoundService.h">
+      <Filter>Core\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Sound\ISoundStream.h">
+      <Filter>Core\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Sound\WavLoader.h">
+      <Filter>Core\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Sound\SoundWav.h">
+      <Filter>Core\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Sound\SoundStream.h">
+      <Filter>Core\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Sound\SoundService.h">
+      <Filter>Core\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Sound\SoundResourceWav.h">
+      <Filter>Core\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Sound\SoundResourceOgg.h">
+      <Filter>Core\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Sound\SoundResource.h">
+      <Filter>Core\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Sound\SoundOgg.h">
+      <Filter>Core\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Control\IControlsService.h">
+      <Filter>Core\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Files\IDataFile.h">
+      <Filter>Core\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Files\IFile.h">
+      <Filter>Core\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Files\IFileBuffer.h">
+      <Filter>Core\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Files\IFileService.h">
+      <Filter>Core\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Files\IStreamLoader.h">
+      <Filter>Core\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Files\IStreamSaver.h">
+      <Filter>Core\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Localize\ILocalizeService.h">
+      <Filter>Core\Localize</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Network\INetworkService.h">
+      <Filter>Core\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Scene\ISceneInstance.h">
+      <Filter>Core\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Scene\ISceneManager.h">
+      <Filter>Core\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Scene\ISceneService.h">
+      <Filter>Core\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Script\IScriptMachine.h">
+      <Filter>Core\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\UserStats\IUserStatsService.h">
+      <Filter>Core\UserStats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Memory.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\ICore.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\libxml\tinyxml2.h">
+      <Filter>Common\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Files\XMLHelper.h">
+      <Filter>Core\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\MediaLibrary\Date.h">
+      <Filter>Core\MediaLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\MediaLibrary\MediaLibraryService.h">
+      <Filter>Core\MediaLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\OnlineUserStats\VK.h">
+      <Filter>Core\OnlineUserStats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\AngelScript\source\as_array.h">
+      <Filter>Core\Script\AngelScript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\AngelScript\source\as_atomic.h">
+      <Filter>Core\Script\AngelScript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\AngelScript\source\as_builder.h">
+      <Filter>Core\Script\AngelScript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\AngelScript\source\as_bytecode.h">
+      <Filter>Core\Script\AngelScript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\AngelScript\source\as_callfunc.h">
+      <Filter>Core\Script\AngelScript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\AngelScript\source\as_compiler.h">
+      <Filter>Core\Script\AngelScript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\AngelScript\source\as_config.h">
+      <Filter>Core\Script\AngelScript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\AngelScript\source\as_configgroup.h">
+      <Filter>Core\Script\AngelScript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\AngelScript\source\as_context.h">
+      <Filter>Core\Script\AngelScript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\AngelScript\source\as_criticalsection.h">
+      <Filter>Core\Script\AngelScript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\AngelScript\source\as_datatype.h">
+      <Filter>Core\Script\AngelScript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\AngelScript\source\as_debug.h">
+      <Filter>Core\Script\AngelScript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\AngelScript\source\as_gc.h">
+      <Filter>Core\Script\AngelScript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\AngelScript\source\as_generic.h">
+      <Filter>Core\Script\AngelScript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\AngelScript\source\as_map.h">
+      <Filter>Core\Script\AngelScript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\AngelScript\source\as_memory.h">
+      <Filter>Core\Script\AngelScript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\AngelScript\source\as_module.h">
+      <Filter>Core\Script\AngelScript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\AngelScript\source\as_objecttype.h">
+      <Filter>Core\Script\AngelScript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\AngelScript\source\as_outputbuffer.h">
+      <Filter>Core\Script\AngelScript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\AngelScript\source\as_parser.h">
+      <Filter>Core\Script\AngelScript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\AngelScript\source\as_property.h">
+      <Filter>Core\Script\AngelScript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\AngelScript\source\as_restore.h">
+      <Filter>Core\Script\AngelScript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\AngelScript\source\as_scriptcode.h">
+      <Filter>Core\Script\AngelScript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\AngelScript\source\as_scriptengine.h">
+      <Filter>Core\Script\AngelScript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\AngelScript\source\as_scriptfunction.h">
+      <Filter>Core\Script\AngelScript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\AngelScript\source\as_scriptnode.h">
+      <Filter>Core\Script\AngelScript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\AngelScript\source\as_scriptobject.h">
+      <Filter>Core\Script\AngelScript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\AngelScript\source\as_string.h">
+      <Filter>Core\Script\AngelScript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\AngelScript\source\as_string_util.h">
+      <Filter>Core\Script\AngelScript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\AngelScript\source\as_symboltable.h">
+      <Filter>Core\Script\AngelScript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\AngelScript\source\as_texts.h">
+      <Filter>Core\Script\AngelScript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\AngelScript\source\as_thread.h">
+      <Filter>Core\Script\AngelScript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\AngelScript\source\as_tokendef.h">
+      <Filter>Core\Script\AngelScript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\AngelScript\source\as_tokenizer.h">
+      <Filter>Core\Script\AngelScript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\AngelScript\source\as_typeinfo.h">
+      <Filter>Core\Script\AngelScript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Libraries\AngelScript\source\as_variablescope.h">
+      <Filter>Core\Script\AngelScript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\libgif\getarg.h">
+      <Filter>Common\libgif</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\libgif\gif_hash.h">
+      <Filter>Common\libgif</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\libgif\gif_lib.h">
+      <Filter>Common\libgif</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\libgif\gif_lib_private.h">
+      <Filter>Common\libgif</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Mobile\MobileService.h">
+      <Filter>Core\Mobile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Textures\VideoTextureInstance.h">
+      <Filter>Core\Render\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Render\RenderServiceGLES.h">
+      <Filter>Core\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Textures\TextureGLES.h">
+      <Filter>Core\Render\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Shaders\PixelShaderGLES.h">
+      <Filter>Core\Render\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Shaders\VertexShaderGLES.h">
+      <Filter>Core\Render\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Geometry\IndexBufferGLES.h">
+      <Filter>Core\Render\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Geometry\VertexBufferGLES.h">
+      <Filter>Core\Render\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\MediaPlayer\MediaPlayer.h">
+      <Filter>Core\MediaPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Script\Libs\scriptdictionary.h">
+      <Filter>Core\Script\Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\NGUIButton.h">
+      <Filter>Entities\NGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\NGUICalendar.h">
+      <Filter>Entities\NGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\NGUIEditBox.h">
+      <Filter>Entities\NGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\NGUIFont.h">
+      <Filter>Entities\NGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\NGUIISODrawer.h">
+      <Filter>Entities\NGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\NGUILabel.h">
+      <Filter>Entities\NGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\NGUIPager.h">
+      <Filter>Entities\NGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\NGUIScroller.h">
+      <Filter>Entities\NGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\NGUIService.h">
+      <Filter>Entities\NGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\NGUISymbol.h">
+      <Filter>Entities\NGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\NGUISymbolInstance.h">
+      <Filter>Entities\NGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\NGUITexture.h">
+      <Filter>Entities\NGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\NGUITrackBar.h">
+      <Filter>Entities\NGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\NGUIWidget.h">
+      <Filter>Entities\NGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\RT_NGUI.h">
+      <Filter>Entities\NGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\TextureEntry.h">
+      <Filter>Entities\NGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Technique\Techniques\RT_NFont.h">
+      <Filter>Core\Render\Technique\Techniques</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\RT_NGUI_A.h">
+      <Filter>Entities\NGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\NGUIImageDrawer.h">
+      <Filter>Entities\NGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\NGUITextDrawer.h">
+      <Filter>Entities\NGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\NGUIImageListDrawer.h">
+      <Filter>Entities\NGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\NGUIButtonInstances.h">
+      <Filter>Entities\NGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Script\Libs\scripthandle.h">
+      <Filter>Core\Script\Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\RT_NGUI_Mask.h">
+      <Filter>Entities\NGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\AppNow\ChatClient.h">
+      <Filter>Entities\AppNow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\AppNow\ChatClientImpl.h">
+      <Filter>Entities\AppNow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\AppNow\OTRChatClient.h">
+      <Filter>Entities\AppNow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\AppNow\OTRChatClientImpl.h">
+      <Filter>Entities\AppNow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\AppNow\ChatCommon.h">
+      <Filter>Entities\AppNow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\NGUITimeSelector.h">
+      <Filter>Entities\NGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\TextProcessing.h">
+      <Filter>Entities\NGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\NGUILabelRich.h">
+      <Filter>Entities\NGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\stb_image.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Font\FontCharmap.h">
+      <Filter>Core\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Font\FontCharToGlyphIndexMap.h">
+      <Filter>Core\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\libpng\lodepng.h">
+      <Filter>Common\libpng</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\OnlineUserStats\Instagram.h">
+      <Filter>Core\OnlineUserStats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Network\NetworkDataBuffer.h">
+      <Filter>Core\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Network\Sockets.h">
+      <Filter>Core\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Network\NetLogger.h">
+      <Filter>Core\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\Properties\Properties.h">
+      <Filter>Common\Properties</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\Properties\PropertiesOwner.h">
+      <Filter>Common\Properties</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\Properties\PropertyBase.h">
+      <Filter>Common\Properties</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\Properties\PropertyBaseWidget.h">
+      <Filter>Common\Properties</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\Properties\PropertyBool.h">
+      <Filter>Common\Properties</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\Properties\PropertyBoolWidget.h">
+      <Filter>Common\Properties</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\Properties\PropertyCallback.h">
+      <Filter>Common\Properties</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\Properties\PropertyCallbackWidget.h">
+      <Filter>Common\Properties</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\Properties\PropertyColor.h">
+      <Filter>Common\Properties</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\Properties\PropertyColorWidget.h">
+      <Filter>Common\Properties</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\Properties\PropertyEnum.h">
+      <Filter>Common\Properties</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\Properties\PropertyEnumWidget.h">
+      <Filter>Common\Properties</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\Properties\PropertyFilename.h">
+      <Filter>Common\Properties</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\Properties\PropertyFilenameWidget.h">
+      <Filter>Common\Properties</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\Properties\PropertyFloat.h">
+      <Filter>Common\Properties</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\Properties\PropertyFloatWidget.h">
+      <Filter>Common\Properties</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\Properties\PropertyFont.h">
+      <Filter>Common\Properties</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\Properties\PropertyFontWidget.h">
+      <Filter>Common\Properties</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\Properties\PropertyInt.h">
+      <Filter>Common\Properties</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\Properties\PropertyIntWidget.h">
+      <Filter>Common\Properties</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\Properties\PropertyString.h">
+      <Filter>Common\Properties</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\Properties\PropertyStringEnum.h">
+      <Filter>Common\Properties</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\Properties\PropertyStringEnumWidget.h">
+      <Filter>Common\Properties</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Common\Properties\PropertyStringWidget.h">
+      <Filter>Common\Properties</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ENgine\Core\Resources\Resources.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Shaders\ShaderGLES.h">
+      <Filter>Core\Render\Shaders</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

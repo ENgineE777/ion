@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ENgine", "ENgine.vcxproj", "{B3E50067-0FDD-4A2A-9D6D-F893B1EC4845}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Android = Debug|Android
+		Release|Android = Release|Android
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3E50067-0FDD-4A2A-9D6D-F893B1EC4845}.Debug|Android.ActiveCfg = Debug|Android
+		{B3E50067-0FDD-4A2A-9D6D-F893B1EC4845}.Debug|Android.Build.0 = Debug|Android
+		{B3E50067-0FDD-4A2A-9D6D-F893B1EC4845}.Release|Android.ActiveCfg = Release|Android
+		{B3E50067-0FDD-4A2A-9D6D-F893B1EC4845}.Release|Android.Build.0 = Release|Android
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

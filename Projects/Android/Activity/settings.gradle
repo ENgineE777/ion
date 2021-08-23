@@ -1,0 +1,6 @@
+include ':androidBillingLibrary', ':gcm'
+include ':play_licensing'
+include ':downloader_library'
+include ':zip_file'
+include ':eNgineLib'
+include ':appNowActivity'

@@ -1,0 +1,113 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From AndroidBillingLibrary:
+* .gitignore
+* proguard.cfg
+From ENgineLib:
+* build.xml
+From FacebookSDK:
+* build.xml
+From play_licensing:
+* aidl\
+* aidl\ILicenseResultListener.aidl
+* aidl\ILicensingService.aidl
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.0.0
+
+Replaced Libraries with Dependencies:
+-------------------------------------
+The importer recognized the following library projects as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the source files in your project were of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the library replacement in the import wizard and try
+again:
+
+google-play-services_lib => [com.google.android.gms:play-services:+]
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In AndroidBillingLibrary:
+* AndroidManifest.xml => androidBillingLibrary\src\main\AndroidManifest.xml
+* assets\ => androidBillingLibrary\src\main\assets
+* res\ => androidBillingLibrary\src\main\res\
+* src\ => androidBillingLibrary\src\main\java\
+* src\com\android\vending\billing\IMarketBillingService.aidl => androidBillingLibrary\src\main\aidl\com\android\vending\billing\IMarketBillingService.aidl
+In FacebookSDK:
+* AndroidManifest.xml => facebookSDK\src\main\AndroidManifest.xml
+* assets\ => facebookSDK\src\main\assets
+* res\ => facebookSDK\src\main\res\
+* src\ => facebookSDK\src\main\java\
+In play_licensing:
+* AndroidManifest.xml => play_licensing\src\main\AndroidManifest.xml
+* assets\ => play_licensing\src\main\assets
+* res\ => play_licensing\src\main\res
+* src\ => play_licensing\src\main\java\
+In downloader_library:
+* AndroidManifest.xml => downloader_library\src\main\AndroidManifest.xml
+* assets\ => downloader_library\src\main\assets
+* res\ => downloader_library\src\main\res\
+* src\ => downloader_library\src\main\java\
+In zip_file:
+* AndroidManifest.xml => zip_file\src\main\AndroidManifest.xml
+* assets\ => zip_file\src\main\assets
+* res\ => zip_file\src\main\res\
+* src\ => zip_file\src\main\java\
+In ENgineLib:
+* AndroidManifest.xml => eNgineLib\src\main\AndroidManifest.xml
+* assets\ => eNgineLib\src\main\assets
+* libs\armeabi\libENgine.so => eNgineLib\src\main\jniLibs\armeabi\libENgine.so
+* lint.xml => eNgineLib\lint.xml
+* res\ => eNgineLib\src\main\res\
+* src\ => eNgineLib\src\main\java\
+In AppNowActivity:
+* AndroidManifest.xml => appNowActivity\src\main\AndroidManifest.xml
+* assets\ => appNowActivity\src\main\assets\
+* res\ => appNowActivity\src\main\res\
+* src\ => appNowActivity\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

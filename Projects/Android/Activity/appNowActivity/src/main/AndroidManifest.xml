@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+**
+** Copyright 2009, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License"); 
+** you may not use this file except in compliance with the License. 
+** You may obtain a copy of the License at 
+**
+**     http://www.apache.org/licenses/LICENSE-2.0 
+**
+** Unless required by applicable law or agreed to in writing, software 
+** distributed under the License is distributed on an "AS IS" BASIS, 
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+** See the License for the specific language governing permissions and 
+** limitations under the License.
+*/
+-->
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ion.packagename"  android:versionCode="1" android:versionName="1.0.0" android:installLocation="preferExternal"
+	xmlns:tools="http://schemas.android.com/tools">
+  
+    <application android:icon="@drawable/ic_launcher" android:label="@string/ion_activity">
+
+		<meta-data android:name="com.google.android.maps.v2.API_KEY"
+			android:value="API-KEY"/>
+
+		<meta-data
+			android:name="com.google.android.gms.version"
+			android:value="@integer/google_play_services_version" />
+
+         <activity android:name="com.ion.appnow.AppNowActivity"
+                android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"
+            	android:launchMode="singleTask"
+            	android:configChanges="orientation|keyboardHidden|screenSize"
+                android:screenOrientation="portrait"
+			 	android:icon="@drawable/ic_launcher">
+                
+            <intent-filter>
+        		<action android:name="com.ion.packagename.MESSAGE"/>
+        		<category android:name="android.intent.category.DEFAULT"/>
+    		</intent-filter>    		            
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>              			        
+
+         <activity android:name="com.ion.appnow.VKShareActivity" android:label="@string/share_vk" android:icon="@drawable/icon_vk">
+                
+            <intent-filter>
+        		<action android:name="android.intent.action.SEND" />
+        		<category android:name="android.intent.category.ALTERNATIVE" />    				      	
+        		<data android:mimeType="text/plain" />
+    		</intent-filter>
+         </activity>
+
+		<!--
+
+		<activity-alias android:name="com.ion.appnow.ShortcutActivity"
+			android:targetActivity="com.ion.appnow.AppNowActivity"
+			android:label="@string/ion_activity"
+			android:icon="@drawable/ic_launcher">
+
+			<intent-filter>
+				<action android:name="android.intent.action.CREATE_SHORTCUT" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+
+		</activity-alias>
+
+		-->
+
+		<activity android:name="com.ion.engine.IonWebViewActivity"
+                   android:theme="@android:style/Theme.Light.NoTitleBar"
+                   android:label="@string/app_name" />
+
+		<activity android:name="com.facebook.FacebookActivity"
+				  android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+				  android:theme="@android:style/Theme.Translucent.NoTitleBar"
+				  android:label="@string/app_name" />
+
+         
+         <activity android:name="com.ion.engine.IonVKLoginActivity"
+                   android:theme="@android:style/Theme.Light.NoTitleBar"
+                   android:label="@string/app_name" />
+         
+         <activity android:name="com.ion.engine.IonInstagramLoginActivity"
+                   android:theme="@android:style/Theme.Light.NoTitleBar"
+                   android:label="@string/app_name" />
+         
+         <activity android:name="com.ion.engine.IonVideoViewActivity"
+                   android:theme="@android:style/Theme.Light.NoTitleBar"
+                   android:label="@string/app_name" />
+         
+         <activity android:name="com.ion.engine.IonMapActivity"    
+                   android:theme="@android:style/Theme.Light.NoTitleBar"              
+                   android:label="@string/app_name" />
+         
+      <!--
+        <service android:name="net.robotmedia.billing.BillingService" />
+		<receiver android:name="net.robotmedia.billing.BillingReceiver">
+			<intent-filter>
+				<action android:name="com.android.vending.billing.IN_APP_NOTIFY" />
+				<action android:name="com.android.vending.billing.RESPONSE_CODE" />
+				<action android:name="com.android.vending.billing.PURCHASE_STATE_CHANGED" />
+			</intent-filter>
+		</receiver>
+	-->	
+
+		<!--
+		  BroadcastReceiver that will receive intents from GCM
+		  services and handle them to the custom IntentService.
+		 
+		  The com.google.android.c2dm.permission.SEND permission is necessary
+		  so only GCM services can send data messages for the app.
+		-->
+		<receiver
+		        android:name="com.ion.appnow.GCMReceiver"
+		        android:permission="com.google.android.c2dm.permission.SEND">
+		    <intent-filter>
+		        <!-- Receives the actual messages. -->
+		        <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+		        <!-- Receives the registration id. -->
+		        <action android:name="com.google.android.c2dm.intent.REGISTRATION"/>
+		        <category android:name="com.ion.packagename"/>
+		    </intent-filter>
+		</receiver>
+		 
+		<service android:name="com.ion.appnow.GCMIntentService" />
+			
+		<activity android:label="@string/app_name" android:name="com.ion.packagename.MetaActivity.facebook">
+		    <meta-data android:name="appid" android:value="val:1395007780739839"/>		    
+		</activity>
+		
+		<activity android:label="@string/app_name" android:name="com.ion.packagename.MetaActivity.vk">
+		    <meta-data android:name="appid" android:value="val:id"/>		    
+		</activity>
+
+		<activity android:label="@string/app_name" android:name="com.ion.packagename.MetaActivity.info">
+		    <meta-data android:name="app_id" android:value="val:448"/>		 
+		    <meta-data android:name="app_secret" android:value="val:secret"/>		    		   
+		</activity>
+
+    </application>
+        
+    <permission android:name="com.ion.packagename.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    
+     
+	<uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+	<uses-permission android:name="com.ion.packagename.permission.C2D_MESSAGE"/>
+	<uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+
+    <uses-feature android:glEsVersion="0x00020000"/>
+    <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="15"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />    
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+	<uses-permission android:name="android.permission.CAMERA" />
+	<uses-feature android:name="android.hardware.camera" />
+	<uses-feature android:name="android.hardware.camera.autofocus"/>
+
+	<!--
+                <uses-permission android:name="android.permission.READ_CONTACTS"/>
+                <uses-permission android:name="android.permission.CALL_PHONE"/>
+                <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    -->
+
+
+                <uses-permission android:name="com.android.vending.CHECK_LICENSE" tools:node="remove"/>
+                <uses-permission android:name="android.permission.SEND_SMS" tools:node="remove" />
+                <uses-permission android:name="com.android.vending.BILLING" tools:node="remove" />
+
+        </manifest>

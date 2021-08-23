@@ -1,0 +1,927 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{09b92f2d-9d7f-4aa7-bd73-f450ff4e94f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Containers">
+      <UniqueIdentifier>{6ffe6b6a-bd0c-49ef-a961-55003a6c3372}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Math">
+      <UniqueIdentifier>{68872d3d-8b77-415f-a3d1-7e6a98afd3ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{48a7340f-71d2-4dbd-b400-033282575aec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Animation">
+      <UniqueIdentifier>{fa1d0546-6a8a-40e0-94c2-a077f4565f88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Animation\Affectors">
+      <UniqueIdentifier>{66376993-4f99-4e31-b44b-6f3de0f0953f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Animation\Base">
+      <UniqueIdentifier>{9bd53046-4056-480a-ba9f-6aafdbfcb38e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Animation\Imp">
+      <UniqueIdentifier>{04f50373-622f-49d4-948a-62eda3f7cfbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Control">
+      <UniqueIdentifier>{3bbd223d-9255-4573-a634-79c88adf55a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Files">
+      <UniqueIdentifier>{c9f440fb-984a-49f5-b496-8129d45c4b79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Model">
+      <UniqueIdentifier>{f8eabf8a-c61e-4e0b-a242-723ad694ce2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Physics">
+      <UniqueIdentifier>{b1495a80-20cc-442a-b2c7-7a909d91c1c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Render">
+      <UniqueIdentifier>{79c846ec-5e1f-4504-9d92-ffd58ea455ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Render\Debug">
+      <UniqueIdentifier>{2372f910-d547-44bb-92b6-5d3f432bb58a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Render\Geometry">
+      <UniqueIdentifier>{6addfc69-83a7-44e9-901f-1f6985abd06e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Render\Misc">
+      <UniqueIdentifier>{943a4374-ab50-4b8b-aa33-14da4764848a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Render\Queries">
+      <UniqueIdentifier>{608c1e48-c396-4708-9977-e83a5bc5ad0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Render\Shaders">
+      <UniqueIdentifier>{8db7136d-b673-42b2-beb8-f818c22c2696}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Render\Technique">
+      <UniqueIdentifier>{d082134d-1221-4c0a-84e2-12332f355b9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Render\Technique\Techniques">
+      <UniqueIdentifier>{c41fa630-3016-4cb6-93da-2bb536402b92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Render\Textures">
+      <UniqueIdentifier>{335490eb-115b-4f56-a5ab-7e060f9907cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Render\Localize">
+      <UniqueIdentifier>{25d3c567-b9ec-42e7-bd42-9160df5fc922}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Scene">
+      <UniqueIdentifier>{c9233f0e-e21f-4933-9673-48b30721a4df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Script">
+      <UniqueIdentifier>{315fe60d-f22f-4fde-9f8c-2fdc2343ca50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Script\Libs">
+      <UniqueIdentifier>{15fb9d43-8baf-4e8d-9938-ded575f0b6e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities">
+      <UniqueIdentifier>{85eec38c-94b8-4c07-8471-ff8e71be431f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Animator">
+      <UniqueIdentifier>{95eb1774-376e-4c3e-a51f-b4775d76291e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Animator\DataTrack">
+      <UniqueIdentifier>{12cd88b5-067c-4197-ac6b-1d7b7d8befa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Animator\TrackPlayers">
+      <UniqueIdentifier>{fa5ab4f2-bfe8-46e0-8e69-b097515a9d88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Render">
+      <UniqueIdentifier>{8cc0bb7e-9cd9-45a4-bfa5-b572cafd3988}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Render\Techniques">
+      <UniqueIdentifier>{f286d32d-9e6d-45cd-8513-611ba48c251f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Common">
+      <UniqueIdentifier>{abe50dc6-27e5-477a-b9db-c2da2924d766}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\GUI">
+      <UniqueIdentifier>{9ad4ef16-2a52-488f-a12c-0226ac64a790}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\ENgine\Common\BMP.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Common\CrossString.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Common\ExceptionReport.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Common\Font.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Common\Memory.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Common\ThreadWorker.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Common\unrarlib.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Common\Utils.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Common\XMLHelper.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Common\Containers\BaseContainer.cpp">
+      <Filter>Common\Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\CoreBase.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\CorePC.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Animation\IAnimationAffector.cpp">
+      <Filter>Core\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Animation\Affectors\GraphBlenderAffector.cpp">
+      <Filter>Core\Animation\Affectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Animation\Affectors\RagDollAffector.cpp">
+      <Filter>Core\Animation\Affectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Animation\Affectors\RecoilAffector.cpp">
+      <Filter>Core\Animation\Affectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Animation\Affectors\RotateAffector.cpp">
+      <Filter>Core\Animation\Affectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Animation\Affectors\SkeletonCollisionModelAffector.cpp">
+      <Filter>Core\Animation\Affectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Animation\Affectors\WaveAffector.cpp">
+      <Filter>Core\Animation\Affectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Animation\Base\AnimationControllerIK.cpp">
+      <Filter>Core\Animation\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Animation\Base\AnimationControllerLookAt.cpp">
+      <Filter>Core\Animation\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Animation\Base\AnimationFbxLoader.cpp">
+      <Filter>Core\Animation\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Animation\Base\AnimationInstance.cpp">
+      <Filter>Core\Animation\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Animation\Base\AnimationProcessor.cpp">
+      <Filter>Core\Animation\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Animation\Base\AnimationRes.cpp">
+      <Filter>Core\Animation\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Animation\Base\AnimationService.cpp">
+      <Filter>Core\Animation\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Animation\Imp\AnimationClipImp.cpp">
+      <Filter>Core\Animation\Imp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Animation\Imp\AnimationProcessorImp.cpp">
+      <Filter>Core\Animation\Imp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Animation\Imp\AnimationResImp.cpp">
+      <Filter>Core\Animation\Imp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Animation\Imp\AnimationServiceImp.cpp">
+      <Filter>Core\Animation\Imp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Control\ControlsService.cpp">
+      <Filter>Core\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Files\File.cpp">
+      <Filter>Core\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Files\FileBuffer.cpp">
+      <Filter>Core\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Files\FileService.cpp">
+      <Filter>Core\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Files\StreamLoader.cpp">
+      <Filter>Core\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Files\StreamSaver.cpp">
+      <Filter>Core\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Files\XMLFile.cpp">
+      <Filter>Core\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Model\ModelFbxLoader.cpp">
+      <Filter>Core\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Model\ModelInstance.cpp">
+      <Filter>Core\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Model\ModelRes.cpp">
+      <Filter>Core\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Model\ModelService.cpp">
+      <Filter>Core\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Physics\PhysController.cpp">
+      <Filter>Core\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Physics\PhysicsService.cpp">
+      <Filter>Core\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Physics\PhysObject.cpp">
+      <Filter>Core\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Render\PCMediaPlayer.cpp">
+      <Filter>Core\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Render\RenderService.cpp">
+      <Filter>Core\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Render\RenderServiceD3D.cpp">
+      <Filter>Core\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Render\Debug\DebugFont.cpp">
+      <Filter>Core\Render\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Render\Debug\DebugLines.cpp">
+      <Filter>Core\Render\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Render\Debug\DebugLines2D.cpp">
+      <Filter>Core\Render\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Render\Debug\DebugSphere.cpp">
+      <Filter>Core\Render\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Render\Debug\DebugSprites.cpp">
+      <Filter>Core\Render\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Render\Debug\DebugWiredMesh.cpp">
+      <Filter>Core\Render\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Render\Geometry\IndexBufferD3D.cpp">
+      <Filter>Core\Render\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Render\Geometry\VertexBufferD3D.cpp">
+      <Filter>Core\Render\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Render\Geometry\VertexBufferDynamicD3D.cpp">
+      <Filter>Core\Render\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Render\Misc\Font.cpp">
+      <Filter>Core\Render\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Render\Queries\OcclusionQueryD3D.cpp">
+      <Filter>Core\Render\Queries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Render\Shaders\PixelShaderD3D.cpp">
+      <Filter>Core\Render\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Render\Shaders\ShaderD3D.cpp">
+      <Filter>Core\Render\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Render\Shaders\VertexShaderD3D.cpp">
+      <Filter>Core\Render\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Render\Technique\RenderTechnique.cpp">
+      <Filter>Core\Render\Technique</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Render\Technique\Techniques\RT_DebugLine.cpp">
+      <Filter>Core\Render\Technique\Techniques</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Render\Technique\Techniques\RT_DebugLine2D.cpp">
+      <Filter>Core\Render\Technique\Techniques</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Render\Technique\Techniques\RT_DebugLineNoZ.cpp">
+      <Filter>Core\Render\Technique\Techniques</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Render\Technique\Techniques\RT_DebugSolid.cpp">
+      <Filter>Core\Render\Technique\Techniques</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Render\Technique\Techniques\RT_Font.cpp">
+      <Filter>Core\Render\Technique\Techniques</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Render\Technique\Techniques\RT_UI.cpp">
+      <Filter>Core\Render\Technique\Techniques</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Render\Textures\CubeTextureD3D.cpp">
+      <Filter>Core\Render\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Render\Textures\RenderTargetD3D.cpp">
+      <Filter>Core\Render\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Render\Textures\TextureBaseD3D.cpp">
+      <Filter>Core\Render\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Render\Textures\TextureD3D.cpp">
+      <Filter>Core\Render\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Render\Textures\TextureInstance.cpp">
+      <Filter>Core\Render\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Render\Textures\TextureRes.cpp">
+      <Filter>Core\Render\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Render\Textures\VideoTexturePC.cpp">
+      <Filter>Core\Render\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Render\Textures\VolumeTextureD3D.cpp">
+      <Filter>Core\Render\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Localize\LocalizeService.cpp">
+      <Filter>Core\Render\Localize</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Scene\Properties.cpp">
+      <Filter>Core\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Scene\SceneEntity.cpp">
+      <Filter>Core\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Scene\SceneEntityDesc.cpp">
+      <Filter>Core\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Scene\SceneInstance.cpp">
+      <Filter>Core\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Scene\SceneManager.cpp">
+      <Filter>Core\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Script\ScriptMachine.cpp">
+      <Filter>Core\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Script\ScriptModule.cpp">
+      <Filter>Core\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Script\ScriptModuleCore.cpp">
+      <Filter>Core\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Script\ScriptService.cpp">
+      <Filter>Core\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Script\Libs\scriptmath.cpp">
+      <Filter>Core\Script\Libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Script\Libs\scriptmath3d.cpp">
+      <Filter>Core\Script\Libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Core\Script\Libs\scriptstring.cpp">
+      <Filter>Core\Script\Libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Entities\Animator\Animator.cpp">
+      <Filter>Entities\Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Entities\Animator\AnimatorWindow.cpp">
+      <Filter>Entities\Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Entities\Animator\DataTrack\FloatDataTrack.cpp">
+      <Filter>Entities\Animator\DataTrack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Entities\Animator\DataTrack\FloatDataTrackWidgets.cpp">
+      <Filter>Entities\Animator\DataTrack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Entities\Animator\DataTrack\TransformDataTrack.cpp">
+      <Filter>Entities\Animator\DataTrack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Entities\Animator\DataTrack\TransformDataTrackWidgets.cpp">
+      <Filter>Entities\Animator\DataTrack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Entities\Animator\TrackPlayers\CameraPlayer.cpp">
+      <Filter>Entities\Animator\TrackPlayers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Entities\Animator\TrackPlayers\EntityTrackPlayer.cpp">
+      <Filter>Entities\Animator\TrackPlayers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Entities\Animator\TrackPlayers\TrackPlayer.cpp">
+      <Filter>Entities\Animator\TrackPlayers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Entities\Render\DirLight.cpp">
+      <Filter>Entities\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Entities\Render\Model.cpp">
+      <Filter>Entities\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Entities\Render\PointLight.cpp">
+      <Filter>Entities\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Entities\Render\SkyBox.cpp">
+      <Filter>Entities\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Entities\Render\Technique\RTM_Diffuse.cpp">
+      <Filter>Entities\Render\Techniques</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Entities\Render\Technique\RTM_DiffuseBlend.cpp">
+      <Filter>Entities\Render\Techniques</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Entities\Render\Technique\RTM_DiffuseBlendAlpha.cpp">
+      <Filter>Entities\Render\Techniques</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Entities\Render\Technique\RTM_DiffusePxL.cpp">
+      <Filter>Entities\Render\Techniques</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Entities\Camera.cpp">
+      <Filter>Entities\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Entities\PhysicBox.cpp">
+      <Filter>Entities\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Entities\ScriptExecutor.cpp">
+      <Filter>Entities\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Entities\TimeBomb.cpp">
+      <Filter>Entities\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Entities\GUI\GUIButton.cpp">
+      <Filter>Entities\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Entities\GUI\GUILabel.cpp">
+      <Filter>Entities\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ENgine\Entities\GUI\GUIWidget.cpp">
+      <Filter>Entities\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="SSaver.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\ENgine\Common\BMP.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Common\ClassDeclarant.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Common\Color.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Common\Common.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Common\CrossString.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Common\ExceptionReport.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Common\Font.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Common\Frustum.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Common\HashFunc.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Common\Math.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Common\Memory.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Common\TaskHolder.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Common\ThreadWorker.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Common\Types.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Common\unrarlib.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Common\Utils.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Common\XMLHelper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Common\Containers\BaseContainer.h">
+      <Filter>Common\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Common\Containers\HashMap.h">
+      <Filter>Common\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Common\Containers\IList.h">
+      <Filter>Common\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Common\Math\Matrix.h">
+      <Filter>Common\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Common\Math\Quaternion.h">
+      <Filter>Common\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Common\Math\Vector.h">
+      <Filter>Common\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Common\Math\Vector2.h">
+      <Filter>Common\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Common\Math\Vector4.h">
+      <Filter>Common\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Core.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\CoreBase.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\CorePC.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Animation\IAnimationAffector.h">
+      <Filter>Core\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Animation\IAnimationClip.h">
+      <Filter>Core\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Animation\IAnimationController.h">
+      <Filter>Core\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Animation\IAnimationEvents.h">
+      <Filter>Core\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Animation\IAnimationInstance.h">
+      <Filter>Core\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Animation\IAnimationProcessor.h">
+      <Filter>Core\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Animation\IAnimationService.h">
+      <Filter>Core\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Animation\Affectors\AffectorProperties.h">
+      <Filter>Core\Animation\Affectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Animation\Affectors\GraphBlenderAffector.h">
+      <Filter>Core\Animation\Affectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Animation\Affectors\RagDollAffector.h">
+      <Filter>Core\Animation\Affectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Animation\Affectors\RecoilAffector.h">
+      <Filter>Core\Animation\Affectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Animation\Affectors\RotateAffector.h">
+      <Filter>Core\Animation\Affectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Animation\Affectors\SkeletonCollisionModelAffector.h">
+      <Filter>Core\Animation\Affectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Animation\Affectors\WaveAffector.h">
+      <Filter>Core\Animation\Affectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Animation\Base\AnimationClip.h">
+      <Filter>Core\Animation\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Animation\Base\AnimationControllerIK.h">
+      <Filter>Core\Animation\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Animation\Base\AnimationControllerLookAt.h">
+      <Filter>Core\Animation\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Animation\Base\AnimationFbxLoader.h">
+      <Filter>Core\Animation\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Animation\Base\AnimationInstance.h">
+      <Filter>Core\Animation\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Animation\Base\AnimationProcessor.h">
+      <Filter>Core\Animation\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Animation\Base\AnimationRes.h">
+      <Filter>Core\Animation\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Animation\Base\AnimationService.h">
+      <Filter>Core\Animation\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Animation\Imp\AnimationClipImp.h">
+      <Filter>Core\Animation\Imp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Animation\Imp\AnimationProcessorImp.h">
+      <Filter>Core\Animation\Imp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Animation\Imp\AnimationResImp.h">
+      <Filter>Core\Animation\Imp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Animation\Imp\AnimationServiceImp.h">
+      <Filter>Core\Animation\Imp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Control\ControlsService.h">
+      <Filter>Core\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Files\File.h">
+      <Filter>Core\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Files\FileBuffer.h">
+      <Filter>Core\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Files\FileService.h">
+      <Filter>Core\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Files\StreamLoader.h">
+      <Filter>Core\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Files\StreamSaver.h">
+      <Filter>Core\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Files\XMLFile.h">
+      <Filter>Core\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Model\Mesh.h">
+      <Filter>Core\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Model\ModelFbxLoader.h">
+      <Filter>Core\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Model\ModelInstance.h">
+      <Filter>Core\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Model\ModelRes.h">
+      <Filter>Core\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Model\ModelService.h">
+      <Filter>Core\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Physics\IPhysController.h">
+      <Filter>Core\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Physics\IPhysicsService.h">
+      <Filter>Core\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Physics\IPhysObject.h">
+      <Filter>Core\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Physics\PhysController.h">
+      <Filter>Core\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Physics\PhysicsService.h">
+      <Filter>Core\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Physics\PhysObject.h">
+      <Filter>Core\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Render\PCMediaPlayer.h">
+      <Filter>Core\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Render\RenderService.h">
+      <Filter>Core\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Render\RenderServiceD3D.h">
+      <Filter>Core\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Render\Debug\DebugFont.h">
+      <Filter>Core\Render\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Render\Debug\DebugLines.h">
+      <Filter>Core\Render\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Render\Debug\DebugLines2D.h">
+      <Filter>Core\Render\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Render\Debug\DebugSphere.h">
+      <Filter>Core\Render\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Render\Debug\DebugSprites.h">
+      <Filter>Core\Render\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Render\Debug\DebugWiredMesh.h">
+      <Filter>Core\Render\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Render\Geometry\GeometryBuffer.h">
+      <Filter>Core\Render\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Render\Geometry\IndexBuffer.h">
+      <Filter>Core\Render\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Render\Geometry\IndexBufferD3D.h">
+      <Filter>Core\Render\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Render\Geometry\VertexBuffer.h">
+      <Filter>Core\Render\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Render\Geometry\VertexBufferD3D.h">
+      <Filter>Core\Render\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Render\Geometry\VertexBufferDynamicD3D.h">
+      <Filter>Core\Render\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Render\Misc\Font.h">
+      <Filter>Core\Render\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Render\Queries\OcclusionQuery.h">
+      <Filter>Core\Render\Queries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Render\Queries\OcclusionQueryD3D.h">
+      <Filter>Core\Render\Queries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Render\Shaders\PixelShader.h">
+      <Filter>Core\Render\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Render\Shaders\PixelShaderD3D.h">
+      <Filter>Core\Render\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Render\Shaders\Shader.h">
+      <Filter>Core\Render\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Render\Shaders\ShaderD3D.h">
+      <Filter>Core\Render\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Render\Shaders\VertexShader.h">
+      <Filter>Core\Render\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Render\Shaders\VertexShaderD3D.h">
+      <Filter>Core\Render\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Render\Technique\RenderTechnique.h">
+      <Filter>Core\Render\Technique</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Render\Technique\Techniques\RT_DebugLine.h">
+      <Filter>Core\Render\Technique\Techniques</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Render\Technique\Techniques\RT_DebugLine2D.h">
+      <Filter>Core\Render\Technique\Techniques</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Render\Technique\Techniques\RT_DebugLineNoZ.h">
+      <Filter>Core\Render\Technique\Techniques</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Render\Technique\Techniques\RT_DebugSolid.h">
+      <Filter>Core\Render\Technique\Techniques</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Render\Technique\Techniques\RT_Font.h">
+      <Filter>Core\Render\Technique\Techniques</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Render\Technique\Techniques\RT_UI.h">
+      <Filter>Core\Render\Technique\Techniques</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Render\Textures\CubeTextureD3D.h">
+      <Filter>Core\Render\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Render\Textures\RenderTarget.h">
+      <Filter>Core\Render\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Render\Textures\RenderTargetD3D.h">
+      <Filter>Core\Render\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Render\Textures\Texture.h">
+      <Filter>Core\Render\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Render\Textures\TextureBase.h">
+      <Filter>Core\Render\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Render\Textures\TextureBaseD3D.h">
+      <Filter>Core\Render\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Render\Textures\TextureD3D.h">
+      <Filter>Core\Render\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Render\Textures\TextureInstance.h">
+      <Filter>Core\Render\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Render\Textures\TextureRes.h">
+      <Filter>Core\Render\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Render\Textures\VideoTexture.h">
+      <Filter>Core\Render\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Render\Textures\VideoTexturePC.h">
+      <Filter>Core\Render\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Render\Textures\VolumeTextureD3D.h">
+      <Filter>Core\Render\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Localize\LocalizeService.h">
+      <Filter>Core\Render\Localize</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Scene\Properties.h">
+      <Filter>Core\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Scene\SceneEntity.h">
+      <Filter>Core\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Scene\SceneEntityDesc.h">
+      <Filter>Core\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Scene\SceneInstance.h">
+      <Filter>Core\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Scene\SceneManager.h">
+      <Filter>Core\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Scene\SceneTaskLevels.h">
+      <Filter>Core\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Script\IScriptModule.h">
+      <Filter>Core\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Script\IScriptService.h">
+      <Filter>Core\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Script\ScriptMachine.h">
+      <Filter>Core\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Script\ScriptModule.h">
+      <Filter>Core\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Script\ScriptModuleCore.h">
+      <Filter>Core\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Script\ScriptService.h">
+      <Filter>Core\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Script\Libs\scriptmath.h">
+      <Filter>Core\Script\Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Script\Libs\scriptmath3d.h">
+      <Filter>Core\Script\Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Core\Script\Libs\scriptstring.h">
+      <Filter>Core\Script\Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Entities\Animator\Animator.h">
+      <Filter>Entities\Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Entities\Animator\AnimatorWindow.h">
+      <Filter>Entities\Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Entities\Animator\DataTrack\DataTrack.h">
+      <Filter>Entities\Animator\DataTrack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Entities\Animator\DataTrack\FloatDataTrack.h">
+      <Filter>Entities\Animator\DataTrack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Entities\Animator\DataTrack\FloatDataTrackWidgets.h">
+      <Filter>Entities\Animator\DataTrack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Entities\Animator\DataTrack\TransformDataTrack.h">
+      <Filter>Entities\Animator\DataTrack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Entities\Animator\DataTrack\TransformDataTrackWidgets.h">
+      <Filter>Entities\Animator\DataTrack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Entities\Animator\TrackPlayers\CameraPlayer.h">
+      <Filter>Entities\Animator\TrackPlayers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Entities\Animator\TrackPlayers\EntityTrackPlayer.h">
+      <Filter>Entities\Animator\TrackPlayers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Entities\Animator\TrackPlayers\TrackPlayer.h">
+      <Filter>Entities\Animator\TrackPlayers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Entities\Render\DirLight.h">
+      <Filter>Entities\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Entities\Render\Model.h">
+      <Filter>Entities\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Entities\Render\PointLight.h">
+      <Filter>Entities\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Entities\Render\SkyBox.h">
+      <Filter>Entities\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Entities\Render\Technique\RTM_Diffuse.h">
+      <Filter>Entities\Render\Techniques</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Entities\Render\Technique\RTM_DiffuseBlend.h">
+      <Filter>Entities\Render\Techniques</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Entities\Render\Technique\RTM_DiffuseBlendAlpha.h">
+      <Filter>Entities\Render\Techniques</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Entities\Render\Technique\RTM_DiffusePxL.h">
+      <Filter>Entities\Render\Techniques</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Entities\Camera.h">
+      <Filter>Entities\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Entities\PhysicBox.h">
+      <Filter>Entities\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Entities\ScriptExecutor.h">
+      <Filter>Entities\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Entities\TimeBomb.h">
+      <Filter>Entities\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Entities\GUI\GUIButton.h">
+      <Filter>Entities\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Entities\GUI\GUILabel.h">
+      <Filter>Entities\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ENgine\Entities\GUI\GUIWidget.h">
+      <Filter>Entities\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="SSaver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Bin\bass.dll" />
+    <None Include="Data.rar" />
+    <None Include="Bitmap\Logo.bmp" />
+    <None Include="manifest.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc" />
+  </ItemGroup>
+</Project>

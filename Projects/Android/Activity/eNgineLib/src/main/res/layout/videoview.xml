@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+         android:id="@+id/frameLayout"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:background="@color/black" >
+
+    <!--        
+    <VideoView
+        android:id="@+id/video"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:longClickable="false"/>
+-->
+
+         <SurfaceView
+             android:id="@+id/surfaceview"
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent"
+             android:layout_gravity="center_vertical|center_horizontal"
+             android:layout_weight="0" />
+
+         <ProgressBar
+             android:id="@+id/prog"
+             android:layout_width="70dp"
+             android:layout_height="70dp"
+             android:layout_gravity="center_vertical|center_horizontal" />
+
+         <ImageView
+    android:id="@+id/upperPanelBack"
+    android:layout_width="fill_parent"
+    android:layout_height="44dp"
+    android:gravity="top"
+    android:scaleType="center"
+    android:src="@drawable/back"
+    />
+
+                               <ImageView
+                                   android:id="@+id/bottomPanelBackWithQuallity"
+                                   android:layout_width="fill_parent"
+                                   android:layout_height="92dp"
+                                   android:layout_gravity="bottom"
+                                   android:scaleType="centerCrop"
+                                   android:src="@drawable/back" />
+                                <ImageView
+                                   android:id="@+id/bottomPanelBackWithoutQuallity"
+                                   android:layout_width="fill_parent"
+                                   android:layout_height="50dp"
+                                   android:layout_gravity="bottom"
+                                   android:scaleType="centerCrop"
+                                   android:src="@drawable/back" />
+
+         <LinearLayout
+             android:id="@+id/linearLayout1"
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent"
+             android:gravity="top"
+             android:orientation="horizontal" >
+
+             <TextView
+                 android:id="@+id/videoName"
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="10dp"
+                 android:layout_marginRight="40dp"
+                 android:layout_marginTop="11dp"
+                 android:gravity="top"
+                 android:text="VideoName12345678fgsdfgsdfgsdfgsdfgsdfgsdfg"
+                 android:textColor="@color/white"
+                 android:textSize="15sp" />
+
+             <ImageButton
+                 android:id="@+id/CloseBtn"
+                 android:layout_width="40dp"
+                 android:layout_height="40dp"
+                 android:layout_marginLeft="-45dp"
+                 android:layout_marginTop="2dp"
+                 android:background="@drawable/my_close"
+                 android:scaleType="fitCenter" />
+         </LinearLayout>
+
+
+         <LinearLayout
+             android:id="@+id/linearLayoutQuallity"
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent"
+             android:layout_marginBottom="40dp"
+             android:layout_weight="2"
+             android:gravity="bottom"
+             android:orientation="horizontal" >
+
+             <Button
+                 android:id="@+id/Quallity0Btn"
+                 android:layout_width="60dp"
+                 android:layout_height="40dp"
+                 android:layout_marginLeft="12dp"
+                 android:layout_marginTop="5dp"
+                 android:gravity="center|center_vertical"
+                 android:textColor="@color/white"
+                 android:textSize="15dp" />
+
+             <Button
+                 android:id="@+id/Quallity1Btn"
+                 android:layout_width="60dp"
+                 android:layout_height="40dp"
+                 android:layout_marginLeft="5dp"
+                 android:layout_marginTop="5dp"
+                 android:gravity="center|center_vertical"
+                 android:textColor="@color/white"
+                 android:textSize="15sp" />
+             <Button
+                 android:id="@+id/Quallity2Btn"
+                 android:layout_width="60dp"
+                 android:layout_height="40dp"
+                 android:layout_marginLeft="5dp"
+                 android:layout_marginTop="5dp"
+                 android:textColor="@color/white"
+                 android:gravity="center|center_vertical"
+
+                 android:textSize="15sp"/>
+             <Button
+                 android:id="@+id/Quallity3Btn"
+                 android:layout_width="60dp"
+                 android:layout_height="40dp"
+                 android:layout_marginLeft="5dp"
+                 android:layout_marginTop="5dp"
+                 android:textColor="@color/white"
+                 android:gravity="center|center_vertical"
+
+                 android:textSize="15sp" />
+              <Button
+                 android:id="@+id/Quallity4Btn"
+                 android:layout_width="60dp"
+                 android:layout_height="40dp"
+                 android:layout_marginLeft="5dp"
+                 android:layout_marginTop="5dp"
+				 android:gravity="center|center_vertical"
+				 android:textColor="@color/white"
+                 android:textSize="15sp"/>
+
+            
+         </LinearLayout>
+
+         
+         <LinearLayout
+             android:id="@+id/linearLayout3"
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent"
+             
+             android:gravity="bottom"
+             android:orientation="horizontal" >
+
+             <ToggleButton
+                 android:id="@+id/playPauseButton"
+                 android:layout_width="40dp"
+                 android:layout_height="40dp"
+                 android:layout_marginLeft="5dp"
+                 android:layout_marginTop="5dp"
+                 android:textOff=" "
+                 android:textOn=" " />
+
+
+
+             <TextView
+                 android:id="@+id/currentProgress"
+                 android:layout_width="65dp"
+                 android:layout_height="25dp"
+                 android:layout_marginBottom="-6dp"
+                 android:layout_marginLeft="5dp"
+                 android:layout_marginRight="2dp"
+                 android:gravity="center_horizontal"
+                 android:text="00:00:00"
+                 android:textColor="@color/white"
+                 android:textSize="15sp" />
+
+             <SeekBar
+                 android:id="@+id/seekBar"
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginBottom="9dp"
+                 android:layout_weight="1"
+                 android:indeterminate="false"
+                 android:max="200"
+                 android:progress="0"
+                 android:progressDrawable="@drawable/styled_progress"
+                 android:secondaryProgress="0"
+                 android:thumb="@drawable/thumbler_small" />
+
+             <TextView
+                 android:id="@+id/maxDuration"
+                 android:layout_width="65dp"
+                 android:layout_height="25dp"
+                 android:layout_marginBottom="-6dp"
+                 android:layout_marginLeft="2dp"
+                 android:layout_marginRight="10dp"
+                 android:gravity="center_horizontal"
+                 android:text="00:00:00"
+                 android:textColor="@color/white"
+                 android:textSize="15sp" />
+         </LinearLayout>
+         
+
+
+  </FrameLayout>

@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Project Name="Unix" InternalType="Console">
+  <Plugins>
+    <Plugin Name="qmake">
+      <![CDATA[00020001N0005Debug0000000000000001N0007Release000000000000]]>
+    </Plugin>
+    <Plugin Name="CMakePlugin">
+      <![CDATA[[{
+  "name": "Debug",
+  "enabled": false,
+  "buildDirectory": "build",
+  "sourceDirectory": "$(ProjectPath)",
+  "generator": "",
+  "buildType": "",
+  "arguments": [],
+  "parentProject": ""
+ }, {
+  "name": "Release",
+  "enabled": false,
+  "buildDirectory": "build",
+  "sourceDirectory": "$(ProjectPath)",
+  "generator": "",
+  "buildType": "",
+  "arguments": [],
+  "parentProject": ""
+ }]]]>
+    </Plugin>
+  </Plugins>
+  <Description/>
+  <Dependencies/>
+  <VirtualDirectory Name="Common">
+    <VirtualDirectory Name="Containers">
+      <File Name="../../ENgine/Common/Containers/BaseContainer.cpp"/>
+      <File Name="../../ENgine/Common/Containers/BaseContainer.h"/>
+      <File Name="../../ENgine/Common/Containers/HashMap.h"/>
+      <File Name="../../ENgine/Common/Containers/IList.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="libgif">
+      <File Name="../../ENgine/Common/libgif/dev2gif.c"/>
+      <File Name="../../ENgine/Common/libgif/dgif_lib.c"/>
+      <File Name="../../ENgine/Common/libgif/egif_lib.c"/>
+      <File Name="../../ENgine/Common/libgif/getarg.c"/>
+      <File Name="../../ENgine/Common/libgif/getarg.h"/>
+      <File Name="../../ENgine/Common/libgif/gif_err.c"/>
+      <File Name="../../ENgine/Common/libgif/gif_font.c"/>
+      <File Name="../../ENgine/Common/libgif/gif_hash.c"/>
+      <File Name="../../ENgine/Common/libgif/gif_hash.h"/>
+      <File Name="../../ENgine/Common/libgif/gif_lib.h"/>
+      <File Name="../../ENgine/Common/libgif/gif_lib_private.h"/>
+      <File Name="../../ENgine/Common/libgif/gifalloc.c"/>
+      <File Name="../../ENgine/Common/libgif/qprintf.c"/>
+      <File Name="../../ENgine/Common/libgif/quantize.c"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="libjson">
+      <File Name="../../ENgine/Common/lib_json/block_allocator.cpp"/>
+      <File Name="../../ENgine/Common/lib_json/block_allocator.h"/>
+      <File Name="../../ENgine/Common/lib_json/json.cpp"/>
+      <File Name="../../ENgine/Common/lib_json/json.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="libxml">
+      <File Name="../../ENgine/Common/libxml/tinyxml2.cpp"/>
+      <File Name="../../ENgine/Common/libxml/tinyxml2.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="Math">
+      <File Name="../../ENgine/Common/Math/Matrix.h"/>
+      <File Name="../../ENgine/Common/Math/Quaternion.h"/>
+      <File Name="../../ENgine/Common/Math/Vector.h"/>
+      <File Name="../../ENgine/Common/Math/Vector2.h"/>
+      <File Name="../../ENgine/Common/Math/Vector4.h"/>
+    </VirtualDirectory>
+    <File Name="../../ENgine/Common/ClassDeclarant.h"/>
+    <File Name="../../ENgine/Common/Color.h"/>
+    <File Name="../../ENgine/Common/Common.h"/>
+    <File Name="../../ENgine/Common/CrossString.h"/>
+    <File Name="../../ENgine/Common/Declarations.h"/>
+    <File Name="../../ENgine/Common/Frustum.h"/>
+    <File Name="../../ENgine/Common/Math.h"/>
+    <File Name="../../ENgine/Common/TaskHolder.h"/>
+    <File Name="../../ENgine/Common/ThreadWorker.cpp"/>
+    <File Name="../../ENgine/Common/ThreadWorker.h"/>
+    <File Name="../../ENgine/Common/Utils.cpp"/>
+    <File Name="../../ENgine/Common/Utils.h"/>
+    <File Name="../../ENgine/Common/CrossString.cpp"/>
+    <VirtualDirectory Name="libpng">
+      <File Name="../../ENgine/Common/libpng/lodepng.cpp"/>
+      <File Name="../../ENgine/Common/libpng/lodepng.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="Properties">
+      <File Name="../../ENgine/Common/properties/Properties.h"/>
+      <File Name="../../ENgine/Common/properties/PropertiesOwner.cpp"/>
+      <File Name="../../ENgine/Common/properties/PropertiesOwner.h"/>
+      <File Name="../../ENgine/Common/properties/PropertyBase.h"/>
+      <File Name="../../ENgine/Common/properties/PropertyBool.cpp"/>
+      <File Name="../../ENgine/Common/properties/PropertyBool.h"/>
+      <File Name="../../ENgine/Common/properties/PropertyCallback.cpp"/>
+      <File Name="../../ENgine/Common/properties/PropertyCallback.h"/>
+      <File Name="../../ENgine/Common/properties/PropertyColor.cpp"/>
+      <File Name="../../ENgine/Common/properties/PropertyColor.h"/>
+      <File Name="../../ENgine/Common/properties/PropertyEnum.cpp"/>
+      <File Name="../../ENgine/Common/properties/PropertyEnum.h"/>
+      <File Name="../../ENgine/Common/properties/PropertyFilename.cpp"/>
+      <File Name="../../ENgine/Common/properties/PropertyFilename.h"/>
+      <File Name="../../ENgine/Common/properties/PropertyFloat.cpp"/>
+      <File Name="../../ENgine/Common/properties/PropertyFloat.h"/>
+      <File Name="../../ENgine/Common/properties/PropertyFont.cpp"/>
+      <File Name="../../ENgine/Common/properties/PropertyFont.h"/>
+      <File Name="../../ENgine/Common/properties/PropertyInt.cpp"/>
+      <File Name="../../ENgine/Common/properties/PropertyInt.h"/>
+      <File Name="../../ENgine/Common/properties/PropertyString.cpp"/>
+      <File Name="../../ENgine/Common/properties/PropertyString.h"/>
+      <File Name="../../ENgine/Common/properties/PropertyStringEnum.cpp"/>
+      <File Name="../../ENgine/Common/properties/PropertyStringEnum.h"/>
+    </VirtualDirectory>
+    <File Name="../../ENgine/Core/Script/ScriptMachine.cpp"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Core">
+    <File Name="../../ENgine/Core/Core.h"/>
+    <File Name="../../ENgine/Core/CoreBase.cpp"/>
+    <File Name="../../ENgine/Core/CoreBase.h"/>
+    <File Name="../../ENgine/Core/CoreUnix.cpp"/>
+    <File Name="../../ENgine/Core/CoreUnix.h"/>
+    <File Name="../../ENgine/Core/ICore.h"/>
+    <File Name="../../ENgine/Core/Memory.cpp"/>
+    <File Name="../../ENgine/Core/Memory.h"/>
+    <VirtualDirectory Name="Control">
+      <File Name="../../ENgine/Core/Control/ControlsService.cpp"/>
+      <File Name="../../ENgine/Core/Control/ControlsService.h"/>
+      <File Name="../../ENgine/Core/Control/IControlsService.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="Render">
+      <VirtualDirectory Name="Debug">
+        <File Name="../../ENgine/Core/Render/Debug/DebugFont.cpp"/>
+        <File Name="../../ENgine/Core/Render/Debug/DebugFont.h"/>
+        <File Name="../../ENgine/Core/Render/Debug/DebugLines.cpp"/>
+        <File Name="../../ENgine/Core/Render/Debug/DebugLines.h"/>
+        <File Name="../../ENgine/Core/Render/Debug/DebugLines2D.cpp"/>
+        <File Name="../../ENgine/Core/Render/Debug/DebugLines2D.h"/>
+        <File Name="../../ENgine/Core/Render/Debug/DebugSphere.cpp"/>
+        <File Name="../../ENgine/Core/Render/Debug/DebugSphere.h"/>
+        <File Name="../../ENgine/Core/Render/Debug/DebugSprites.cpp"/>
+        <File Name="../../ENgine/Core/Render/Debug/DebugSprites.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="Geometry">
+        <File Name="../../ENgine/Core/Render/Geometry/GeometryBuffer.h"/>
+        <File Name="../../ENgine/Core/Render/Geometry/IndexBuffer.h"/>
+        <File Name="../../ENgine/Core/Render/Geometry/IndexBufferGLES.cpp"/>
+        <File Name="../../ENgine/Core/Render/Geometry/IndexBufferGLES.h"/>
+        <File Name="../../ENgine/Core/Render/Geometry/VertexBuffer.h"/>
+        <File Name="../../ENgine/Core/Render/Geometry/VertexBufferGLES.cpp"/>
+        <File Name="../../ENgine/Core/Render/Geometry/VertexBufferGLES.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="Shaders">
+        <File Name="../../ENgine/Core/Render/Shaders/PixelShader.h"/>
+        <File Name="../../ENgine/Core/Render/Shaders/PixelShaderGLES.cpp"/>
+        <File Name="../../ENgine/Core/Render/Shaders/PixelShaderGLES.h"/>
+        <File Name="../../ENgine/Core/Render/Shaders/Shader.h"/>
+        <File Name="../../ENgine/Core/Render/Shaders/ShaderGLES.cpp"/>
+        <File Name="../../ENgine/Core/Render/Shaders/ShaderGLES.h"/>
+        <File Name="../../ENgine/Core/Render/Shaders/VertexShader.h"/>
+        <File Name="../../ENgine/Core/Render/Shaders/VertexShaderGLES.cpp"/>
+        <File Name="../../ENgine/Core/Render/Shaders/VertexShaderGLES.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="Technique">
+        <VirtualDirectory Name="Techniques">
+          <File Name="../../ENgine/Core/Render/Technique/Techniques/RT_DebugLine.cpp"/>
+          <File Name="../../ENgine/Core/Render/Technique/Techniques/RT_DebugLine.h"/>
+          <File Name="../../ENgine/Core/Render/Technique/Techniques/RT_DebugLine2D.cpp"/>
+          <File Name="../../ENgine/Core/Render/Technique/Techniques/RT_DebugLine2D.h"/>
+          <File Name="../../ENgine/Core/Render/Technique/Techniques/RT_DebugLineNoZ.cpp"/>
+          <File Name="../../ENgine/Core/Render/Technique/Techniques/RT_DebugLineNoZ.h"/>
+          <File Name="../../ENgine/Core/Render/Technique/Techniques/RT_DebugSolid.cpp"/>
+          <File Name="../../ENgine/Core/Render/Technique/Techniques/RT_DebugSolid.h"/>
+          <File Name="../../ENgine/Core/Render/Technique/Techniques/RT_Font.cpp"/>
+          <File Name="../../ENgine/Core/Render/Technique/Techniques/RT_Font.h"/>
+          <File Name="../../ENgine/Core/Render/Technique/Techniques/RT_NFont.cpp"/>
+          <File Name="../../ENgine/Core/Render/Technique/Techniques/RT_NFont.h"/>
+          <File Name="../../ENgine/Core/Render/Technique/Techniques/RT_UI.cpp"/>
+          <File Name="../../ENgine/Core/Render/Technique/Techniques/RT_UI.h"/>
+        </VirtualDirectory>
+        <File Name="../../ENgine/Core/Render/Technique/RenderTechnique.cpp"/>
+        <File Name="../../ENgine/Core/Render/Technique/RenderTechnique.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="Textures">
+        <File Name="../../ENgine/Core/Render/Textures/Texture.h"/>
+        <File Name="../../ENgine/Core/Render/Textures/TextureGLES.cpp"/>
+        <File Name="../../ENgine/Core/Render/Textures/TextureGLES.h"/>
+        <File Name="../../ENgine/Core/Render/Textures/TextureInstance.cpp"/>
+        <File Name="../../ENgine/Core/Render/Textures/TextureInstance.h"/>
+        <File Name="../../ENgine/Core/Render/Textures/TextureRes.cpp"/>
+        <File Name="../../ENgine/Core/Render/Textures/TextureRes.h"/>
+        <File Name="../../ENgine/Core/Render/Textures/VideoTextureInstance.cpp"/>
+        <File Name="../../ENgine/Core/Render/Textures/VideoTextureInstance.h"/>
+      </VirtualDirectory>
+      <File Name="../../ENgine/Core/Render/RenderService.cpp"/>
+      <File Name="../../ENgine/Core/Render/RenderService.h"/>
+      <File Name="../../ENgine/Core/Render/RenderServiceGLES.cpp"/>
+      <File Name="../../ENgine/Core/Render/RenderServiceGLES.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="Files">
+      <File Name="../../ENgine/Core/Files/File.cpp"/>
+      <File Name="../../ENgine/Core/Files/File.h"/>
+      <File Name="../../ENgine/Core/Files/FileBuffer.cpp"/>
+      <File Name="../../ENgine/Core/Files/FileBuffer.h"/>
+      <File Name="../../ENgine/Core/Files/FileService.cpp"/>
+      <File Name="../../ENgine/Core/Files/FileService.h"/>
+      <File Name="../../ENgine/Core/Files/IDataFile.h"/>
+      <File Name="../../ENgine/Core/Files/IFile.h"/>
+      <File Name="../../ENgine/Core/Files/IFileBuffer.h"/>
+      <File Name="../../ENgine/Core/Files/IFileService.h"/>
+      <File Name="../../ENgine/Core/Files/IStreamLoader.h"/>
+      <File Name="../../ENgine/Core/Files/IStreamSaver.h"/>
+      <File Name="../../ENgine/Core/Files/JSONFile.cpp"/>
+      <File Name="../../ENgine/Core/Files/JSONFile.h"/>
+      <File Name="../../ENgine/Core/Files/StreamLoader.cpp"/>
+      <File Name="../../ENgine/Core/Files/StreamLoader.h"/>
+      <File Name="../../ENgine/Core/Files/StreamSaver.cpp"/>
+      <File Name="../../ENgine/Core/Files/StreamSaver.h"/>
+      <File Name="../../ENgine/Core/Files/XMLFile.cpp"/>
+      <File Name="../../ENgine/Core/Files/XMLFile.h"/>
+      <File Name="../../ENgine/Core/Files/XMLHelper.cpp"/>
+      <File Name="../../ENgine/Core/Files/XMLHelper.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="Font">
+      <File Name="../../ENgine/Core/Font/FontInstance.cpp"/>
+      <File Name="../../ENgine/Core/Font/FontInstance.h"/>
+      <File Name="../../ENgine/Core/Font/FontRes.cpp"/>
+      <File Name="../../ENgine/Core/Font/FontRes.h"/>
+      <File Name="../../ENgine/Core/Font/FontService.cpp"/>
+      <File Name="../../ENgine/Core/Font/FontService.h"/>
+      <File Name="../../ENgine/Core/Font/FontCharmap.cpp"/>
+      <File Name="../../ENgine/Core/Font/FontCharToGlyphIndexMap.h"/>
+      <File Name="../../ENgine/Core/Font/FontCharmap.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="Resources">
+      <File Name="../../ENgine/Core/Resources/Resources.cpp"/>
+      <File Name="../../ENgine/Core/Resources/Resources.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="Localize">
+      <File Name="../../ENgine/Core/Localize/ILocalizeService.h"/>
+      <File Name="../../ENgine/Core/Localize/LocalizeService.cpp"/>
+      <File Name="../../ENgine/Core/Localize/LocalizeService.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="MediaLibrary">
+      <File Name="../../ENgine/Core/MediaLibrary/Date.cpp"/>
+      <File Name="../../ENgine/Core/MediaLibrary/Date.h"/>
+      <File Name="../../ENgine/Core/MediaLibrary/MediaLibraryService.cpp"/>
+      <File Name="../../ENgine/Core/MediaLibrary/MediaLibraryService.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="MediaPlayer">
+      <File Name="../../ENgine/Core/MediaPlayer/MediaPlayer.cpp"/>
+      <File Name="../../ENgine/Core/MediaPlayer/MediaPlayer.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="Mobile">
+      <File Name="../../ENgine/Core/Mobile/MobileService.cpp"/>
+      <File Name="../../ENgine/Core/Mobile/MobileService.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="Model">
+      <File Name="../../ENgine/Core/Model/Mesh.h"/>
+      <File Name="../../ENgine/Core/Model/ModelFbxLoader.cpp"/>
+      <File Name="../../ENgine/Core/Model/ModelFbxLoader.h"/>
+      <File Name="../../ENgine/Core/Model/ModelInstance.cpp"/>
+      <File Name="../../ENgine/Core/Model/ModelInstance.h"/>
+      <File Name="../../ENgine/Core/Model/ModelRes.cpp"/>
+      <File Name="../../ENgine/Core/Model/ModelRes.h"/>
+      <File Name="../../ENgine/Core/Model/ModelService.cpp"/>
+      <File Name="../../ENgine/Core/Model/ModelService.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="UserStats">
+      <File Name="../../ENgine/Core/UserStats/IUserStatsService.h"/>
+      <File Name="../../ENgine/Core/UserStats/UserStats.cpp"/>
+      <File Name="../../ENgine/Core/UserStats/UserStats.h"/>
+      <File Name="../../ENgine/Core/UserStats/UserStatsService.cpp"/>
+      <File Name="../../ENgine/Core/UserStats/UserStatsService.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="Sound">
+      <File Name="../../ENgine/Core/Sound/ISound.h"/>
+      <File Name="../../ENgine/Core/Sound/ISoundService.h"/>
+      <File Name="../../ENgine/Core/Sound/ISoundStream.h"/>
+      <File Name="../../ENgine/Core/Sound/SoundService.cpp"/>
+      <File Name="../../ENgine/Core/Sound/SoundService.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="Network">
+      <VirtualDirectory Name="curl">
+        <File Name="../../Libraries/curl/lib/amigaos.c"/>
+        <File Name="../../Libraries/curl/lib/asyn-ares.c"/>
+        <File Name="../../Libraries/curl/lib/asyn-thread.c"/>
+        <File Name="../../Libraries/curl/lib/axtls.c"/>
+        <File Name="../../Libraries/curl/lib/connect.c"/>
+        <File Name="../../Libraries/curl/lib/content_encoding.c"/>
+        <File Name="../../Libraries/curl/lib/cookie.c"/>
+        <File Name="../../Libraries/curl/lib/curl_addrinfo.c"/>
+        <File Name="../../Libraries/curl/lib/curl_base64.c"/>
+        <File Name="../../Libraries/curl/lib/curl_darwinssl.c"/>
+        <File Name="../../Libraries/curl/lib/curl_fnmatch.c"/>
+        <File Name="../../Libraries/curl/lib/curl_gethostname.c"/>
+        <File Name="../../Libraries/curl/lib/curl_gssapi.c"/>
+        <File Name="../../Libraries/curl/lib/curl_memrchr.c"/>
+        <File Name="../../Libraries/curl/lib/curl_multibyte.c"/>
+        <File Name="../../Libraries/curl/lib/curl_ntlm.c"/>
+        <File Name="../../Libraries/curl/lib/curl_ntlm_core.c"/>
+        <File Name="../../Libraries/curl/lib/curl_ntlm_msgs.c"/>
+        <File Name="../../Libraries/curl/lib/curl_ntlm_wb.c"/>
+        <File Name="../../Libraries/curl/lib/curl_rand.c"/>
+        <File Name="../../Libraries/curl/lib/curl_rtmp.c"/>
+        <File Name="../../Libraries/curl/lib/curl_sasl.c"/>
+        <File Name="../../Libraries/curl/lib/curl_schannel.c"/>
+        <File Name="../../Libraries/curl/lib/curl_sspi.c"/>
+        <File Name="../../Libraries/curl/lib/curl_threads.c"/>
+        <File Name="../../Libraries/curl/lib/cyassl.c"/>
+        <File Name="../../Libraries/curl/lib/dict.c"/>
+        <File Name="../../Libraries/curl/lib/easy.c"/>
+        <File Name="../../Libraries/curl/lib/escape.c"/>
+        <File Name="../../Libraries/curl/lib/file_curl.c"/>
+        <File Name="../../Libraries/curl/lib/fileinfo.c"/>
+        <File Name="../../Libraries/curl/lib/formdata.c"/>
+        <File Name="../../Libraries/curl/lib/ftp.c"/>
+        <File Name="../../Libraries/curl/lib/ftplistparser.c"/>
+        <File Name="../../Libraries/curl/lib/getenv.c"/>
+        <File Name="../../Libraries/curl/lib/getinfo.c"/>
+        <File Name="../../Libraries/curl/lib/gopher.c"/>
+        <File Name="../../Libraries/curl/lib/gtls.c"/>
+        <File Name="../../Libraries/curl/lib/hash.c"/>
+        <File Name="../../Libraries/curl/lib/hmac.c"/>
+        <File Name="../../Libraries/curl/lib/hostasyn.c"/>
+        <File Name="../../Libraries/curl/lib/hostip.c"/>
+        <File Name="../../Libraries/curl/lib/hostip4.c"/>
+        <File Name="../../Libraries/curl/lib/hostip6.c"/>
+        <File Name="../../Libraries/curl/lib/hostsyn.c"/>
+        <File Name="../../Libraries/curl/lib/http.c"/>
+        <File Name="../../Libraries/curl/lib/http_chunks.c"/>
+        <File Name="../../Libraries/curl/lib/http_digest.c"/>
+        <File Name="../../Libraries/curl/lib/http_negotiate.c"/>
+        <File Name="../../Libraries/curl/lib/http_negotiate_sspi.c"/>
+        <File Name="../../Libraries/curl/lib/http_proxy.c"/>
+        <File Name="../../Libraries/curl/lib/idn_win32.c"/>
+        <File Name="../../Libraries/curl/lib/if2ip.c"/>
+        <File Name="../../Libraries/curl/lib/imap.c"/>
+        <File Name="../../Libraries/curl/lib/inet_ntop.c"/>
+        <File Name="../../Libraries/curl/lib/inet_pton.c"/>
+        <File Name="../../Libraries/curl/lib/krb4.c"/>
+        <File Name="../../Libraries/curl/lib/krb5.c"/>
+        <File Name="../../Libraries/curl/lib/ldap.c"/>
+        <File Name="../../Libraries/curl/lib/llist.c"/>
+        <File Name="../../Libraries/curl/lib/md4.c"/>
+        <File Name="../../Libraries/curl/lib/md5.c"/>
+        <File Name="../../Libraries/curl/lib/memdebug.c"/>
+        <File Name="../../Libraries/curl/lib/mprintf.c"/>
+        <File Name="../../Libraries/curl/lib/multi.c"/>
+        <File Name="../../Libraries/curl/lib/netrc.c"/>
+        <File Name="../../Libraries/curl/lib/non-ascii.c"/>
+        <File Name="../../Libraries/curl/lib/nonblock.c"/>
+        <File Name="../../Libraries/curl/lib/nss.c"/>
+        <File Name="../../Libraries/curl/lib/nwlib.c"/>
+        <File Name="../../Libraries/curl/lib/nwos.c"/>
+        <File Name="../../Libraries/curl/lib/openldap.c"/>
+        <File Name="../../Libraries/curl/lib/parsedate.c"/>
+        <File Name="../../Libraries/curl/lib/pingpong.c"/>
+        <File Name="../../Libraries/curl/lib/polarssl.c"/>
+        <File Name="../../Libraries/curl/lib/pop3.c"/>
+        <File Name="../../Libraries/curl/lib/progress.c"/>
+        <File Name="../../Libraries/curl/lib/qssl.c"/>
+        <File Name="../../Libraries/curl/lib/rawstr.c"/>
+        <File Name="../../Libraries/curl/lib/rtsp.c"/>
+        <File Name="../../Libraries/curl/lib/security.c"/>
+        <File Name="../../Libraries/curl/lib/select.c"/>
+        <File Name="../../Libraries/curl/lib/sendf.c"/>
+        <File Name="../../Libraries/curl/lib/share.c"/>
+        <File Name="../../Libraries/curl/lib/slist.c"/>
+        <File Name="../../Libraries/curl/lib/smtp.c"/>
+        <File Name="../../Libraries/curl/lib/socks.c"/>
+        <File Name="../../Libraries/curl/lib/socks_gssapi.c"/>
+        <File Name="../../Libraries/curl/lib/socks_sspi.c"/>
+        <File Name="../../Libraries/curl/lib/speedcheck.c"/>
+        <File Name="../../Libraries/curl/lib/splay.c"/>
+        <File Name="../../Libraries/curl/lib/ssh.c"/>
+        <File Name="../../Libraries/curl/lib/sslgen.c"/>
+        <File Name="../../Libraries/curl/lib/ssluse.c"/>
+        <File Name="../../Libraries/curl/lib/strdup.c"/>
+        <File Name="../../Libraries/curl/lib/strequal.c"/>
+        <File Name="../../Libraries/curl/lib/strerror.c"/>
+        <File Name="../../Libraries/curl/lib/strtok.c"/>
+        <File Name="../../Libraries/curl/lib/strtoofft.c"/>
+        <File Name="../../Libraries/curl/lib/telnet.c"/>
+        <File Name="../../Libraries/curl/lib/tftp.c"/>
+        <File Name="../../Libraries/curl/lib/timeval.c"/>
+        <File Name="../../Libraries/curl/lib/transfer.c"/>
+        <File Name="../../Libraries/curl/lib/url.c"/>
+        <File Name="../../Libraries/curl/lib/version.c"/>
+        <File Name="../../Libraries/curl/lib/warnless.c"/>
+        <File Name="../../Libraries/curl/lib/wildcard.c"/>
+        <File Name="../../Libraries/curl/lib/amigaos.h"/>
+        <File Name="../../Libraries/curl/lib/arpa_telnet.h"/>
+        <File Name="../../Libraries/curl/lib/asyn.h"/>
+        <File Name="../../Libraries/curl/lib/axtls.h"/>
+        <File Name="../../Libraries/curl/lib/config-amigaos.h"/>
+        <File Name="../../Libraries/curl/lib/config-android.h"/>
+        <File Name="../../Libraries/curl/lib/config-dos.h"/>
+        <File Name="../../Libraries/curl/lib/config-ios.h"/>
+        <File Name="../../Libraries/curl/lib/config-mac.h"/>
+        <File Name="../../Libraries/curl/lib/config-os400.h"/>
+        <File Name="../../Libraries/curl/lib/config-riscos.h"/>
+        <File Name="../../Libraries/curl/lib/config-symbian.h"/>
+        <File Name="../../Libraries/curl/lib/config-tpf.h"/>
+        <File Name="../../Libraries/curl/lib/config-vms.h"/>
+        <File Name="../../Libraries/curl/lib/config-vxworks.h"/>
+        <File Name="../../Libraries/curl/lib/config-win32.h"/>
+        <File Name="../../Libraries/curl/lib/config-win32ce.h"/>
+        <File Name="../../Libraries/curl/lib/connect.h"/>
+        <File Name="../../Libraries/curl/lib/content_encoding.h"/>
+        <File Name="../../Libraries/curl/lib/cookie.h"/>
+        <File Name="../../Libraries/curl/lib/curl_addrinfo.h"/>
+        <File Name="../../Libraries/curl/lib/curl_base64.h"/>
+        <File Name="../../Libraries/curl/lib/curl_darwinssl.h"/>
+        <File Name="../../Libraries/curl/lib/curl_fnmatch.h"/>
+        <File Name="../../Libraries/curl/lib/curl_gethostname.h"/>
+        <File Name="../../Libraries/curl/lib/curl_gssapi.h"/>
+        <File Name="../../Libraries/curl/lib/curl_hmac.h"/>
+        <File Name="../../Libraries/curl/lib/curl_ldap.h"/>
+        <File Name="../../Libraries/curl/lib/curl_md4.h"/>
+        <File Name="../../Libraries/curl/lib/curl_md5.h"/>
+        <File Name="../../Libraries/curl/lib/curl_memory.h"/>
+        <File Name="../../Libraries/curl/lib/curl_memrchr.h"/>
+        <File Name="../../Libraries/curl/lib/curl_multibyte.h"/>
+        <File Name="../../Libraries/curl/lib/curl_ntlm.h"/>
+        <File Name="../../Libraries/curl/lib/curl_ntlm_core.h"/>
+        <File Name="../../Libraries/curl/lib/curl_ntlm_msgs.h"/>
+        <File Name="../../Libraries/curl/lib/curl_ntlm_wb.h"/>
+        <File Name="../../Libraries/curl/lib/curl_rand.h"/>
+        <File Name="../../Libraries/curl/lib/curl_rtmp.h"/>
+        <File Name="../../Libraries/curl/lib/curl_sasl.h"/>
+        <File Name="../../Libraries/curl/lib/curl_schannel.h"/>
+        <File Name="../../Libraries/curl/lib/curl_sspi.h"/>
+        <File Name="../../Libraries/curl/lib/curl_threads.h"/>
+        <File Name="../../Libraries/curl/lib/curlx.h"/>
+        <File Name="../../Libraries/curl/lib/cyassl.h"/>
+        <File Name="../../Libraries/curl/lib/dict.h"/>
+        <File Name="../../Libraries/curl/lib/easyif.h"/>
+        <File Name="../../Libraries/curl/lib/escape.h"/>
+        <File Name="../../Libraries/curl/lib/file.h"/>
+        <File Name="../../Libraries/curl/lib/fileinfo.h"/>
+        <File Name="../../Libraries/curl/lib/formdata.h"/>
+        <File Name="../../Libraries/curl/lib/ftp.h"/>
+        <File Name="../../Libraries/curl/lib/ftplistparser.h"/>
+        <File Name="../../Libraries/curl/lib/getinfo.h"/>
+        <File Name="../../Libraries/curl/lib/gopher.h"/>
+        <File Name="../../Libraries/curl/lib/gtls.h"/>
+        <File Name="../../Libraries/curl/lib/hash.h"/>
+        <File Name="../../Libraries/curl/lib/hostip.h"/>
+        <File Name="../../Libraries/curl/lib/http.h"/>
+        <File Name="../../Libraries/curl/lib/http_chunks.h"/>
+        <File Name="../../Libraries/curl/lib/http_digest.h"/>
+        <File Name="../../Libraries/curl/lib/http_negotiate.h"/>
+        <File Name="../../Libraries/curl/lib/http_proxy.h"/>
+        <File Name="../../Libraries/curl/lib/if2ip.h"/>
+        <File Name="../../Libraries/curl/lib/imap.h"/>
+        <File Name="../../Libraries/curl/lib/inet_ntop.h"/>
+        <File Name="../../Libraries/curl/lib/inet_pton.h"/>
+        <File Name="../../Libraries/curl/lib/krb4.h"/>
+        <File Name="../../Libraries/curl/lib/llist.h"/>
+        <File Name="../../Libraries/curl/lib/memdebug.h"/>
+        <File Name="../../Libraries/curl/lib/multiif.h"/>
+        <File Name="../../Libraries/curl/lib/netrc.h"/>
+        <File Name="../../Libraries/curl/lib/non-ascii.h"/>
+        <File Name="../../Libraries/curl/lib/nonblock.h"/>
+        <File Name="../../Libraries/curl/lib/nssg.h"/>
+        <File Name="../../Libraries/curl/lib/parsedate.h"/>
+        <File Name="../../Libraries/curl/lib/pingpong.h"/>
+        <File Name="../../Libraries/curl/lib/polarssl.h"/>
+        <File Name="../../Libraries/curl/lib/pop3.h"/>
+        <File Name="../../Libraries/curl/lib/progress.h"/>
+        <File Name="../../Libraries/curl/lib/qssl.h"/>
+        <File Name="../../Libraries/curl/lib/rawstr.h"/>
+        <File Name="../../Libraries/curl/lib/rtsp.h"/>
+        <File Name="../../Libraries/curl/lib/select.h"/>
+        <File Name="../../Libraries/curl/lib/sendf.h"/>
+        <File Name="../../Libraries/curl/lib/setup.h"/>
+        <File Name="../../Libraries/curl/lib/setup-os400.h"/>
+        <File Name="../../Libraries/curl/lib/setup_once.h"/>
+        <File Name="../../Libraries/curl/lib/share.h"/>
+        <File Name="../../Libraries/curl/lib/slist.h"/>
+        <File Name="../../Libraries/curl/lib/smtp.h"/>
+        <File Name="../../Libraries/curl/lib/sockaddr.h"/>
+        <File Name="../../Libraries/curl/lib/socks.h"/>
+        <File Name="../../Libraries/curl/lib/speedcheck.h"/>
+        <File Name="../../Libraries/curl/lib/splay.h"/>
+        <File Name="../../Libraries/curl/lib/ssh.h"/>
+        <File Name="../../Libraries/curl/lib/sslgen.h"/>
+        <File Name="../../Libraries/curl/lib/ssluse.h"/>
+        <File Name="../../Libraries/curl/lib/strdup.h"/>
+        <File Name="../../Libraries/curl/lib/strequal.h"/>
+        <File Name="../../Libraries/curl/lib/strerror.h"/>
+        <File Name="../../Libraries/curl/lib/strtok.h"/>
+        <File Name="../../Libraries/curl/lib/strtoofft.h"/>
+        <File Name="../../Libraries/curl/lib/telnet.h"/>
+        <File Name="../../Libraries/curl/lib/tftp.h"/>
+        <File Name="../../Libraries/curl/lib/timeval.h"/>
+        <File Name="../../Libraries/curl/lib/transfer.h"/>
+        <File Name="../../Libraries/curl/lib/url.h"/>
+        <File Name="../../Libraries/curl/lib/urldata.h"/>
+        <File Name="../../Libraries/curl/lib/warnless.h"/>
+        <File Name="../../Libraries/curl/lib/wildcard.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="openssl"/>
+      <File Name="../../ENgine/Core/Network/INetworkService.h"/>
+      <File Name="../../ENgine/Core/Network/NetworkService.cpp"/>
+      <File Name="../../ENgine/Core/Network/NetworkService.h"/>
+      <File Name="../../ENgine/Core/Network/NetworkDataBuffer.cpp"/>
+      <File Name="../../ENgine/Core/Network/NetworkDataBuffer.h"/>
+      <File Name="../../ENgine/Core/Network/Sockets.cpp"/>
+      <File Name="../../ENgine/Core/Network/Sockets.h"/>
+      <File Name="../../ENgine/Core/Network/NetLogger.cpp"/>
+      <File Name="../../ENgine/Core/Network/NetLogger.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="OnlineUserStats">
+      <File Name="../../ENgine/Core/OnlineUserStats/OnlineUserStats.cpp"/>
+      <File Name="../../ENgine/Core/OnlineUserStats/OnlineUserStats.h"/>
+      <File Name="../../ENgine/Core/OnlineUserStats/VK.cpp"/>
+      <File Name="../../ENgine/Core/OnlineUserStats/VK.h"/>
+      <File Name="../../ENgine/Core/OnlineUserStats/Facebook.cpp"/>
+      <File Name="../../ENgine/Core/OnlineUserStats/Facebook.h"/>
+      <File Name="../../ENgine/Core/OnlineUserStats/Instagram.cpp"/>
+      <File Name="../../ENgine/Core/OnlineUserStats/Instagram.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="Script">
+      <File Name="../../ENgine/Core/Script/IScriptMachine.h"/>
+      <File Name="../../ENgine/Core/Script/IScriptModule.h"/>
+      <File Name="../../ENgine/Core/Script/IScriptService.h"/>
+      <File Name="../../ENgine/Core/Script/ScriptMachine.h"/>
+      <File Name="../../ENgine/Core/Script/ScriptModule.cpp"/>
+      <File Name="../../ENgine/Core/Script/ScriptModule.h"/>
+      <File Name="../../ENgine/Core/Script/ScriptModuleCore.cpp"/>
+      <File Name="../../ENgine/Core/Script/ScriptModuleCore.h"/>
+      <File Name="../../ENgine/Core/Script/ScriptService.cpp"/>
+      <File Name="../../ENgine/Core/Script/ScriptService.h"/>
+      <VirtualDirectory Name="Libs">
+        <File Name="../../ENgine/Core/Script/Libs/scriptarray.cpp"/>
+        <File Name="../../ENgine/Core/Script/Libs/scriptarray.h"/>
+        <File Name="../../ENgine/Core/Script/Libs/scriptdictionary.cpp"/>
+        <File Name="../../ENgine/Core/Script/Libs/scriptdictionary.h"/>
+        <File Name="../../ENgine/Core/Script/Libs/scripthandle.cpp"/>
+        <File Name="../../ENgine/Core/Script/Libs/scripthandle.h"/>
+        <File Name="../../ENgine/Core/Script/Libs/scriptmath.cpp"/>
+        <File Name="../../ENgine/Core/Script/Libs/scriptmath.h"/>
+        <File Name="../../ENgine/Core/Script/Libs/scriptmath2d.cpp"/>
+        <File Name="../../ENgine/Core/Script/Libs/scriptmath2d.h"/>
+        <File Name="../../ENgine/Core/Script/Libs/scriptmath3d.cpp"/>
+        <File Name="../../ENgine/Core/Script/Libs/scriptmath3d.h"/>
+        <File Name="../../ENgine/Core/Script/Libs/scriptstdstring.cpp"/>
+        <File Name="../../ENgine/Core/Script/Libs/scriptstdstring.h"/>
+        <File Name="../../ENgine/Core/Script/Libs/scriptstdstring_utils.cpp"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="AngelScript">
+        <File Name="../../Libraries/AngelScript/source/as_array.h"/>
+        <File Name="../../Libraries/AngelScript/source/as_atomic.cpp"/>
+        <File Name="../../Libraries/AngelScript/source/as_atomic.h"/>
+        <File Name="../../Libraries/AngelScript/source/as_builder.cpp"/>
+        <File Name="../../Libraries/AngelScript/source/as_builder.h"/>
+        <File Name="../../Libraries/AngelScript/source/as_bytecode.cpp"/>
+        <File Name="../../Libraries/AngelScript/source/as_bytecode.h"/>
+        <File Name="../../Libraries/AngelScript/source/as_callfunc.cpp"/>
+        <File Name="../../Libraries/AngelScript/source/as_callfunc.h"/>
+        <File Name="../../Libraries/AngelScript/source/as_callfunc_arm.cpp"/>
+        <File Name="../../Libraries/AngelScript/source/as_callfunc_arm_msvc.asm"/>
+        <File Name="../../Libraries/AngelScript/source/as_callfunc_mips.cpp"/>
+        <File Name="../../Libraries/AngelScript/source/as_callfunc_ppc.cpp"/>
+        <File Name="../../Libraries/AngelScript/source/as_callfunc_ppc_64.cpp"/>
+        <File Name="../../Libraries/AngelScript/source/as_callfunc_sh4.cpp"/>
+        <File Name="../../Libraries/AngelScript/source/as_callfunc_x64_gcc.cpp"/>
+        <File Name="../../Libraries/AngelScript/source/as_callfunc_x64_mingw.cpp"/>
+        <File Name="../../Libraries/AngelScript/source/as_callfunc_x64_msvc.cpp"/>
+        <File Name="../../Libraries/AngelScript/source/as_callfunc_x64_msvc_asm.asm"/>
+        <File Name="../../Libraries/AngelScript/source/as_callfunc_x86.cpp"/>
+        <File Name="../../Libraries/AngelScript/source/as_callfunc_xenon.cpp"/>
+        <File Name="../../Libraries/AngelScript/source/as_compiler.cpp"/>
+        <File Name="../../Libraries/AngelScript/source/as_compiler.h"/>
+        <File Name="../../Libraries/AngelScript/source/as_config.h"/>
+        <File Name="../../Libraries/AngelScript/source/as_configgroup.cpp"/>
+        <File Name="../../Libraries/AngelScript/source/as_configgroup.h"/>
+        <File Name="../../Libraries/AngelScript/source/as_context.cpp"/>
+        <File Name="../../Libraries/AngelScript/source/as_context.h"/>
+        <File Name="../../Libraries/AngelScript/source/as_criticalsection.h"/>
+        <File Name="../../Libraries/AngelScript/source/as_datatype.cpp"/>
+        <File Name="../../Libraries/AngelScript/source/as_datatype.h"/>
+        <File Name="../../Libraries/AngelScript/source/as_debug.h"/>
+        <File Name="../../Libraries/AngelScript/source/as_gc.cpp"/>
+        <File Name="../../Libraries/AngelScript/source/as_gc.h"/>
+        <File Name="../../Libraries/AngelScript/source/as_generic.cpp"/>
+        <File Name="../../Libraries/AngelScript/source/as_generic.h"/>
+        <File Name="../../Libraries/AngelScript/source/as_globalproperty.cpp"/>
+        <File Name="../../Libraries/AngelScript/source/as_map.h"/>
+        <File Name="../../Libraries/AngelScript/source/as_memory.cpp"/>
+        <File Name="../../Libraries/AngelScript/source/as_memory.h"/>
+        <File Name="../../Libraries/AngelScript/source/as_module.cpp"/>
+        <File Name="../../Libraries/AngelScript/source/as_module.h"/>
+        <File Name="../../Libraries/AngelScript/source/as_namespace.h"/>
+        <File Name="../../Libraries/AngelScript/source/as_objecttype.cpp"/>
+        <File Name="../../Libraries/AngelScript/source/as_objecttype.h"/>
+        <File Name="../../Libraries/AngelScript/source/as_outputbuffer.cpp"/>
+        <File Name="../../Libraries/AngelScript/source/as_outputbuffer.h"/>
+        <File Name="../../Libraries/AngelScript/source/as_parser.cpp"/>
+        <File Name="../../Libraries/AngelScript/source/as_parser.h"/>
+        <File Name="../../Libraries/AngelScript/source/as_property.h"/>
+        <File Name="../../Libraries/AngelScript/source/as_restore.cpp"/>
+        <File Name="../../Libraries/AngelScript/source/as_restore.h"/>
+        <File Name="../../Libraries/AngelScript/source/as_scriptcode.cpp"/>
+        <File Name="../../Libraries/AngelScript/source/as_scriptcode.h"/>
+        <File Name="../../Libraries/AngelScript/source/as_scriptengine.cpp"/>
+        <File Name="../../Libraries/AngelScript/source/as_scriptengine.h"/>
+        <File Name="../../Libraries/AngelScript/source/as_scriptfunction.cpp"/>
+        <File Name="../../Libraries/AngelScript/source/as_scriptfunction.h"/>
+        <File Name="../../Libraries/AngelScript/source/as_scriptnode.cpp"/>
+        <File Name="../../Libraries/AngelScript/source/as_scriptnode.h"/>
+        <File Name="../../Libraries/AngelScript/source/as_scriptobject.cpp"/>
+        <File Name="../../Libraries/AngelScript/source/as_scriptobject.h"/>
+        <File Name="../../Libraries/AngelScript/source/as_string.cpp"/>
+        <File Name="../../Libraries/AngelScript/source/as_string.h"/>
+        <File Name="../../Libraries/AngelScript/source/as_string_util.cpp"/>
+        <File Name="../../Libraries/AngelScript/source/as_string_util.h"/>
+        <File Name="../../Libraries/AngelScript/source/as_symboltable.h"/>
+        <File Name="../../Libraries/AngelScript/source/as_texts.h"/>
+        <File Name="../../Libraries/AngelScript/source/as_thread.cpp"/>
+        <File Name="../../Libraries/AngelScript/source/as_thread.h"/>
+        <File Name="../../Libraries/AngelScript/source/as_tokendef.h"/>
+        <File Name="../../Libraries/AngelScript/source/as_tokenizer.cpp"/>
+        <File Name="../../Libraries/AngelScript/source/as_tokenizer.h"/>
+        <File Name="../../Libraries/AngelScript/source/as_typeinfo.cpp"/>
+        <File Name="../../Libraries/AngelScript/source/as_typeinfo.h"/>
+        <File Name="../../Libraries/AngelScript/source/as_variablescope.cpp"/>
+        <File Name="../../Libraries/AngelScript/source/as_variablescope.h"/>
+      </VirtualDirectory>
+    </VirtualDirectory>
+    <VirtualDirectory Name="Scene">
+      <File Name="../../ENgine/Core/Scene/ISceneInstance.h"/>
+      <File Name="../../ENgine/Core/Scene/ISceneManager.h"/>
+      <File Name="../../ENgine/Core/Scene/ISceneService.cpp"/>
+      <File Name="../../ENgine/Core/Scene/ISceneService.h"/>
+      <File Name="../../ENgine/Core/Scene/SceneEntity.cpp"/>
+      <File Name="../../ENgine/Core/Scene/SceneEntity.h"/>
+      <File Name="../../ENgine/Core/Scene/SceneEntityDesc.cpp"/>
+      <File Name="../../ENgine/Core/Scene/SceneEntityDesc.h"/>
+      <File Name="../../ENgine/Core/Scene/SceneInstance.cpp"/>
+      <File Name="../../ENgine/Core/Scene/SceneInstance.h"/>
+      <File Name="../../ENgine/Core/Scene/SceneManager.cpp"/>
+      <File Name="../../ENgine/Core/Scene/SceneManager.h"/>
+      <File Name="../../ENgine/Core/Scene/SceneTaskLevels.h"/>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Entities">
+    <VirtualDirectory Name="Common">
+      <File Name="../../ENgine/Entities/Dummy.cpp"/>
+      <File Name="../../ENgine/Entities/Dummy.h"/>
+      <File Name="../../ENgine/Entities/ItemBuyer.cpp"/>
+      <File Name="../../ENgine/Entities/ItemBuyer.h"/>
+      <File Name="../../ENgine/Entities/ItemRestore.cpp"/>
+      <File Name="../../ENgine/Entities/ItemRestore.h"/>
+      <File Name="../../ENgine/Entities/Music.cpp"/>
+      <File Name="../../ENgine/Entities/Music.h"/>
+      <File Name="../../ENgine/Entities/ScriptExecutor.cpp"/>
+      <File Name="../../ENgine/Entities/ScriptExecutor.h"/>
+      <File Name="../../ENgine/Entities/SoundEntity.cpp"/>
+      <File Name="../../ENgine/Entities/SoundEntity.h"/>
+      <File Name="../../ENgine/Entities/cacheFile.cpp"/>
+      <File Name="../../ENgine/Entities/cacheFile.h"/>
+      <File Name="../../ENgine/Entities/cacheTex.cpp"/>
+      <File Name="../../ENgine/Entities/cacheTex.h"/>
+      <VirtualDirectory Name="Appnow">
+        <File Name="../../ENgine/Entities/AppNow/ChatClient.cpp"/>
+        <File Name="../../ENgine/Entities/AppNow/ChatClient.h"/>
+        <File Name="../../ENgine/Entities/AppNow/ChatClientImpl.cpp"/>
+        <File Name="../../ENgine/Entities/AppNow/ChatClientImpl.h"/>
+        <File Name="../../ENgine/Entities/AppNow/ChatCommon.cpp"/>
+        <File Name="../../ENgine/Entities/AppNow/ChatCommon.h"/>
+        <File Name="../../ENgine/Entities/AppNow/OTRChatClient.cpp"/>
+        <File Name="../../ENgine/Entities/AppNow/OTRChatClient.h"/>
+        <File Name="../../ENgine/Entities/AppNow/OTRChatClientImpl.cpp"/>
+        <File Name="../../ENgine/Entities/AppNow/OTRChatClientImpl.h"/>
+      </VirtualDirectory>
+    </VirtualDirectory>
+    <VirtualDirectory Name="NGUI">
+      <File Name="../../ENgine/Entities/NGUI/NGUIButton.cpp"/>
+      <File Name="../../ENgine/Entities/NGUI/NGUIButton.h"/>
+      <File Name="../../ENgine/Entities/NGUI/NGUIButtonInstances.cpp"/>
+      <File Name="../../ENgine/Entities/NGUI/NGUIButtonInstances.h"/>
+      <File Name="../../ENgine/Entities/NGUI/NGUICalendar.cpp"/>
+      <File Name="../../ENgine/Entities/NGUI/NGUICalendar.h"/>
+      <File Name="../../ENgine/Entities/NGUI/NGUIEditBox.cpp"/>
+      <File Name="../../ENgine/Entities/NGUI/NGUIEditBox.h"/>
+      <File Name="../../ENgine/Entities/NGUI/NGUIFont.cpp"/>
+      <File Name="../../ENgine/Entities/NGUI/NGUIFont.h"/>
+      <File Name="../../ENgine/Entities/NGUI/NGUIISODrawer.cpp"/>
+      <File Name="../../ENgine/Entities/NGUI/NGUIISODrawer.h"/>
+      <File Name="../../ENgine/Entities/NGUI/NGUIImageDrawer.cpp"/>
+      <File Name="../../ENgine/Entities/NGUI/NGUIImageDrawer.h"/>
+      <File Name="../../ENgine/Entities/NGUI/NGUIImageListDrawer.cpp"/>
+      <File Name="../../ENgine/Entities/NGUI/NGUIImageListDrawer.h"/>
+      <File Name="../../ENgine/Entities/NGUI/NGUILabel.cpp"/>
+      <File Name="../../ENgine/Entities/NGUI/NGUILabel.h"/>
+      <File Name="../../ENgine/Entities/NGUI/NGUIPager.cpp"/>
+      <File Name="../../ENgine/Entities/NGUI/NGUIPager.h"/>
+      <File Name="../../ENgine/Entities/NGUI/NGUIScroller.cpp"/>
+      <File Name="../../ENgine/Entities/NGUI/NGUIScroller.h"/>
+      <File Name="../../ENgine/Entities/NGUI/NGUIService.cpp"/>
+      <File Name="../../ENgine/Entities/NGUI/NGUIService.h"/>
+      <File Name="../../ENgine/Entities/NGUI/NGUISymbol.cpp"/>
+      <File Name="../../ENgine/Entities/NGUI/NGUISymbol.h"/>
+      <File Name="../../ENgine/Entities/NGUI/NGUISymbolInstance.cpp"/>
+      <File Name="../../ENgine/Entities/NGUI/NGUISymbolInstance.h"/>
+      <File Name="../../ENgine/Entities/NGUI/NGUITextDrawer.cpp"/>
+      <File Name="../../ENgine/Entities/NGUI/NGUITextDrawer.h"/>
+      <File Name="../../ENgine/Entities/NGUI/NGUITexture.cpp"/>
+      <File Name="../../ENgine/Entities/NGUI/NGUITexture.h"/>
+      <File Name="../../ENgine/Entities/NGUI/NGUITrackBar.cpp"/>
+      <File Name="../../ENgine/Entities/NGUI/NGUITrackBar.h"/>
+      <File Name="../../ENgine/Entities/NGUI/NGUIWidget.cpp"/>
+      <File Name="../../ENgine/Entities/NGUI/NGUIWidget.h"/>
+      <File Name="../../ENgine/Entities/NGUI/RT_NGUI.cpp"/>
+      <File Name="../../ENgine/Entities/NGUI/RT_NGUI.h"/>
+      <File Name="../../ENgine/Entities/NGUI/RT_NGUI_A.cpp"/>
+      <File Name="../../ENgine/Entities/NGUI/RT_NGUI_A.h"/>
+      <File Name="../../ENgine/Entities/NGUI/SkinWindow.cpp"/>
+      <File Name="../../ENgine/Entities/NGUI/SkinWindow.h"/>
+      <File Name="../../ENgine/Entities/NGUI/TextureEntry.cpp"/>
+      <File Name="../../ENgine/Entities/NGUI/TextureEntry.h"/>
+      <File Name="../../ENgine/Entities/NGUI/RT_NGUI_Mask.cpp"/>
+      <File Name="../../ENgine/Entities/NGUI/RT_NGUI_Mask.h"/>
+      <File Name="../../ENgine/Entities/NGUI/NGUITimeSelector.cpp"/>
+      <File Name="../../ENgine/Entities/NGUI/NGUITimeSelector.h"/>
+      <File Name="../../ENgine/Entities/NGUI/TextProcessing.cpp"/>
+      <File Name="../../ENgine/Entities/NGUI/TextProcessing.h"/>
+      <File Name="../../ENgine/Entities/NGUI/NGUILabelRich.cpp"/>
+      <File Name="../../ENgine/Entities/NGUI/NGUILabelRich.h"/>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Platforms">
+    <VirtualDirectory Name="Unix">
+      <File Name="../../ENgine/Platforms/Unix/main.cpp"/>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Editor">
+    <VirtualDirectory Name="Helpers">
+      <File Name="../../ENgine/Editor/Helpers/AndroidXML.cpp"/>
+      <File Name="../../ENgine/Editor/Helpers/AndroidXML.h"/>
+      <File Name="../../ENgine/Editor/Helpers/EditorProject.cpp"/>
+      <File Name="../../ENgine/Editor/Helpers/EditorProject.h"/>
+      <File Name="../../ENgine/Editor/Helpers/HistoryObject.cpp"/>
+      <File Name="../../ENgine/Editor/Helpers/HistoryObject.h"/>
+      <File Name="../../ENgine/Editor/Helpers/SceneInfo.cpp"/>
+      <File Name="../../ENgine/Editor/Helpers/SceneInfo.h"/>
+      <VirtualDirectory Name="View">
+        <File Name="../../ENgine/Editor/Helpers/View/ISceneTreeView.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="EditorTrees">
+        <File Name="../../ENgine/Editor/Helpers/SceneTree.cpp"/>
+        <File Name="../../ENgine/Editor/Helpers/SceneTree.h"/>
+        <File Name="../../ENgine/Editor/Helpers/GuiTree.cpp"/>
+        <File Name="../../ENgine/Editor/Helpers/GuiTree.h"/>
+        <File Name="../../ENgine/Editor/Helpers/ProjectTree.cpp"/>
+        <File Name="../../ENgine/Editor/Helpers/ProjectTree.h"/>
+        <File Name="../../ENgine/Editor/Helpers/SymbolsTree.cpp"/>
+        <File Name="../../ENgine/Editor/Helpers/SymbolsTree.h"/>
+      </VirtualDirectory>
+      <File Name="../../ENgine/Editor/Helpers/SimulationOtions.cpp"/>
+      <File Name="../../ENgine/Editor/Helpers/SimulationOtions.h"/>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <Settings Type="Executable">
+    <GlobalSettings>
+      <Compiler Options="" C_Options="" Assembler="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+    <Configuration Name="Debug" CompilerType="GCC" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g;-O0;-Wall" C_Options="-g;-O0;-Wall" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="0">
+        <IncludePath Value="."/>
+        <IncludePath Value="../../ENgine"/>
+        <IncludePath Value="../../Libraries/AngelScript/include"/>
+        <IncludePath Value="/usr/include/freetype2"/>
+        <IncludePath Value="../../Libraries/curl/include"/>
+        <IncludePath Value="../../Libraries/OpenSSL-Droid/include"/>
+        <IncludePath Value="../../Libraries/OpenSSL-Droid"/>
+        <IncludePath Value="../../Libraries/OpenSSL-Droid/crypto"/>
+        <Preprocessor Value="OSUNIX"/>
+        <Preprocessor Value="OPGL"/>
+        <Preprocessor Value="AS_NO_EXCEPTIONS"/>
+        <Preprocessor Value="AS_NO_THREADS"/>
+        <Preprocessor Value="USE_SSLEAY"/>
+        <Preprocessor Value="USE_OPENSSL"/>
+      </Compiler>
+      <Linker Options="" Required="yes">
+        <Library Value="libssl"/>
+        <Library Value="libGLESv2"/>
+        <Library Value="libfreetype"/>
+        <Library Value="libEGL"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="/home/user/Documents/build/ENgineDebug" IntermediateDirectory="./Debug" Command="/home/user/Documents/build/ENgineDebug" CommandArguments="-scene appnow/click/projects/click/click.prx" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="/home/user/Documents/build" PauseExecWhenProcTerminates="yes" IsGUIProgram="no" IsEnabled="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="" IsExtended="yes">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+    <Configuration Name="Release" CompilerType="GCC" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-O2;-Wall;-fpermissive;-Wreorder" C_Options="-O2;-Wall;-fpermissive;-Wreorder" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="0">
+        <IncludePath Value="."/>
+        <IncludePath Value="../../ENgine"/>
+        <IncludePath Value="../../Libraries/AngelScript/include"/>
+        <IncludePath Value="/usr/include/freetype2"/>
+        <IncludePath Value="../../Libraries/curl/include"/>
+        <IncludePath Value="../../Libraries/OpenSSL-Droid/include"/>
+        <IncludePath Value="../../Libraries/OpenSSL-Droid"/>
+        <IncludePath Value="../../Libraries/OpenSSL-Droid/crypto"/>
+        <Preprocessor Value="OSUNIX"/>
+        <Preprocessor Value="OPGL"/>
+        <Preprocessor Value="AS_NO_EXCEPTIONS"/>
+        <Preprocessor Value="AS_NO_THREADS"/>
+        <Preprocessor Value="USE_SSLEAY"/>
+        <Preprocessor Value="USE_OPENSSL"/>
+      </Compiler>
+      <Linker Options="" Required="yes">
+        <Library Value="libssl"/>
+        <Library Value="libGLESv2"/>
+        <Library Value="libfreetype"/>
+        <Library Value="libEGL"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="/home/user/Documents/build/ENgine" IntermediateDirectory="./Release" Command="/home/user/Documents/build/ENgine" CommandArguments="-export exp" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="/home/user/Documents/build" PauseExecWhenProcTerminates="yes" IsGUIProgram="no" IsEnabled="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="" IsExtended="yes">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+  </Settings>
+</CodeLite_Project>

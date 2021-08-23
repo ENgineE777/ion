@@ -1,0 +1,625 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Unstable|Win32">
+      <Configuration>Unstable</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A0F3F9BD-99FB-4567-BFD3-4BD1F3EB0A15}</ProjectGuid>
+    <RootNamespace>PC</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Unstable|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Unstable|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Unstable|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Unstable|Win32'">$(Configuration)\</IntDir>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IncludePath)</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Unstable|Win32'">$(IncludePath)</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:\Work\Libraries\DirectX SDK\Lib\x86;F:\Work\Libraries\fbx\lib\vs2005\x86;F:\Work\Libraries\tinyxml\Release;$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Unstable|Win32'">F:\Work\Libraries\DirectX SDK\Lib\x86;F:\Work\Libraries\fbx\lib\vs2005\x86;F:\Work\Libraries\tinyxml\Release;$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:\Work\Libraries\DirectX SDK\Lib\x86;F:\Work\Libraries\fbx\lib\vs2005\x86;F:\Work\Libraries\tinyxml\Release;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\ENgine;..\..\..\Libraries\AngelScript\include;..\..\..\Libraries\curl\include;..\..\..\Libraries\freetype\include;..\..\..\Libraries\openssl-win32\include;..\..\..\Libraries\scintilla\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;EDITOR;FBXSDK_SHARED;PC;ALMIXER_COMPILE_WITHOUT_SDL;DONT_USE_VASPRINTF;DLL_EXPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <ProgramDataBaseFileName>../../../../build/engine_d.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <EnableParallelCodeGeneration>false</EnableParallelCodeGeneration>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>comctl32.lib;Shell32.lib;Gdi32.lib;User32.lib;wininet.lib;ws2_32.lib;DXGI.lib;d3d11.lib;d3dcompiler.lib;dinput8.lib;dxguid.lib;../../../Libraries/angelscript/lib/angelscriptd.lib;..\..\..\Libraries\freetype\objs/win32/vc2010/freetype2410.lib;../../../Libraries/curl/lib/dll-release/libcurl_imp.lib;..\..\..\Libraries\openssl-win32\lib\ssleay32MD.lib.;..\..\..\Libraries\openssl-win32\lib\libeay32MD.lib;..\..\..\Libraries\scintilla\Scintilla.lib;uxtheme.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>../../../../sdk/lib/pc/ENgineDebug.dll</OutputFile>
+      <IgnoreSpecificDefaultLibraries>LIBCMT; LIBCMTD</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <TargetMachine>MachineX86</TargetMachine>
+      <ImportLibrary>../../../../sdk/lib/pc/ENgineDebug.lib</ImportLibrary>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /Y "$(SolutionDir)..\..\..\sdk\lib\pc\ENgineDebug.dll"  "$(SolutionDir)..\..\..\build\ENgineDebug.dll" </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\ENgine;..\..\..\Libraries\fbx\include;..\..\..\Libraries\AngelScript\include;..\..\..\Libraries\bullet\src;..\..\..\Libraries\libogg\include;..\..\..\Libraries\libvorbis\include;..\..\..\Libraries\OpenAl\include;..\..\..\Libraries\curl\include;..\..\..\Libraries\freetype\include;..\..\..\Libraries\libtwitcurl;..\..\..\Libraries\OpenSSL-win32\include;..\..\..\Libraries\scintilla\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>EDITOR;FBXSDK_SHARED;PC;DLL_EXPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <ProgramDataBaseFileName>../../../../Build/debuginfo/ENgineUnstable.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>comctl32.lib;Shell32.lib;Gdi32.lib;Advapi32.lib;Comdlg32.lib;User32.lib;wininet.lib;ws2_32.lib;DXGI.lib;d3d11.lib;d3dcompiler.lib;dinput8.lib;dxguid.lib;../../../Libraries/angelscript/lib/angelscript.lib;..\..\..\Libraries\freetype\objs/win32/vc2010/freetype2410.lib;../../../Libraries/curl/lib/dll-release/libcurl_imp.lib;..\..\..\Libraries\openssl-win32\lib\ssleay32MD.lib.;..\..\..\Libraries\openssl-win32\lib\libeay32MD.lib;..\..\..\Libraries\scintilla\Scintilla.lib;uxtheme.lib</AdditionalDependencies>
+      <OutputFile>../../../../sdk/lib/pc/ENgine.dll</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+      <IgnoreAllDefaultLibraries>
+      </IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>LIBCMT</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>../../../../sdk/lib/pc/ENgine.lib</ImportLibrary>
+    </Link>
+    <Lib>
+      <OutputFile>../../../sdk/lib/ENgine.lib</OutputFile>
+    </Lib>
+    <PostBuildEvent>
+      <Command>copy /Y "$(SolutionDir)..\..\..\sdk\lib\pc\ENgine.dll"  "$(SolutionDir)..\..\..\build\ENgine.dll" </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Unstable|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\ENgine;..\..\..\Libraries\fbx\include;..\..\..\Libraries\AngelScript\include;..\..\..\Libraries\directx9\include;..\..\..\Libraries\bullet\src;..\..\..\Libraries\libogg\include;..\..\..\Libraries\libvorbis\include;..\..\..\Libraries\OpenAl\include;..\..\..\Libraries\curl\include;..\..\..\Libraries\freetype\include;..\..\..\Libraries\libtwitcurl;..\..\..\Libraries\OpenSSL-Droid\include;..\..\..\Libraries\scintilla\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>EDITOR;FBXSDK_SHARED;PC;DLL_EXPORT;UNSTABLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <ProgramDataBaseFileName>../../../../Build/debuginfo/ENgine.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>comctl32.lib;User32.lib;wininet.lib;ws2_32.lib;../../../Libraries/directx9/lib/x86/d3d9.lib;../../../Libraries/directx9/lib/x86/d3dx9.lib;../../../Libraries/directx9/lib/x86/dinput8.lib;../../../Libraries/directx9/lib/x86/dxguid.lib;../../../Libraries/OpenAl/libs/win32/OpenAL32.lib;../../../Libraries/libogg/libogg_static.lib;../../../Libraries/libvorbis/libvorbis_static.lib;../../../Libraries/libvorbis/libvorbisfile_static.lib;../../../Libraries/fbx/lib/vs2005/x86/fbxsdk-2012.1.lib;../../../Libraries/angelscript/lib/angelscript.lib;..\..\..\Libraries\freetype\objs/win32/vc2010/freetype2410.lib;../../../Libraries/curl/lib/dll-release/libcurl_imp.lib;..\..\..\Libraries\openssl-win32\lib\VC\static\libeay32MT.lib;..\..\..\Libraries\scintilla\Scintilla.lib;%(AdditionalDependencies);uxtheme.lib</AdditionalDependencies>
+      <OutputFile>../../../../sdk/lib/pc/ENgineUnstable.dll</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+      <IgnoreAllDefaultLibraries>
+      </IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>LIBCMT</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>../../../../sdk/lib/pc/ENgineUnstable.lib</ImportLibrary>
+    </Link>
+    <Lib>
+      <OutputFile>../../../sdk/lib/ENgine.lib</OutputFile>
+    </Lib>
+    <PostBuildEvent>
+      <Command>copy /Y "$(SolutionDir)..\..\..\sdk\lib\pc\ENgineUnstable.dll"  "$(SolutionDir)..\..\..\build\ENgineUnstable.dll" </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\ENgine\Common\ClassDeclarant.h" />
+    <ClInclude Include="..\..\..\ENgine\Common\Color.h" />
+    <ClInclude Include="..\..\..\ENgine\Common\Common.h" />
+    <ClInclude Include="..\..\..\ENgine\Common\CrossString.h" />
+    <ClInclude Include="..\..\..\ENgine\Common\ExceptionReport.h" />
+    <ClInclude Include="..\..\..\ENgine\Common\Frustum.h" />
+    <ClInclude Include="..\..\..\ENgine\Common\libgif\getarg.h" />
+    <ClInclude Include="..\..\..\ENgine\Common\libgif\gif_hash.h" />
+    <ClInclude Include="..\..\..\ENgine\Common\libgif\gif_lib.h" />
+    <ClInclude Include="..\..\..\ENgine\Common\libgif\gif_lib_private.h" />
+    <ClInclude Include="..\..\..\ENgine\Common\libpng\lodepng.h" />
+    <ClInclude Include="..\..\..\ENgine\Common\libxml\tinyxml2.h" />
+    <ClInclude Include="..\..\..\ENgine\Common\lib_json\block_allocator.h" />
+    <ClInclude Include="..\..\..\ENgine\Common\lib_json\json.h" />
+    <ClInclude Include="..\..\..\ENgine\Common\Math.h" />
+    <ClInclude Include="..\..\..\ENgine\Common\properties\Properties.h" />
+    <ClInclude Include="..\..\..\ENgine\Common\properties\PropertyBase.h" />
+    <ClInclude Include="..\..\..\ENgine\Common\properties\PropertyBaseWidget.h" />
+    <ClInclude Include="..\..\..\ENgine\Common\properties\PropertyBool.h" />
+    <ClInclude Include="..\..\..\ENgine\Common\properties\PropertyBoolWidget.h" />
+    <ClInclude Include="..\..\..\ENgine\Common\properties\PropertiesOwner.h" />
+    <ClInclude Include="..\..\..\ENgine\Common\properties\PropertyCallback.h" />
+    <ClInclude Include="..\..\..\ENgine\Common\properties\PropertyCallbackWidget.h" />
+    <ClInclude Include="..\..\..\ENgine\Common\properties\PropertyColor.h" />
+    <ClInclude Include="..\..\..\ENgine\Common\properties\PropertyColorWidget.h" />
+    <ClInclude Include="..\..\..\ENgine\Common\properties\PropertyEnum.h" />
+    <ClInclude Include="..\..\..\ENgine\Common\properties\PropertyFont.h" />
+    <ClInclude Include="..\..\..\ENgine\Common\properties\PropertyFontWidget.h" />
+    <ClInclude Include="..\..\..\ENgine\Common\properties\PropertyStringEnum.h" />
+    <ClInclude Include="..\..\..\ENgine\Common\properties\PropertyStringEnumWidget.h" />
+    <ClInclude Include="..\..\..\ENgine\Common\properties\PropertyEnumWidget.h" />
+    <ClInclude Include="..\..\..\ENgine\Common\properties\PropertyFilename.h" />
+    <ClInclude Include="..\..\..\ENgine\Common\properties\PropertyFilenameWidget.h" />
+    <ClInclude Include="..\..\..\ENgine\Common\properties\PropertyFloat.h" />
+    <ClInclude Include="..\..\..\ENgine\Common\properties\PropertyFloatWidget.h" />
+    <ClInclude Include="..\..\..\ENgine\Common\properties\PropertyInt.h" />
+    <ClInclude Include="..\..\..\ENgine\Common\properties\PropertyIntWidget.h" />
+    <ClInclude Include="..\..\..\ENgine\Common\properties\PropertyString.h" />
+    <ClInclude Include="..\..\..\ENgine\Common\properties\PropertyStringWidget.h" />
+    <ClInclude Include="..\..\..\ENgine\Common\TaskHolder.h" />
+    <ClInclude Include="..\..\..\ENgine\Common\ThreadWorker.h" />
+    <ClInclude Include="..\..\..\ENgine\Common\Declarations.h" />
+    <ClInclude Include="..\..\..\ENgine\Common\Utils.h" />
+    <ClInclude Include="..\..\..\ENgine\Common\Containers\BaseContainer.h" />
+    <ClInclude Include="..\..\..\ENgine\Common\Containers\HashMap.h" />
+    <ClInclude Include="..\..\..\ENgine\Common\Containers\IList.h" />
+    <ClInclude Include="..\..\..\ENgine\Common\Math\Matrix.h" />
+    <ClInclude Include="..\..\..\ENgine\Common\Math\Quaternion.h" />
+    <ClInclude Include="..\..\..\ENgine\Common\Math\Vector.h" />
+    <ClInclude Include="..\..\..\ENgine\Common\Math\Vector2.h" />
+    <ClInclude Include="..\..\..\ENgine\Common\Math\Vector4.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Control\IControlsService.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Core.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\CoreBase.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Files\IDataFile.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Files\IFile.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Files\IFileBuffer.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Files\IFileService.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Files\IStreamLoader.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Files\IStreamSaver.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Font\FontCharmap.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Font\FontCharToGlyphIndexMap.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\ICore.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\CorePC.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Control\ControlsService.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Files\File.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Files\FileBuffer.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Files\FileService.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Files\JSONFile.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Files\StreamLoader.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Files\StreamSaver.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Files\XMLFile.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Files\XMLHelper.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Font\FontInstance.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Font\FontRes.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Font\FontService.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Localize\ILocalizeService.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\MediaLibrary\Date.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\MediaLibrary\MediaLibraryService.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\MediaPlayer\MediaPlayer.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Memory.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Mobile\MobileService.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Model\Mesh.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Model\ModelFbxLoader.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Model\ModelInstance.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Model\ModelRes.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Model\ModelService.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Network\INetworkService.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Network\NetLogger.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Network\NetworkDataBuffer.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Network\NetworkService.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Network\Sockets.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\OnlineUserStats\Facebook.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\OnlineUserStats\Instagram.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\OnlineUserStats\OnlineUserStats.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\OnlineUserStats\VK.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Debug\DebugFont.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Geometry\IndexBufferD3D11.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Geometry\VertexBufferD3D11.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Render\RenderService.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Debug\DebugLines.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Debug\DebugLines2D.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Debug\DebugSphere.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Debug\DebugSprites.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Geometry\GeometryBuffer.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Geometry\IndexBuffer.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Geometry\VertexBuffer.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Render\RenderServiceD3D11.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Shaders\PixelShader.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Shaders\PixelShaderD3D11.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Shaders\Shader.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Shaders\ShaderInfoD3D11.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Shaders\VertexShader.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Shaders\VertexShaderD3D11.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Technique\RenderTechnique.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Technique\Techniques\RT_DebugLine.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Technique\Techniques\RT_DebugLine2D.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Technique\Techniques\RT_DebugLineNoZ.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Technique\Techniques\RT_DebugSolid.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Technique\Techniques\RT_Font.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Technique\Techniques\RT_NFont.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Technique\Techniques\RT_UI.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Textures\Texture.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Textures\TextureD3D11.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Textures\TextureInstance.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Textures\TextureRes.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Render\Textures\VideoTextureInstance.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Localize\LocalizeService.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Resources\Resources.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Scene\ISceneInstance.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Scene\ISceneManager.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Scene\SceneEntity.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Scene\SceneEntityDesc.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Scene\SceneInstance.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Scene\SceneManager.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Scene\ISceneService.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Scene\SceneTaskLevels.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Script\IScriptMachine.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Script\IScriptModule.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Script\IScriptService.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Script\Libs\scriptarray.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Script\Libs\scriptdictionary.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Script\Libs\scripthandle.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Script\Libs\scriptmath.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Script\Libs\scriptmath2d.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Script\Libs\scriptmath3d.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Script\Libs\scriptstdstring.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Script\ScriptMachine.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Script\ScriptModule.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Script\ScriptModuleCore.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\Script\ScriptService.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\UserStats\IUserStatsService.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\UserStats\UserStatsService.h" />
+    <ClInclude Include="..\..\..\ENgine\Core\UserStats\UserStats.h" />
+    <ClInclude Include="..\..\..\ENgine\Editor\Editor.h" />
+    <ClInclude Include="..\..\..\ENgine\Editor\Helpers\AndroidXML.h" />
+    <ClInclude Include="..\..\..\ENgine\Editor\Helpers\Gizmo.h" />
+    <ClInclude Include="..\..\..\ENgine\Editor\Helpers\GuiTree.h" />
+    <ClInclude Include="..\..\..\ENgine\Editor\Helpers\HistoryObject.h" />
+    <ClInclude Include="..\..\..\ENgine\Editor\Helpers\Packer.h" />
+    <ClInclude Include="..\..\..\ENgine\Editor\Helpers\EditorProject.h" />
+    <ClInclude Include="..\..\..\ENgine\Editor\Helpers\ProjectTree.h" />
+    <ClInclude Include="..\..\..\ENgine\Editor\Helpers\SceneInfo.h" />
+    <ClInclude Include="..\..\..\ENgine\Editor\Helpers\SceneTree.h" />
+    <ClInclude Include="..\..\..\ENgine\Editor\Helpers\SimulationOtions.h" />
+    <ClInclude Include="..\..\..\ENgine\Editor\Helpers\SymbolsTree.h" />
+    <ClInclude Include="..\..\..\ENgine\Editor\Helpers\View\ISceneTreeView.h" />
+    <ClInclude Include="..\..\..\ENgine\Entities\cacheFile.h" />
+    <ClInclude Include="..\..\..\ENgine\Entities\cacheTex.h" />
+    <ClInclude Include="..\..\..\ENgine\Entities\Dummy.h" />
+    <ClInclude Include="..\..\..\ENgine\Entities\ItemBuyer.h" />
+    <ClInclude Include="..\..\..\ENgine\Entities\ItemRestore.h" />
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\ImageWidget.h" />
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\NGUIButton.h" />
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\NGUIButtonInstances.h" />
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\NGUICalendar.h" />
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\NGUIEditBox.h" />
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\NGUIFont.h" />
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\NGUIImageListDrawer.h" />
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\NGUIISODrawer.h" />
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\NGUILabelRich.h" />
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\NGUISymbol.h" />
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\NGUILabel.h" />
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\NGUIPager.h" />
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\NGUIScroller.h" />
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\NGUIService.h" />
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\NGUISymbolInstance.h" />
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\NGUITextDrawer.h" />
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\NGUITexture.h" />
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\NGUIImageDrawer.h" />
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\NGUITimeSelector.h" />
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\NGUITrackBar.h" />
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\NGUIWidget.h" />
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\RT_NGUI.h" />
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\RT_NGUI_A.h" />
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\RT_NGUI_Mask.h" />
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\SkinWindow.h" />
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\TextProcessing.h" />
+    <ClInclude Include="..\..\..\ENgine\Entities\NGUI\TextureEntry.h" />
+    <ClInclude Include="..\..\..\ENgine\Entities\Render\AmbientLight.h" />
+    <ClInclude Include="..\..\..\ENgine\Entities\Render\DirLight.h" />
+    <ClInclude Include="..\..\..\ENgine\Entities\Render\Model.h" />
+    <ClInclude Include="..\..\..\ENgine\Entities\Render\PointLight.h" />
+    <ClInclude Include="..\..\..\ENgine\Entities\Render\SkyBox.h" />
+    <ClInclude Include="..\..\..\ENgine\Entities\Render\SkyBox2D.h" />
+    <ClInclude Include="..\..\..\ENgine\Entities\Render\SunFlare.h" />
+    <ClInclude Include="..\..\..\ENgine\Entities\Render\Technique\RTM_Atmo.h" />
+    <ClInclude Include="..\..\..\ENgine\Entities\Render\Technique\RTM_Diffuse.h" />
+    <ClInclude Include="..\..\..\ENgine\Entities\Render\Technique\RTM_DiffuseBlend.h" />
+    <ClInclude Include="..\..\..\ENgine\Entities\Render\Technique\RTM_DiffuseBlendAlpha.h" />
+    <ClInclude Include="..\..\..\ENgine\Entities\Render\Technique\RTM_DiffusePxCam.h" />
+    <ClInclude Include="..\..\..\ENgine\Entities\Render\Technique\RTM_DiffusePxL.h" />
+    <ClInclude Include="..\..\..\ENgine\Entities\Camera.h" />
+    <ClInclude Include="..\..\..\ENgine\Entities\ScriptExecutor.h" />
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\GUI\DialogWidget.h" />
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\GUI\ScriptDocumentWidget.h" />
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\Runner.h" />
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\EditorViewPort.h" />
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\EditorWindow.h" />
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\ENgine.h" />
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\GUI\CheckBoxWidget.h" />
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\GUI\CSTB\IntrusiveList.h" />
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\GUI\CSTB\IntrusiveTree.h" />
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\GUI\CSTB\IntrusiveWeakList.h" />
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\GUI\CSTB\IntrusiveWeakTree.h" />
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\GUI\CSTB\Win32Util.h" />
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\GUI\CustomWindow.h" />
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\GUI\DockedPanelWidget.h" />
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\GUI\DockedWidget.h" />
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\GUI\DockHost\DockDiamond.h" />
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\GUI\DockHost\DockHost.h" />
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\GUI\DockHost\DockHostImpl.h" />
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\GUI\ListBoxWidget.h" />
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\GUI\RolloutWidget.h" />
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\GUI\SizerWidget.h" />
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\GUI\TabSheetWidget.h" />
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\GUI\TextEditorWidget.h" />
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\GUI\TreeViewWidget.h" />
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\GUI\UIBlue.h" />
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\GUI\WindowMenuWidget.h" />
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\GUI\BaseWidget.h" />
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\GUI\ButtonWidget.h" />
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\GUI\ComboBoxWidget.h" />
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\GUI\EventsWidget.h" />
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\GUI\LabelWidget.h" />
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\GUI\ScrollBarWidget.h" />
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\GUI\TextBoxWidget.h" />
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\GUI\TimeLineWidget.h" />
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\GUI\Widgets.h" />
+    <ClInclude Include="..\..\..\ENgine\Platforms\PC\GUI\WindowWidget.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\ENgine\Common\CrossString.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Common\ExceptionReport.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Common\libgif\dev2gif.c" />
+    <ClCompile Include="..\..\..\ENgine\Common\libgif\dgif_lib.c" />
+    <ClCompile Include="..\..\..\ENgine\Common\libgif\egif_lib.c" />
+    <ClCompile Include="..\..\..\ENgine\Common\libgif\getarg.c" />
+    <ClCompile Include="..\..\..\ENgine\Common\libgif\gifalloc.c" />
+    <ClCompile Include="..\..\..\ENgine\Common\libgif\gif_err.c" />
+    <ClCompile Include="..\..\..\ENgine\Common\libgif\gif_font.c" />
+    <ClCompile Include="..\..\..\ENgine\Common\libgif\gif_hash.c" />
+    <ClCompile Include="..\..\..\ENgine\Common\libgif\qprintf.c" />
+    <ClCompile Include="..\..\..\ENgine\Common\libgif\quantize.c" />
+    <ClCompile Include="..\..\..\ENgine\Common\libpng\lodepng.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Common\libxml\tinyxml2.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Common\lib_json\block_allocator.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Common\lib_json\json.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Common\properties\PropertyBaseWidget.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Common\properties\PropertyBool.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Common\properties\PropertyBoolWidget.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Common\properties\PropertiesOwner.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Common\properties\PropertyCallback.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Common\properties\PropertyCallbackWidget.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Common\properties\PropertyColor.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Common\properties\PropertyColorWidget.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Common\properties\PropertyEnum.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Common\properties\PropertyFont.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Common\properties\PropertyFontWidget.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Common\properties\PropertyStringEnum.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Common\properties\PropertyStringEnumWidget.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Common\properties\PropertyEnumWidget.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Common\properties\PropertyFilename.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Common\properties\PropertyFilenameWidget.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Common\properties\PropertyFloat.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Common\properties\PropertyFloatWidget.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Common\properties\PropertyInt.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Common\properties\PropertyIntWidget.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Common\properties\PropertyString.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Common\properties\PropertyStringWidget.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Common\ThreadWorker.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Common\Utils.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Common\Containers\BaseContainer.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\Control\ControlsService.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\CoreBase.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\CorePC.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\Files\File.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\Files\FileBuffer.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\Files\FileService.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\Files\JSONFile.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\Files\StreamLoader.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\Files\StreamSaver.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\Files\XMLFile.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\Files\XMLHelper.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\Font\FontInstance.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\Font\FontRes.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\Font\FontService.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\Font\FontCharmap.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\MediaLibrary\Date.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\MediaLibrary\MediaLibraryService.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\MediaPlayer\MediaPlayer.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\Memory.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\Mobile\MobileService.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\Model\ModelFbxLoader.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\Model\ModelInstance.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\Model\ModelRes.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\Model\ModelService.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\Network\NetLogger.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\Network\NetworkDataBuffer.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\Network\NetworkService.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\Network\Sockets.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\OnlineUserStats\Facebook.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\OnlineUserStats\Instagram.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\OnlineUserStats\OnlineUserStats.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\OnlineUserStats\VK.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\Render\Debug\DebugFont.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\Render\Geometry\IndexBufferD3D11.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\Render\Geometry\VertexBufferD3D11.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\Render\RenderService.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\Render\Debug\DebugLines.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\Render\Debug\DebugLines2D.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\Render\Debug\DebugSphere.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\Render\Debug\DebugSprites.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\Render\RenderServiceD3D11.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\Render\Shaders\PixelShaderD3D11.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\Render\Shaders\ShaderInfoD3D11.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\Render\Shaders\VertexShaderD3D11.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\Render\Technique\RenderTechnique.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\Render\Technique\Techniques\RT_DebugLine.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\Render\Technique\Techniques\RT_DebugLine2D.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\Render\Technique\Techniques\RT_DebugLineNoZ.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\Render\Technique\Techniques\RT_DebugSolid.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\Render\Technique\Techniques\RT_Font.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\Render\Technique\Techniques\RT_NFont.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\Render\Technique\Techniques\RT_UI.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\Render\Textures\TextureD3D11.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\Render\Textures\TextureInstance.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\Render\Textures\TextureRes.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\Render\Textures\VideoTextureInstance.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\Localize\LocalizeService.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\Resources\Resources.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\Scene\SceneEntity.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\Scene\SceneEntityDesc.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\Scene\SceneInstance.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\Scene\SceneManager.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\Scene\ISceneService.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\Script\Libs\scriptarray.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\Script\Libs\scriptdictionary.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\Script\Libs\scripthandle.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\Script\Libs\scriptmath.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\Script\Libs\scriptmath2d.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\Script\Libs\scriptmath3d.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\Script\Libs\scriptstdstring.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\Script\Libs\scriptstdstring_utils.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\Script\ScriptMachine.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\Script\ScriptModule.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\Script\ScriptModuleCore.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\Script\ScriptService.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\UserStats\UserStatsService.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Core\UserStats\UserStats.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Editor\Editor.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Editor\Helpers\AndroidXML.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Editor\Helpers\Gizmo.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Editor\Helpers\GuiTree.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Editor\Helpers\HistoryObject.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Editor\Helpers\Packer.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Editor\Helpers\EditorProject.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Editor\Helpers\ProjectTree.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Editor\Helpers\SceneInfo.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Editor\Helpers\SceneTree.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Editor\Helpers\SimulationOtions.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Editor\Helpers\SymbolsTree.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Entities\cacheFile.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Entities\cacheTex.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Entities\Dummy.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Entities\ItemBuyer.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Entities\ItemRestore.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\ImageWidget.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\NGUIButton.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\NGUIButtonInstances.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\NGUICalendar.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\NGUIEditBox.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\NGUIFont.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\NGUIImageListDrawer.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\NGUIISODrawer.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\NGUILabelRich.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\NGUISymbol.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\NGUILabel.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\NGUIPager.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\NGUIScroller.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\NGUIService.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\NGUISymbolInstance.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\NGUITextDrawer.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\NGUITexture.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\NGUIImageDrawer.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\NGUITimeSelector.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\NGUITrackBar.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\NGUIWidget.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\RT_NGUI.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\RT_NGUI_A.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\RT_NGUI_Mask.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\SkinWindow.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\TextProcessing.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Entities\NGUI\TextureEntry.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Entities\Render\AmbientLight.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Entities\Render\DirLight.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Entities\Render\Model.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Entities\Render\PointLight.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Entities\Render\SkyBox.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Entities\Render\SkyBox2D.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Entities\Render\SunFlare.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Entities\Render\Technique\RTM_Atmo.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Entities\Render\Technique\RTM_Diffuse.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Unstable|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Unstable|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Entities\Render\Technique\RTM_DiffuseBlend.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Entities\Render\Technique\RTM_DiffuseBlendAlpha.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Entities\Render\Technique\RTM_DiffusePxCam.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Entities\Render\Technique\RTM_DiffusePxL.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Entities\Camera.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Entities\ScriptExecutor.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Platforms\PC\GUI\DialogWidget.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Platforms\PC\GUI\ScriptDocumentWidget.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Platforms\PC\Runner.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Platforms\PC\EditorViewPort.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Platforms\PC\EditorWindow.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Platforms\PC\GUI\CheckBoxWidget.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Platforms\PC\GUI\CSTB\Win32Util.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Platforms\PC\GUI\CustomWindow.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Platforms\PC\GUI\DockedPanelWidget.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Platforms\PC\GUI\DockedWidget.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Platforms\PC\GUI\DockHost\DockableSubclass.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Platforms\PC\GUI\DockHost\DockDiamond.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Platforms\PC\GUI\DockHost\DockHost.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Platforms\PC\GUI\DockHost\DockHostCaptionBar.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Platforms\PC\GUI\DockHost\DockHostHitTesting.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Platforms\PC\GUI\DockHost\DockHostMousing.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Platforms\PC\GUI\ListBoxWidget.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Platforms\PC\GUI\RolloutWidget.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Platforms\PC\GUI\SizerWidget.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Platforms\PC\GUI\TabSheetWidget.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Platforms\PC\GUI\TextEditorWidget.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Platforms\PC\GUI\TreeViewWidget.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Platforms\PC\GUI\UIBlue.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Platforms\PC\GUI\WindowMenuWidget.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Platforms\PC\GUI\BaseWidget.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Platforms\PC\GUI\ButtonWidget.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Platforms\PC\GUI\ComboBoxWidget.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Platforms\PC\GUI\EventsWidget.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Platforms\PC\GUI\LabelWidget.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Platforms\PC\GUI\ScrollBarWidget.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Platforms\PC\GUI\TextBoxWidget.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Platforms\PC\GUI\TimeLineWidget.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Platforms\PC\GUI\WindowWidget.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
